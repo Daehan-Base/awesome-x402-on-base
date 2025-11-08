@@ -2,10 +2,10 @@
 
 ## 📝 TL;DR
 
-**What**: Git submodule linking to official [coinbase/x402](https://github.com/coinbase/x402) repository
-**Why**: Avoid code duplication, always reference latest official examples
-**Usage**: Read-only - use Korean guides in `docs/korean/` to follow along
-**Update**: `git submodule update --remote external/x402`
+**What**: Git submodule linking to official [coinbase/x402](https://github.com/coinbase/x402) repository  
+**Why**: Avoid code duplication, always reference latest official examples  
+**Usage**: Read-only - use Korean guides in `docs/korean/` to follow along  
+**Update**: `git submodule update --remote external/x402`  
 
 ---
 
