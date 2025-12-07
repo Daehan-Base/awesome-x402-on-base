@@ -2,7 +2,7 @@
 name = "ap2-demo-coffee-shop"
 version = "0.1.0"
 description = "A coffee shop demo showcasing AP2 and x402 for agent-to-agent payments with customizable drink options."
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "ap2 @ git+https://github.com/google-agentic-commerce/AP2.git@main",
     "x402-a2a",
@@ -36,7 +36,7 @@ server = "server.__main__:main"
 members = []
 
 [tool.uv.sources]
-x402-a2a = { path = "../../x402_a2a", editable = true }
+x402-a2a = {git = "https://github.com/google-agentic-commerce/a2a-x402", branch="main", subdirectory = "python/x402_a2a"}
 
 [tool.ruff]
 target-version = "py313"

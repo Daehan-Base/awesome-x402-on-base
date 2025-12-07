@@ -235,11 +235,6 @@ class CoffeeShopAgent(BaseAgent):
 
     async def process_payment(self, payment_mandate: dict[str, Any]) -> dict[str, Any]:
         """
-        Processes payment from a PaymentMandate.
-        Verifies payment with the facilitator and settles it on-chain.
-        """
-    async def process_payment(self, payment_mandate: dict[str, Any]) -> dict[str, Any]:
-        """
         Processes the payment mandate received from the client.
         Verifies the payment using the x402 facilitator and settles it.
         """
