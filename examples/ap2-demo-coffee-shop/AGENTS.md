@@ -203,6 +203,15 @@ User → Client Agent → Coffee Shop Agent → Facilitator → Blockchain
    facilitator.settle() → transferWithAuthorization() on USDC contract
 ```
 
+## 지원되는 토큰
+
+### Base Mainnet
+- **USDC**: `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
+
+### Base Sepolia 테스트넷
+- **USDC**: `0x036CbD53842c5426634e7929541eC2318f3dCF7e`
+
+
 ## 환경 변수
 
 | 변수 | 필수 | 설명 |
@@ -266,6 +275,16 @@ requirements = PaymentRequirements(
     ...
 )
 ```
+
+#### 다른 토큰 지원
+
+다른 스테이블코인을 결제 수단으로 추가하려면:
+
+1. 해당 토큰의 Base Mainnet/Sepolia 주소 확인
+2. `PaymentRequirements`에서 `asset` 필드에 토큰 주소 설정
+3. 토큰의 소수점(DECIMALS) 확인하여 가격 계산 로직 수정
+4. 토큰별 faucet 링크 추가 (테스트용)
+5. `menu.py`에 새 토큰 메뉴 추가 및 가격 설정
 
 ## 디버깅 팁
 

@@ -209,6 +209,7 @@ AI: ✅ 결제가 완료되었습니다!
 
 [Circle Faucet](https://faucet.circle.com/)에서 Base Sepolia USDC를 받으세요.
 
+
 ## 기술 스택
 
 - **Python 3.13+**
