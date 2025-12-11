@@ -27,9 +27,9 @@
 
 ### Python 예제 가이드
 - [x] requests 클라이언트 가이드 (한글)
-- [ ] httpx 클라이언트 가이드 (한글)
-- [ ] FastAPI 서버 가이드 (한글)
-- [ ] Discovery 예제 가이드 (한글)
+- [x] httpx 클라이언트 가이드 (한글)
+- [x] FastAPI 서버 가이드 (한글)
+- [x] Discovery 예제 가이드 (한글)
 
 ### Base 체인 가이드
 - [ ] USDC faucet 사용 가이드 (한글)
