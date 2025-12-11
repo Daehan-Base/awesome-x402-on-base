@@ -46,6 +46,56 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 
+def _to_serializable(obj: Any) -> Any:
+    """Convert objects to something JSON-friendly for logging."""
+    if obj is None:
+        return None
+
+    for attr in ("model_dump", "dict"):
+        method = getattr(obj, attr, None)
+        if callable(method):
+            try:
+                return method()
+            except Exception:
+                continue
+
+    if hasattr(obj, "__dict__") and obj.__dict__:
+        return obj.__dict__
+
+    return str(obj)
+
+
+def _serialize_parts(parts: list[Any]) -> list[Any]:
+    """Best-effort serialization of message parts for logging."""
+    serialized = []
+    for part in parts or []:
+        root = getattr(part, "root", part)
+        serialized.append(_to_serializable(root))
+    return serialized
+
+
+def _safe_json(payload: Any) -> str:
+    """Safely dumps payload to JSON for readable logs."""
+    try:
+        return json.dumps(payload, ensure_ascii=False, indent=2)
+    except Exception:
+        try:
+            return json.dumps(_to_serializable(payload), ensure_ascii=False, indent=2)
+        except Exception:
+            return str(payload)
+
+
+def _format_block(title: str, payload: Any) -> str:
+    """Formats a log block matching the requested style."""
+    body = payload if isinstance(payload, str) else _safe_json(payload)
+    return (
+        "\n------------------------------\n\n"
+        f"{title}:\n\n"
+        f"{body}\n\n"
+        "------------------------------\n"
+    )
+
+
 class ADKAgentExecutor(AgentExecutor):
     """An AgentExecutor that runs an ADK-based Agent."""
 
@@ -68,7 +118,7 @@ class ADKAgentExecutor(AgentExecutor):
         session_id: str,
         task_updater: TaskUpdater,
     ) -> None:
-        session = await self._upsert_session(session_id)
+        session, _ = await self._upsert_session(session_id)
         session_id = session.id
 
         current_message = new_message
@@ -87,6 +137,14 @@ class ADKAgentExecutor(AgentExecutor):
                     parts = []
                     if event.content and event.content.parts:
                         parts = convert_genai_parts_to_a2a(event.content.parts)
+
+                    if event.content and event.content.parts:
+                        logger.info(
+                            _format_block(
+                                "점원 에이전트 메시지",
+                                _serialize_parts(event.content.parts),
+                            )
+                        )
 
                     logger.debug("Yielding final response: %s", parts)
                     if parts:
@@ -114,6 +172,12 @@ class ADKAgentExecutor(AgentExecutor):
                             ):
                                 logger.info(
                                     "Intercepted artifact in function response."
+                                )
+                                logger.info(
+                                    _format_block(
+                                        "점원 에이전트 메시지",
+                                        response_data,
+                                    )
                                 )
                                 artifact_parts = [
                                     Part(root=DataPart(**p))
@@ -268,7 +332,38 @@ class ADKAgentExecutor(AgentExecutor):
         event_queue: EventQueue,
     ):
         task_updater = TaskUpdater(event_queue, context.task_id, context.context_id)
-        session = await self._upsert_session(context.context_id)
+        session, session_created = await self._upsert_session(context.context_id)
+
+        # 유저 에이전트 메시지 로깅 (수신 원문 기준)
+        logger.info(
+            _format_block(
+                "유저 에이전트 메시지",
+                {
+                    "parts": _serialize_parts(context.message.parts),
+                    "context_id": context.context_id,
+                },
+            )
+        )
+
+        # Task 정보 로깅 (신규/재사용 구분)
+        task_info = {
+            "task_id": context.task_id,
+            "is_new_task": context.current_task is None,
+        }
+        if context.current_task:
+            task_info["status"] = _to_serializable(context.current_task.status)
+            task_info["metadata"] = getattr(context.current_task, "metadata", {})
+
+        logger.info(_format_block("Task 정보", task_info))
+
+        # Session 정보 로깅 (신규/재사용 모두)
+        session_info = {
+            "session_id": session.id,
+            "is_new_session": session_created,
+            "state": getattr(session, "state", {}),
+            "user_id": getattr(session, "user_id", None),
+        }
+        logger.info(_format_block("Session 정보", session_info))
 
         # Check if the x402 wrapper has verified a payment by looking at the task metadata.
         if context.current_task and context.current_task.metadata.get(
@@ -296,7 +391,7 @@ class ADKAgentExecutor(AgentExecutor):
             # We must re-fetch the session here to ensure the state changes
             # from the x402 executor are reflected before the agent's
             # `before_agent_callback` is invoked.
-            session = await self._upsert_session(session.id)
+            session, _ = await self._upsert_session(session.id)
         else:
             # No payment verification; process the original user message.
             user_message = types.UserContent(
@@ -320,9 +415,12 @@ class ADKAgentExecutor(AgentExecutor):
             app_name=self.runner.app_name, user_id="self", session_id=session_id
         )
         if session:
-            return session
-        return await self.runner.session_service.create_session(
-            app_name=self.runner.app_name, user_id="self", session_id=session_id
+            return session, False
+        return (
+            await self.runner.session_service.create_session(
+                app_name=self.runner.app_name, user_id="self", session_id=session_id
+            ),
+            True,
         )
 
 
