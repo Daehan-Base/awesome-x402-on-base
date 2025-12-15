@@ -13,7 +13,7 @@
 **How**: Git 서브모듈로 공식 코드(`external/`) 연결 + 한글 가이드(`docs/korean/`)  
 **Target**: 한국 개발자 & Base 특화 x402 구현에 관심있는 글로벌 빌더  
 
-**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/korean/README.ko.md)
+**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/korean/getting_started.ko.md)
 
 ---
 
@@ -77,16 +77,17 @@ awesome-x402-on-base/
 ├── external/x402/          # 🔗 Git 서브모듈 (공식 x402 레포지토리)
 │   └── examples/python/    # 공식 Python 예제 (읽기 전용)
 │
-├── examples/               # 📝 Base 특화 예제 (이 레포)
-│   └── base-specific/      # Base 체인 최적화 예제
+├── examples/               # 📝 Base 특화 예제 및 데모
+│   ├── ap2-demo-coffee-shop/  # AI 커피숍 데모 (AP2 & x402)
+│   └── base-specific/         # Base 체인 최적화 예제 (준비 중)
 │
 ├── docs/korean/            # 🇰🇷 한국어 문서
-│   ├── quickstart/         # 빠른 시작 가이드
 │   ├── examples/           # 공식 예제 한글 가이드
-│   └── base-chain/         # Base 체인 설정 가이드
+│   └── getting_started.ko.md # 시작 가이드
 │
-└── resources/              # 📚 추가 리소스
-    └── korean-community.md # 한국 커뮤니티 링크
+├── external/               # 📖 외부 리소스 설명
+├── ROADMAP.md              # 🗺️ 개발 로드맵
+└── LICENSE                 # 📄 MIT 라이선스
 ```
 
 **명확한 구분:**
@@ -100,7 +101,7 @@ awesome-x402-on-base/
 → [공식 x402 문서](https://docs.cdp.coinbase.com/x402/welcome)에서 시작하세요
 
 ### 한국 개발자분들을 위해 🇰🇷
-→ [한글 빠른 시작 가이드](./docs/korean/README.ko.md)에서 시작하세요
+→ [한글 빠른 시작 가이드](./docs/korean/getting_started.ko.md)에서 시작하세요
 
 ## 💡 예제 및 한글 가이드
 
@@ -108,12 +109,16 @@ awesome-x402-on-base/
 
 | 예제 | 공식 코드 | 한글 가이드 |
 |------|----------|------------|
-| **requests 클라이언트** | [→ 코드](./external/x402/examples/python/clients/requests) | [→ 한글 가이드](./docs/korean/examples/python-requests-client.ko.md) |
-| **httpx 클라이언트** | [→ 코드](./external/x402/examples/python/clients/httpx) | [→ 한글 가이드](./docs/korean/examples/python-httpx-client.ko.md) |
-| **FastAPI 서버** | [→ 코드](./external/x402/examples/python/servers) | [→ 한글 가이드](./docs/korean/examples/python-fastapi-server.ko.md) |
-| **Discovery** | [→ 코드](./external/x402/examples/python/discovery) | [→ 한글 가이드](./docs/korean/examples/python-discovery.ko.md) |
+| **requests 클라이언트** | [→ 코드](./external/x402/examples/python/clients/requests)‡ | [→ 한글 가이드](./docs/korean/examples/python-requests-client.ko.md) |
+| **httpx 클라이언트** | [→ 코드](./external/x402/examples/python/clients/httpx)‡ | [→ 한글 가이드](./docs/korean/examples/python-httpx-client.ko.md) |
+| **FastAPI 서버** | [→ 코드](./external/x402/examples/python/servers)‡ | [→ 한글 가이드](./docs/korean/examples/python-fastapi-server.ko.md) |
+| **Discovery** | [→ 코드](./external/x402/examples/python/discovery)‡ | [→ 한글 가이드](./docs/korean/examples/python-discovery.ko.md) |
+
+‡ *서브모듈 초기화 필요 (`git submodule update --init --recursive`)*
 
 ### 서브모듈 사용하기
+
+⚠️ **중요**: `external/x402`는 Git 서브모듈입니다. 초기화가 필요합니다.
 
 최초 설정:
 ```bash
@@ -126,6 +131,9 @@ git submodule update --init --recursive
 
 공식 예제 접근:
 ```bash
+# 먼저 서브모듈 초기화 확인
+ls external/x402/examples/python  # 비어있으면 위의 명령어 실행
+
 cd external/x402/examples/python
 # docs/korean/examples/의 한글 가이드를 따라하세요
 ```

@@ -28,8 +28,13 @@
 
 ### 예제 접근하기
 
+⚠️ **참고**: 서브모듈을 먼저 초기화해야 합니다:
 ```bash
-# Python 예제로 이동
+git submodule update --init --recursive
+```
+
+그런 다음 Python 예제로 이동:
+```bash
 cd external/x402/examples/python
 
 # 사용 가능한 예제:

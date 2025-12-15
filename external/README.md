@@ -28,8 +28,13 @@ The official x402 repository includes:
 
 ### Accessing Examples
 
+⚠️ **Note**: The submodule needs to be initialized first:
 ```bash
-# Navigate to Python examples
+git submodule update --init --recursive
+```
+
+Then navigate to Python examples:
+```bash
 cd external/x402/examples/python
 
 # Available examples:
