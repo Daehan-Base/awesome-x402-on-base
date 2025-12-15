@@ -109,12 +109,10 @@ awesome-x402-on-base/
 
 | 예제 | 공식 코드 | 한글 가이드 |
 |------|----------|------------|
-| **requests 클라이언트** | [→ 코드](./external/x402/examples/python/clients/requests)‡ | [→ 한글 가이드](./docs/korean/examples/python-requests-client.ko.md) |
-| **httpx 클라이언트** | [→ 코드](./external/x402/examples/python/clients/httpx)‡ | [→ 한글 가이드](./docs/korean/examples/python-httpx-client.ko.md) |
-| **FastAPI 서버** | [→ 코드](./external/x402/examples/python/servers)‡ | [→ 한글 가이드](./docs/korean/examples/python-fastapi-server.ko.md) |
-| **Discovery** | [→ 코드](./external/x402/examples/python/discovery)‡ | [→ 한글 가이드](./docs/korean/examples/python-discovery.ko.md) |
-
-‡ *서브모듈 초기화 필요 (`git submodule update --init --recursive`)*
+| **requests 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 한글 가이드](./docs/korean/examples/python-requests-client.ko.md) |
+| **httpx 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 한글 가이드](./docs/korean/examples/python-httpx-client.ko.md) |
+| **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/korean/examples/python-fastapi-server.ko.md) |
+| **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/korean/examples/python-discovery.ko.md) |
 
 ### 서브모듈 사용하기
 
@@ -167,7 +165,7 @@ cd external/x402/examples/python
 
 ### x402 SDK & 예제
 - [Python SDK](https://github.com/coinbase/x402/tree/main/python/x402) - 공식 Python 구현
-- [Python 예제](./external/x402/examples/python) - 클라이언트 & 서버 예제 (서브모듈)
+- [Python 예제](https://github.com/coinbase/x402/tree/main/examples/python/legacy) - 클라이언트 & 서버 예제 (공식 레포)
 - [TypeScript SDK](https://github.com/coinbase/x402/tree/main/typescript)
 - [Go 구현](https://github.com/coinbase/x402/tree/main/go)
 

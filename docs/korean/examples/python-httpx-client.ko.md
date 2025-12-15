@@ -7,7 +7,7 @@ x402 패키지와 httpx를 함께 사용하여 402로 보호된 엔드포인트�
 1. `.env-local` 파일을 `.env`로 복사하고 개인 키를 추가하세요.
 
 ```bash
-cd external/x402/examples/python/clients/httpx
+cd external/x402/examples/python/legacy/clients/httpx
 cp .env-local .env
 ```
 
@@ -89,7 +89,7 @@ async with httpx.AsyncClient(base_url=base_url) as client:
 ## 예제 코드 위치
 
 ```
-external/x402/examples/python/clients/httpx/
+external/x402/examples/python/legacy/clients/httpx/
 ├── main.py           # 간단한 방식 예제
 ├── extensible.py     # 확장 가능한 방식 예제
 ├── .env-local        # 환경 변수 템플릿
