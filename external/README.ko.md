@@ -35,7 +35,7 @@ git submodule update --init --recursive
 
 그런 다음 Python 예제로 이동:
 ```bash
-cd external/x402/examples/python
+cd external/x402/examples/python/legacy
 
 # 사용 가능한 예제:
 # - clients/requests/  - Python requests 클라이언트 예제
@@ -50,10 +50,10 @@ cd external/x402/examples/python
 
 | 예제 | 코드 | 한글 가이드 |
 |------|------|------------|
-| requests 클라이언트 | `./x402/examples/python/clients/requests` | [→ 가이드](../docs/korean/examples/python-requests-client.ko.md) |
-| httpx 클라이언트 | `./x402/examples/python/clients/httpx` | [→ 가이드](../docs/korean/examples/python-httpx-client.ko.md) |
-| Python 서버 | `./x402/examples/python/servers` | [→ 가이드](../docs/korean/examples/python-fastapi-server.ko.md) |
-| Discovery | `./x402/examples/python/discovery` | [→ 가이드](../docs/korean/examples/python-discovery.ko.md) |
+| requests 클라이언트 | `./x402/examples/python/legacy/clients/requests` | [→ 가이드](../docs/korean/examples/python-requests-client.ko.md) |
+| httpx 클라이언트 | `./x402/examples/python/legacy/clients/httpx` | [→ 가이드](../docs/korean/examples/python-httpx-client.ko.md) |
+| Python 서버 | `./x402/examples/python/legacy/servers` | [→ 가이드](../docs/korean/examples/python-fastapi-server.ko.md) |
+| Discovery | `./x402/examples/python/legacy/discovery` | [→ 가이드](../docs/korean/examples/python-discovery.ko.md) |
 
 ### 서브모듈 업데이트
 

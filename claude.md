@@ -295,8 +295,8 @@ Private Key = 특정 방 열쇠 (한 계정만 복구)
 - `docs/korean/examples/` - Python 예제 튜토리얼 (4개)
 
 ### 공식 예제 (읽기 전용)
-- `external/x402/examples/python/clients/` - Python 클라이언트 예제
-- `external/x402/examples/python/servers/` - Python 서버 예제
+- `external/x402/examples/python/legacy/clients/` - Python 클라이언트 예제
+- `external/x402/examples/python/legacy/servers/` - Python 서버 예제
 - `external/x402/examples/typescript/` - TypeScript 예제
 
 ### Base 특화 예제 (작성 중)
@@ -481,7 +481,7 @@ pip install requests httpx fastapi uvicorn web3 eth-account
 
 ```bash
 # Python requests 클라이언트
-cd external/x402/examples/python/clients/requests
+cd external/x402/examples/python/legacy/clients/requests
 cp .env-local .env
 # .env 파일에 Private Key 추가
 uv sync

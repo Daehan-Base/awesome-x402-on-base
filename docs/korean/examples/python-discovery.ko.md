@@ -37,7 +37,7 @@ API 문서를 찾아다니지 않고도 사용 가능한 모든 엔드포인트�
 Python 예제 루트 디렉토리에서 모든 패키지를 설치하고 빌드합니다:
 
 ```bash
-cd external/x402/examples/python
+cd external/x402/examples/python/legacy
 uv sync
 cd discovery
 ```
@@ -341,7 +341,7 @@ async def monitor_service_updates():
 ## 예제 코드 위치
 
 ```
-external/x402/examples/python/discovery/
+external/x402/examples/python/legacy/discovery/
 ├── main.py           # Discovery 예제 메인 코드
 ├── pyproject.toml    # 프로젝트 의존성
 └── README.md         # 영문 문서

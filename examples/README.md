@@ -44,7 +44,7 @@ The [official x402 examples](../external/x402/examples/python) already use Base 
 ## Official Examples
 
 For standard x402 implementations, refer to:
-- [Official Python Examples](../external/x402/examples/python) (via submodule)
+- [Official Python Examples](../external/x402/examples/python/legacy) (via submodule)
 - [Korean Guides for Official Examples](../docs/korean/examples/)
 
 ## Base-Specific Examples (Coming Soon)

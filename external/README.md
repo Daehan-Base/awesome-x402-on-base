@@ -35,7 +35,7 @@ git submodule update --init --recursive
 
 Then navigate to Python examples:
 ```bash
-cd external/x402/examples/python
+cd external/x402/examples/python/legacy
 
 # Available examples:
 # - clients/requests/  - Python requests client example
@@ -50,10 +50,10 @@ For each official example, we provide Korean documentation:
 
 | Example | Code | Korean Guide |
 |---------|------|--------------|
-| requests Client | `./x402/examples/python/clients/requests` | [→ Guide](../docs/korean/examples/python-requests-client.ko.md) |
-| httpx Client | `./x402/examples/python/clients/httpx` | [→ Guide](../docs/korean/examples/python-httpx-client.ko.md) |
-| Python Servers | `./x402/examples/python/servers` | [→ Guide](../docs/korean/examples/python-fastapi-server.ko.md) |
-| Discovery | `./x402/examples/python/discovery` | [→ Guide](../docs/korean/examples/python-discovery.ko.md) |
+| requests Client | `./x402/examples/python/legacy/clients/requests` | [→ Guide](../docs/korean/examples/python-requests-client.ko.md) |
+| httpx Client | `./x402/examples/python/legacy/clients/httpx` | [→ Guide](../docs/korean/examples/python-httpx-client.ko.md) |
+| Python Servers | `./x402/examples/python/legacy/servers` | [→ Guide](../docs/korean/examples/python-fastapi-server.ko.md) |
+| Discovery | `./x402/examples/python/legacy/discovery` | [→ Guide](../docs/korean/examples/python-discovery.ko.md) |
 
 ### Updating the Submodule
 

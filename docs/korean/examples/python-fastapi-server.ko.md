@@ -12,7 +12,7 @@ x402 FastAPI 미들웨어를 사용하여 유료 API 엔드포인트를 구현�
 1. `.env-local` 파일을 `.env`로 복사하고 결제를 받을 Ethereum 주소를 추가하세요:
 
 ```bash
-cd external/x402/examples/python/servers/fastapi
+cd external/x402/examples/python/legacy/servers/fastapi
 cp .env-local .env
 ```
 
@@ -325,7 +325,7 @@ curl http://localhost:4021/weather \
 ## 예제 코드 위치
 
 ```
-external/x402/examples/python/servers/fastapi/
+external/x402/examples/python/legacy/servers/fastapi/
 ├── main.py           # FastAPI 서버 예제
 ├── .env-local        # 환경 변수 템플릿
 └── pyproject.toml    # 프로젝트 의존성

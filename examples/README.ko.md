@@ -44,7 +44,7 @@ examples/
 ## 공식 예제
 
 표준 x402 구현은 다음을 참조하세요:
-- [공식 Python 예제](../external/x402/examples/python) (서브모듈)
+- [공식 Python 예제](../external/x402/examples/python/legacy) (서브모듈)
 - [공식 예제 한글 가이드](../docs/korean/examples/)
 
 ## Base 특화 예제 (준비 중)
