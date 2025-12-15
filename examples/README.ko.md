@@ -15,10 +15,11 @@
 
 ```
 examples/
-└── base-specific/      # Base 체인 최적화 예제
-    ├── quickstart/     # Base 빠른 시작 예제
-    ├── ai-agents/      # AI 에이전트 통합 (준비 중)
-    └── advanced/       # 고급 최적화 (준비 중)
+├── ap2-demo-coffee-shop/  # AI 커피숍 데모 (AP2 & x402)
+└── base-specific/         # Base 체인 최적화 예제 (준비 중)
+    ├── quickstart/        # Base 빠른 시작 예제
+    ├── ai-agents/         # AI 에이전트 통합 (준비 중)
+    └── advanced/          # 고급 최적화 (준비 중)
 ```
 
 ## 공식 예제와의 차이점

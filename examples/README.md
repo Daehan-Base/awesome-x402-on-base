@@ -15,10 +15,11 @@ This directory contains **Base-specific** examples and advanced use cases that c
 
 ```
 examples/
-└── base-specific/      # Base chain optimized examples
-    ├── quickstart/     # Quick start examples for Base
-    ├── ai-agents/      # AI agent integration (coming soon)
-    └── advanced/       # Advanced optimizations (coming soon)
+├── ap2-demo-coffee-shop/  # AI Coffee Shop Demo (AP2 & x402)
+└── base-specific/         # Base chain optimized examples (coming soon)
+    ├── quickstart/        # Quick start examples for Base
+    ├── ai-agents/         # AI agent integration (coming soon)
+    └── advanced/          # Advanced optimizations (coming soon)
 ```
 
 ## What's Different from Official Examples?
