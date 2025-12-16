@@ -134,7 +134,7 @@ git submodule update --init --recursive
 ls external/x402/examples/python  # 비어있으면 위의 명령어 실행
 
 cd external/x402/examples/python
-# docs/korean/examples/의 한글 가이드를 따라하세요
+# docs/korean/v1/examples/의 한글 가이드를 따라하세요
 ```
 
 ## 🗺️ 로드맵
