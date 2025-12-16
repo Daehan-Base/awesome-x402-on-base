@@ -2,20 +2,19 @@
 
 ## 🌐 온라인 커뮤니티
 
-### Base Korea
-- **Base Korea Discord**: [링크 준비 중]
-- **Base Korea Telegram**: [링크 준비 중]
-- **Base Korea GitHub**: [링크 준비 중]
+### Daehan Base
+- **X (Twitter)**: [https://x.com/daehan_base](https://x.com/daehan_base)
+- **Telegram 개발자 그룹**: [https://t.me/daehan_base_devs](https://t.me/daehan_base_devs)
+- **Telegram 그룹 채팅**: [https://t.me/daehanbase](https://t.me/daehanbase)
+- **Luma (이벤트)**: [https://lu.ma/daehan_base](https://lu.ma/daehan_base)
 
-### x402 관련
-- **x402 공식 Discord**: [https://discord.gg/x402](https://discord.gg/x402)
-- **x402 GitHub Discussions**: [https://github.com/coinbase/x402/discussions](https://github.com/coinbase/x402/discussions)
+### Coinbase Developer Platform
+- **CDP Discord**: [https://discord.gg/cdp](https://discord.gg/cdp)
 
 ## 📚 학습 자료
 
 ### 한글 문서
 - **이 레포지토리**: [awesome-x402-on-base](https://github.com/Daehan-Base/awesome-x402-on-base)
-- **Base 한국어 문서**: [준비 중]
 
 ### 영문 문서
 - **x402 공식 문서**: [https://docs.cdp.coinbase.com/x402/welcome](https://docs.cdp.coinbase.com/x402/welcome)
@@ -23,19 +22,15 @@
 
 ## 🎤 이벤트 및 미팅
 
-### 정기 모임
-- **Base Korea Monthly Meetup**: [준비 중]
-- **x402 Workshop**: [준비 중]
+이벤트, 정기 모임, 컨퍼런스 일정은 **Luma**에서 확인하세요!
 
-### 컨퍼런스
-- **Korea Blockchain Week**: [준비 중]
-- **Base Ecosystem Day**: [준비 중]
+👉 [Daehan Base Luma 구독하기](https://lu.ma/daehan_base)
 
 ## 💬 질문과 지원
 
 ### 질문하기
 - **GitHub Issues**: 이 레포지토리에 질문 등록
-- **Discord 채널**: x402 공식 Discord의 한글 채널
+- **Telegram**: 개발자 그룹에서 질문
 
 ### 기여하기
 - **문서 개선**: 오타 수정, 가이드 개선
@@ -47,9 +42,8 @@
 ## 📞 연락처
 
 **관리자**: Logan (Base Korea Developer Ambassador)
-- GitHub: [Logan](https://github.com/logan)
-- Email: [준비 중]
-- Discord: [준비 중]
+- **GitHub**: [Ilevk](https://github.com/Ilevk)
+- **X (Twitter)**: [https://x.com/Lo_gan__](https://x.com/Lo_gan__)
 
 ---
 

@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # Awesome x402 on Base 🚀
 
 > Base 체인에서 x402 프로토콜을 사용하기 위한 리소스, 도구, 지식 모음 - Base Korea Developer Ambassador가 관리합니다.

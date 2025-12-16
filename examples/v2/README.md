@@ -1,6 +1,10 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402 v2 Examples
 
 > x402 v2 SDK 기반 예제 (준비 중)
+>
+> 📚 **v1에서 마이그레이션**: [Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide)
 
 ---
 

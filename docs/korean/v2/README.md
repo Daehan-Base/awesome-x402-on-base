@@ -1,7 +1,11 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402 v2 한국어 문서
 
 > **x402 v2 SDK** 관련 문서입니다.
 > v2는 2025년 12월 11일에 출시되었습니다.
+>
+> 📚 **v1에서 마이그레이션**: [Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide)
 
 ---
 
@@ -30,9 +34,9 @@
 
 ### TypeScript 예제
 
-- [클라이언트 예제](../../../external/x402/examples/typescript/clients/)
-- [서버 예제](../../../external/x402/examples/typescript/servers/)
-- [Facilitator 예제](../../../external/x402/examples/typescript/facilitator/)
+- [클라이언트 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/)
+- [서버 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/)
+- [Facilitator 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator/)
 
 ---
 

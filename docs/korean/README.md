@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402 한국어 문서
 
 > Base 체인에서 x402 결제 프로토콜을 사용하기 위한 한국어 가이드
