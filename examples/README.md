@@ -1,78 +1,34 @@
-# Examples
+# x402 Examples
 
-## 📝 TL;DR
-
-**What**: Base chain-specific x402 examples and advanced use cases
-**Official Examples**: Use [`external/x402/examples/python`](../external/x402/examples/python) (via submodule)
-**This Directory**: Base optimizations, AI agents, production patterns (coming soon)
-**Korean Guides**: Available in [`docs/korean/examples/`](../docs/korean/examples/)
+> Base 체인에서 x402 프로토콜을 사용하는 예제 모음
 
 ---
 
-This directory contains **Base-specific** examples and advanced use cases that complement the official x402 examples.
+## 버전별 예제
 
-## Directory Structure
+### v1 (Legacy)
 
-```
-examples/
-├── ap2-demo-coffee-shop/  # AI Coffee Shop Demo (AP2 & x402)
-└── base-specific/         # Base chain optimized examples (coming soon)
-    ├── quickstart/        # Quick start examples for Base
-    ├── ai-agents/         # AI agent integration (coming soon)
-    └── advanced/          # Advanced optimizations (coming soon)
-```
+- [v1/](v1/) - x402 v1 SDK 기반 예제
+  - [ap2-demo-coffee-shop](v1/ap2-demo-coffee-shop/) - AI 에이전트 커피숍 데모
 
-## What's Different from Official Examples?
+### v2 (최신)
 
-The [official x402 examples](../external/x402/examples/python) already use Base chain by default. This directory provides:
-
-1. **Base-Specific Optimizations**
-   - Gas optimization techniques for Base
-   - USDC integration patterns
-   - Base Sepolia testnet configurations
-
-2. **Advanced Use Cases**
-   - AI agent autonomous payments
-   - API monetization strategies
-   - Production deployment examples
-
-3. **Community Contributions**
-   - Real-world implementations
-   - Best practices from the community
-   - Hackathon projects
-
-## Official Examples
-
-For standard x402 implementations, refer to:
-- [Official Python Examples](../external/x402/examples/python/legacy) (via submodule)
-- [Korean Guides for Official Examples](../docs/korean/examples/)
-
-## Base-Specific Examples (Coming Soon)
-
-### Quickstart
-- [ ] Base Sepolia quick start
-- [ ] USDC payment integration
-- [ ] Simple API monetization
-
-### AI Agents
-- [ ] LangChain + x402 integration
-- [ ] Autonomous AI agent payments
-- [ ] Multi-agent commerce
-
-### Advanced
-- [ ] Gas optimization strategies
-- [ ] Production deployment guide
-- [ ] Multi-chain support
-
-## Contributing
-
-Have a Base-specific example to share? We'd love to include it!
-
-1. Fork this repository
-2. Add your example to the appropriate directory
-3. Include a README with setup instructions
-4. Submit a pull request
+- [v2/](v2/) - x402 v2 SDK 기반 예제 (준비 중)
 
 ---
 
-[← Back to main README](../README.md)
+## 공식 x402 예제
+
+공식 x402 레포지토리의 예제는 서브모듈에서 확인할 수 있습니다:
+
+### v1 Legacy 예제
+- `external/x402/examples/python/legacy/` - Python v1 예제
+- `external/x402/examples/typescript/legacy/` - TypeScript v1 예제
+
+### v2 예제
+- `external/x402/examples/typescript/` - TypeScript v2 예제
+- `external/x402/examples/go/` - Go v2 예제
+
+---
+
+[← 메인 README로 돌아가기](../README.md)
