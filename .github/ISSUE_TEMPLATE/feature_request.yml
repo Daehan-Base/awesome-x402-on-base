@@ -1,0 +1,56 @@
+name: ✨ 기능/예제 제안
+description: 새로운 기능, Base 특화 예제, 문서 등을 제안해주세요
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        아이디어를 공유해주셔서 감사합니다! 🎉
+        Base 체인과 x402 프로토콜의 활용 사례를 함께 만들어갑니다.
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: 제안 유형
+      options:
+        - Base 특화 예제 추가
+        - 한글 문서/튜토리얼 추가
+        - 새로운 언어/프레임워크 지원
+        - 기존 문서/예제 개선
+        - 기타
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 제안 내용
+      description: 어떤 기능/예제가 필요한지 설명해주세요
+      placeholder: |
+        예시:
+        - AI 에이전트가 x402로 API 호출하는 예제
+        - TypeScript 클라이언트 한글 가이드
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 필요한 이유
+      description: 왜 이 기능/예제가 유용할까요?
+      placeholder: |
+        - 사용 사례: ...
+        - 기대 효과: ...
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 자료 (선택)
+      description: 관련 링크, 문서, 예제 등이 있다면 공유해주세요
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: 기여 의사
+      options:
+        - label: 직접 PR을 제출할 의향이 있습니다
