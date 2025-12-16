@@ -12,15 +12,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - v1/v2 디렉토리 구조 재편성 (`docs/korean/v1/`, `docs/korean/v2/`, `examples/v1/`, `examples/v2/`)
 - 각 디렉토리별 README.md 추가
 - GitHub Issue 템플릿 추가 (기능/예제 제안용) ([#5](https://github.com/Daehan-Base/awesome-x402-on-base/pull/5))
+- **이중 언어 README 지원** - 모든 디렉토리에 README.md(한글) + README.en.md(영어) 쌍 추가
+- v1 → v2 마이그레이션 가이드 링크 추가 (모든 v1/v2 문서)
 
 ### Changed
 - README.md 기여하기 섹션 업데이트 (CONTRIBUTING.md 링크 추가)
 - CLAUDE.md를 AI 코딩 에이전트 가이드라인 포맷으로 재구성 (729줄 → 193줄)
 - 한글 예제 문서를 `docs/korean/v1/examples/`로 이동
+- 서브모듈 링크를 GitHub URL로 변경 (접근성 개선)
+- `korean-community.md` 실제 커뮤니티 링크로 업데이트
+  - Daehan Base X, Telegram, Luma 추가
+  - CDP Discord 추가
+  - 이벤트 섹션을 Luma 구독 안내로 통합
 
 ### Fixed
 - 깨진 문서 링크 수정 (`docs/korean/examples/` → `docs/korean/v1/examples/`)
 - `YOUR_USERNAME` 플레이스홀더를 `Daehan-Base`로 교체
+- `examples/v1/README.ko.md` 제거 (README.md로 통합)
 
 ---
 
