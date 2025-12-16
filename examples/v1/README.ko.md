@@ -1,11 +1,14 @@
-# 예제
+# 예제 (v1 Legacy)
+
+> **x402 v1 SDK** 기반 예제입니다.
+> v2 예제는 [examples/v2/](../v2/)를 참조하세요.
 
 ## 📝 요약 (TL;DR)
 
-**무엇**: Base 체인 특화 x402 예제 및 고급 사용 사례
-**공식 예제**: [`external/x402/examples/python`](../external/x402/examples/python) 사용 (서브모듈)
-**이 디렉토리**: Base 최적화, AI 에이전트, 프로덕션 패턴 (준비 중)
-**한글 가이드**: [`docs/korean/examples/`](../docs/korean/examples/)에서 확인
+**무엇**: Base 체인 특화 x402 v1 예제 및 고급 사용 사례
+**공식 예제**: [`external/x402/examples/python/legacy`](../../external/x402/examples/python/legacy) 사용 (서브모듈)
+**이 디렉토리**: Base 최적화, AI 에이전트, 프로덕션 패턴
+**한글 가이드**: [`docs/korean/v1/examples/`](../../docs/korean/v1/examples/)에서 확인
 
 ---
 
@@ -24,7 +27,7 @@ examples/
 
 ## 공식 예제와의 차이점
 
-[공식 x402 예제](../external/x402/examples/python)는 이미 Base 체인을 기본으로 사용합니다. 이 디렉토리는 다음을 제공합니다:
+[공식 x402 v1 예제](../../external/x402/examples/python/legacy)는 이미 Base 체인을 기본으로 사용합니다. 이 디렉토리는 다음을 제공합니다:
 
 1. **Base 특화 최적화**
    - Base용 가스 최적화 기법
@@ -43,9 +46,9 @@ examples/
 
 ## 공식 예제
 
-표준 x402 구현은 다음을 참조하세요:
-- [공식 Python 예제](../external/x402/examples/python/legacy) (서브모듈)
-- [공식 예제 한글 가이드](../docs/korean/examples/)
+표준 x402 v1 구현은 다음을 참조하세요:
+- [공식 Python 예제](../../external/x402/examples/python/legacy) (서브모듈)
+- [공식 예제 한글 가이드](../../docs/korean/v1/examples/)
 
 ## Base 특화 예제 (준비 중)
 
@@ -75,4 +78,4 @@ Base 특화 예제를 공유하고 싶으신가요? 환영합니다!
 
 ---
 
-[← 메인 README로 돌아가기](../README.md)
+[← 예제 목록으로 돌아가기](../README.md) | [v2 예제 보기 →](../v2/README.md)

@@ -1,4 +1,13 @@
-# x402 httpx 클라이언트 예제
+# x402 httpx 클라이언트 예제 (v1 Legacy)
+
+> ⚠️ **Legacy 문서 (v1)**
+>
+> 이 문서는 x402 **v1 SDK**를 다룹니다.
+> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+>
+> **v1 예제 경로**: `external/x402/examples/python/legacy/clients/httpx`
+
+---
 
 x402 패키지와 httpx를 함께 사용하여 402로 보호된 엔드포인트에 비동기 요청하는 두 가지 방법을 소개합니다.
 
@@ -132,4 +141,4 @@ async def fetch_multiple():
 
 ---
 
-[← 외부 리소스로 돌아가기](../../../external/README.ko.md)
+[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.ko.md)

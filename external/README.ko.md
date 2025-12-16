@@ -50,10 +50,10 @@ cd external/x402/examples/python/legacy
 
 | 예제 | 코드 | 한글 가이드 |
 |------|------|------------|
-| requests 클라이언트 | `./x402/examples/python/legacy/clients/requests` | [→ 가이드](../docs/korean/examples/python-requests-client.ko.md) |
-| httpx 클라이언트 | `./x402/examples/python/legacy/clients/httpx` | [→ 가이드](../docs/korean/examples/python-httpx-client.ko.md) |
-| Python 서버 | `./x402/examples/python/legacy/servers` | [→ 가이드](../docs/korean/examples/python-fastapi-server.ko.md) |
-| Discovery | `./x402/examples/python/legacy/discovery` | [→ 가이드](../docs/korean/examples/python-discovery.ko.md) |
+| requests 클라이언트 | `./x402/examples/python/legacy/clients/requests` | [→ 가이드](../docs/korean/v1/examples/python-requests-client.ko.md) |
+| httpx 클라이언트 | `./x402/examples/python/legacy/clients/httpx` | [→ 가이드](../docs/korean/v1/examples/python-httpx-client.ko.md) |
+| Python 서버 | `./x402/examples/python/legacy/servers` | [→ 가이드](../docs/korean/v1/examples/python-fastapi-server.ko.md) |
+| Discovery | `./x402/examples/python/legacy/discovery` | [→ 가이드](../docs/korean/v1/examples/python-discovery.ko.md) |
 
 ### 서브모듈 업데이트
 

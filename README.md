@@ -82,7 +82,8 @@ awesome-x402-on-base/
 │   └── base-specific/         # Base 체인 최적화 예제 (준비 중)
 │
 ├── docs/korean/            # 🇰🇷 한국어 문서
-│   ├── examples/           # 공식 예제 한글 가이드
+│   ├── v1/examples/        # v1 Legacy 예제 한글 가이드
+│   ├── v2/                 # v2 문서
 │   └── getting_started.ko.md # 시작 가이드
 │
 ├── external/               # 📖 외부 리소스 설명
@@ -109,10 +110,10 @@ awesome-x402-on-base/
 
 | 예제 | 공식 코드 | 한글 가이드 |
 |------|----------|------------|
-| **requests 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 한글 가이드](./docs/korean/examples/python-requests-client.ko.md) |
-| **httpx 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 한글 가이드](./docs/korean/examples/python-httpx-client.ko.md) |
-| **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/korean/examples/python-fastapi-server.ko.md) |
-| **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/korean/examples/python-discovery.ko.md) |
+| **requests 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 한글 가이드](./docs/korean/v1/examples/python-requests-client.ko.md) |
+| **httpx 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 한글 가이드](./docs/korean/v1/examples/python-httpx-client.ko.md) |
+| **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/korean/v1/examples/python-fastapi-server.ko.md) |
+| **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/korean/v1/examples/python-discovery.ko.md) |
 
 ### 서브모듈 사용하기
 
@@ -121,7 +122,7 @@ awesome-x402-on-base/
 최초 설정:
 ```bash
 # 서브모듈과 함께 이 레포지토리 클론
-git clone --recursive https://github.com/YOUR_USERNAME/awesome-x402-on-base.git
+git clone --recursive https://github.com/Daehan-Base/awesome-x402-on-base.git
 
 # 또는 이미 클론한 경우
 git submodule update --init --recursive
@@ -133,7 +134,7 @@ git submodule update --init --recursive
 ls external/x402/examples/python  # 비어있으면 위의 명령어 실행
 
 cd external/x402/examples/python
-# docs/korean/examples/의 한글 가이드를 따라하세요
+# docs/korean/v1/examples/의 한글 가이드를 따라하세요
 ```
 
 ## 🗺️ 로드맵
@@ -142,18 +143,16 @@ cd external/x402/examples/python
 
 ## 🤝 기여하기
 
-기여를 환영합니다! x402로 개발하거나, 문서를 작성하거나, 경험을 공유하고 싶다면 언제든 참여해주세요.
+기여를 환영합니다! 자세한 가이드는 [CONTRIBUTING.md](./CONTRIBUTING.md)를 참고하세요.
 
 ### 기여 방법
 
-- 🐛 버그나 이슈 리포트
-- 💡 새로운 기능이나 개선사항 제안
-- 📝 튜토리얼이나 가이드 작성
-- 🔧 코드 예제나 도구 제출
-- 🌐 문서 번역
-- 📢 x402 프로젝트 공유
+- 📝 **문서 기여** - 한글 튜토리얼, 가이드 작성
+- 💻 **예제 코드** - Base 특화 예제 추가
+- 🐛 **버그 리포트** - 이슈 등록
+- 💡 **기능 제안** - 새로운 아이디어 공유
 
-이슈를 열거나 풀 리퀘스트를 자유롭게 제출해주세요.
+[기여 가이드 보기 →](./CONTRIBUTING.md)
 
 ## 📚 리소스
 

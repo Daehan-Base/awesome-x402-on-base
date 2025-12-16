@@ -1,4 +1,13 @@
-# x402 FastAPI 서버 예제
+# x402 FastAPI 서버 예제 (v1 Legacy)
+
+> ⚠️ **Legacy 문서 (v1)**
+>
+> 이 문서는 x402 **v1 SDK**를 다룹니다.
+> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+>
+> **v1 예제 경로**: `external/x402/examples/python/legacy/servers/fastapi`
+
+---
 
 x402 FastAPI 미들웨어를 사용하여 유료 API 엔드포인트를 구현하는 방법을 소개합니다. 이 예제는 API에 페이월 기능을 추가하여 엔드포인트 접근을 수익화하는 방법을 보여줍니다.
 
@@ -497,9 +506,9 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 ## 추가 리소스
 
 - [FastAPI 공식 문서](https://fastapi.tiangolo.com/)
-- [x402 프로토콜 사양](https://github.com/comrade-coop/x402)
+- [x402 프로토콜 사양](https://github.com/coinbase/x402)
 - [Base 네트워크 문서](https://docs.base.org/)
 
 ---
 
-[← 외부 리소스로 돌아가기](../../../external/README.ko.md)
+[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.ko.md)
