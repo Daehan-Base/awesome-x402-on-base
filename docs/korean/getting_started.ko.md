@@ -409,17 +409,17 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 
 ### 추천 학습 경로
 
-1. **Python 예제 시작하기**
-   - [requests 클라이언트 가이드](./examples/python-requests-client.ko.md)
-   - [httpx 클라이언트 가이드](./examples/python-httpx-client.ko.md)
-   - [FastAPI 서버 가이드](./examples/python-fastapi-server.ko.md)
+1. **Python 예제 시작하기** (v1 Legacy)
+   - [requests 클라이언트 가이드](./v1/examples/python-requests-client.ko.md)
+   - [httpx 클라이언트 가이드](./v1/examples/python-httpx-client.ko.md)
+   - [FastAPI 서버 가이드](./v1/examples/python-fastapi-server.ko.md)
 
 2. **TypeScript 예제 탐색**
    - CDP SDK 클라이언트: `external/x402/examples/typescript/clients/cdp-sdk/`
    - Express 서버: `external/x402/examples/typescript/servers/express/`
 
-3. **Discovery 기능 배우기**
-   - [Discovery 가이드](./examples/python-discovery.ko.md)
+3. **Discovery 기능 배우기** (v1 Legacy)
+   - [Discovery 가이드](./v1/examples/python-discovery.ko.md)
 
 4. **고급 주제**
    - Mainnet 배포
