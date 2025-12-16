@@ -799,9 +799,9 @@ go get github.com/coinbase/x402/go
 
 이 명세서에 오류나 누락된 내용이 있다면 기여해주세요:
 
-- 🐛 [이슈 생성](https://github.com/YOUR_USERNAME/awesome-x402-on-base/issues/new)
-- 📝 [Pull Request](https://github.com/YOUR_USERNAME/awesome-x402-on-base/pulls)
-- 💬 [토론 참여](https://github.com/YOUR_USERNAME/awesome-x402-on-base/discussions)
+- 🐛 [이슈 생성](https://github.com/Daehan-Base/awesome-x402-on-base/issues/new)
+- 📝 [Pull Request](https://github.com/Daehan-Base/awesome-x402-on-base/pulls)
+- 💬 [토론 참여](https://github.com/Daehan-Base/awesome-x402-on-base/discussions)
 
 ---
 

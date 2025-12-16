@@ -3,7 +3,7 @@
 > **작성 시점**: 2025년 11월 8일
 > **최종 검증**: CDP Platform 2025년 11월 기준
 >
-> ⚠️ **중요**: 이 가이드는 작성 시점을 기준으로 하며, CDP Platform의 UI나 프로세스는 시간이 지남에 따라 변경될 수 있습니다. 만약 이 가이드의 내용이 더 이상 정확하지 않거나 업데이트가 필요하다면, [Issue를 생성](https://github.com/YOUR_USERNAME/awesome-x402-on-base/issues/new)하여 알려주시거나 Pull Request를 통해 기여해주세요. 여러분의 기여가 커뮤니티 전체에 도움이 됩니다! 🙏
+> ⚠️ **중요**: 이 가이드는 작성 시점을 기준으로 하며, CDP Platform의 UI나 프로세스는 시간이 지남에 따라 변경될 수 있습니다. 만약 이 가이드의 내용이 더 이상 정확하지 않거나 업데이트가 필요하다면, [Issue를 생성](https://github.com/Daehan-Base/awesome-x402-on-base/issues/new)하여 알려주시거나 Pull Request를 통해 기여해주세요. 여러분의 기여가 커뮤니티 전체에 도움이 됩니다! 🙏
 
 ---
 
@@ -484,9 +484,9 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 
 이 가이드에 오류나 누락된 정보가 있나요? 도움을 주세요!
 
-- 🐛 [이슈 생성](https://github.com/YOUR_USERNAME/awesome-x402-on-base/issues/new) - 오류 보고 또는 개선 제안
-- 📝 [Pull Request](https://github.com/YOUR_USERNAME/awesome-x402-on-base/pulls) - 직접 문서 개선
-- 💬 [Discussions](https://github.com/YOUR_USERNAME/awesome-x402-on-base/discussions) - 질문 및 토론
+- 🐛 [이슈 생성](https://github.com/Daehan-Base/awesome-x402-on-base/issues/new) - 오류 보고 또는 개선 제안
+- 📝 [Pull Request](https://github.com/Daehan-Base/awesome-x402-on-base/pulls) - 직접 문서 개선
+- 💬 [Discussions](https://github.com/Daehan-Base/awesome-x402-on-base/discussions) - 질문 및 토론
 
 여러분의 기여가 한국 x402 커뮤니티를 더욱 강하게 만듭니다! 🙏
 
