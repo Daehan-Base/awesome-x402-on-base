@@ -1,0 +1,192 @@
+[한국어](./README.md) | [English](./README.en.md)
+
+# Awesome x402 on Base 🚀
+
+> A curated collection of resources, tools, and knowledge for using the x402 protocol on Base chain - Maintained by Base Korea Developer Ambassador.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Base Chain](https://img.shields.io/badge/Chain-Base-blue.svg)](https://base.org)
+[![x402 Protocol](https://img.shields.io/badge/Protocol-x402-green.svg)](https://www.x402.org)
+
+## 📝 TL;DR
+
+**What**: Korean guide for x402 payment protocol on Base chain
+**Why**: Official examples already use Base - adding detailed Korean tutorials
+**How**: Link official code (`external/`) via Git submodule + Korean guides (`docs/korean/`)
+**Target**: Korean developers & global builders interested in Base-specific x402 implementations
+
+**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/korean/getting_started.ko.md)
+
+---
+
+## 📖 About This Repository
+
+This repository provides **Korean guides and documentation** for using the **x402 protocol** on Base chain. Since official x402 examples already use Base chain by default, we focus on providing detailed Korean tutorials for each example and community resources.
+
+**What's Included:**
+- 🔗 **Official Examples** (Git submodule in `external/`) - Direct access to Coinbase's x402 examples
+- 📝 **Korean Guides** (`docs/korean/`) - Step-by-step Korean tutorials for each example
+- 🔵 **Base-Specific Content** (`examples/`) - Base chain optimizations and use cases
+- 🇰🇷 **Korean Community** - Resources for Korean developers
+
+> **Note**: This repository complements the [official x402 repository](https://github.com/coinbase/x402) by providing Korean documentation and Base-centric content.
+
+## 🔍 What is x402?
+
+**x402** is an open-source payment protocol developed by Coinbase that revolutionizes internet-native payments by modernizing the HTTP 402 status code that has been unused for 26 years.
+
+### Key Features
+
+- ⚡ **Fast Speed** - Payment processing in ~2 seconds
+- 💰 **Ultra-Low Cost** - Transaction fees < $0.0001, minimum $0.001 payments possible
+- 🤖 **Machine-to-Machine Payments** - Autonomous resource payments for AI agents and IoT devices
+- 🔗 **Chain Agnostic** - Supports Base, Solana, Polygon, Ethereum, and more
+- 🌐 **HTTP Native** - Built on top of HTTP for seamless web integration
+
+### How It Works
+
+x402 leverages the HTTP 402 "Payment Required" status code to create a standardized payment layer for the internet. When a service requires payment, it returns a 402 response with payment instructions. Clients (including AI agents) can automatically handle payments using stablecoins like USDC without accounts, sessions, or complex authentication.
+
+## 🎯 Why Base Chain?
+
+**Base** is the optimal network for x402 protocol adoption:
+
+- 🚀 **High Performance** - Fast finality and low latency
+- 💵 **Minimal Fees** - Gas fees for x402 transactions < $0.0001
+- 🔐 **Ethereum Security** - Strong security of L2 built on Ethereum
+- 🌊 **Native Support** - First-class support for Base Sepolia and Base Mainnet
+- 💎 **USDC Integration** - Native USDC as the default payment currency
+
+Base provides the perfect infrastructure to enable x402's micropayments and AI agent transactions at scale.
+
+## 🌟 x402 Ecosystem
+
+The x402 ecosystem is rapidly growing with support from major tech companies:
+
+- **Coinbase** - Protocol creator and primary maintainer
+- **Cloudflare** - x402 Foundation co-founder
+- **Google** - Infrastructure integration
+- **Visa** - Payment network partnership
+- **AWS** - Cloud infrastructure support
+- **Circle** - USDC stablecoin provider
+- **Anthropic** - AI integration
+
+
+## 📁 Repository Structure
+
+```
+awesome-x402-on-base/
+├── external/x402/          # 🔗 Git Submodule (Official x402 repository)
+│   └── examples/python/    # Official Python examples (read-only)
+│
+├── examples/               # 📝 Base-specific examples and demos
+│   ├── ap2-demo-coffee-shop/  # AI coffee shop demo (AP2 & x402)
+│   └── base-specific/         # Base chain optimized examples (coming soon)
+│
+├── docs/korean/            # 🇰🇷 Korean documentation
+│   ├── v1/examples/        # v1 Legacy example Korean guides
+│   ├── v2/                 # v2 documentation
+│   └── getting_started.ko.md # Getting started guide
+│
+├── external/               # 📖 External resources description
+├── ROADMAP.md              # 🗺️ Development roadmap
+└── LICENSE                 # 📄 MIT License
+```
+
+**Clear Separation:**
+- **`external/`** = Official x402 examples (submodule, do not modify)
+- **`examples/`** = x402 example use cases
+- **`docs/`** = Korean guides and tutorials
+
+## 🚀 Quick Start
+
+### For English Speakers
+→ Start with the [Official x402 Documentation](https://docs.cdp.coinbase.com/x402/welcome)
+
+### For Korean Developers 🇰🇷
+→ Start with the [Korean Quick Start Guide](./docs/korean/getting_started.ko.md)
+
+## 💡 Examples & Korean Guides
+
+### Python Examples (Official Code + Korean Guides)
+
+| Example | Official Code | Korean Guide |
+|---------|---------------|--------------|
+| **requests client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Korean Guide](./docs/korean/v1/examples/python-requests-client.ko.md) |
+| **httpx client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Korean Guide](./docs/korean/v1/examples/python-httpx-client.ko.md) |
+| **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/korean/v1/examples/python-fastapi-server.ko.md) |
+| **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/korean/v1/examples/python-discovery.ko.md) |
+
+### Using the Submodule
+
+⚠️ **Important**: `external/x402` is a Git submodule. Initialization is required.
+
+Initial setup:
+```bash
+# Clone this repository with submodule
+git clone --recursive https://github.com/Daehan-Base/awesome-x402-on-base.git
+
+# Or if already cloned
+git submodule update --init --recursive
+```
+
+Access official examples:
+```bash
+# First, verify submodule initialization
+ls external/x402/examples/python  # If empty, run the commands above
+
+cd external/x402/examples/python
+# Follow Korean guides in docs/korean/v1/examples/
+```
+
+## 🗺️ Roadmap
+
+For detailed development plans, see [ROADMAP.md](./ROADMAP.md).
+
+## 🤝 Contributing
+
+Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+### How to Contribute
+
+- 📝 **Documentation** - Write Korean tutorials and guides
+- 💻 **Example Code** - Add Base-specific examples
+- 🐛 **Bug Reports** - Submit issues
+- 💡 **Feature Requests** - Share new ideas
+
+[View Contributing Guide →](./CONTRIBUTING.md)
+
+## 📚 Resources
+
+### Official x402 Resources
+- 📖 [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome)
+- 💻 [x402 GitHub Repository](https://github.com/coinbase/x402)
+- 📄 [x402 Whitepaper](https://www.x402.org/x402-whitepaper.pdf)
+- 🌐 [x402 Website](https://www.x402.org)
+
+### x402 SDKs & Examples
+- [Python SDK](https://github.com/coinbase/x402/tree/main/python/x402) - Official Python implementation
+- [Python Examples](https://github.com/coinbase/x402/tree/main/examples/python/legacy) - Client & server examples (official repo)
+- [TypeScript SDK](https://github.com/coinbase/x402/tree/main/typescript)
+- [Go Implementation](https://github.com/coinbase/x402/tree/main/go)
+
+### Base Chain Resources
+- [Base Official Website](https://base.org)
+- [Base Documentation](https://docs.base.org)
+- [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
+- [Circle USDC Faucet](https://faucet.circle.com/)
+
+## 📬 Contact
+
+- **Issues & Questions** - Open an issue in this repository
+- **Discussions** - Share opinions in GitHub Discussions
+
+## 📄 License
+
+This repository is licensed under the [MIT License](LICENSE).
+
+---
+
+**Maintained with care by Logan (Base Korea Developer Ambassador)**
+
+*Building the future of internet-native payments, one commit at a time.*

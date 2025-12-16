@@ -1,0 +1,36 @@
+[한국어](./README.md) | [English](./README.en.md)
+
+# x402 Examples
+
+> Collection of examples using the x402 protocol on Base chain
+
+---
+
+## Examples by Version
+
+### v1 (Legacy)
+
+- [v1/](v1/) - Examples based on x402 v1 SDK
+  - [ap2-demo-coffee-shop](v1/ap2-demo-coffee-shop/) - AI agent coffee shop demo
+
+### v2 (Latest)
+
+- [v2/](v2/) - Examples based on x402 v2 SDK (coming soon)
+
+---
+
+## Official x402 Examples
+
+Examples from the official x402 repository can be found in the submodule:
+
+### v1 Legacy Examples
+- `external/x402/examples/python/legacy/` - Python v1 examples
+- `external/x402/examples/typescript/legacy/` - TypeScript v1 examples
+
+### v2 Examples
+- `external/x402/examples/typescript/` - TypeScript v2 examples
+- `external/x402/examples/go/` - Go v2 examples
+
+---
+
+[← Back to Main README](../README.md)

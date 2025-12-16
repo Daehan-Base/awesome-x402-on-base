@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # ☕ AI Coffee Shop - AP2 & x402 Demo
 
 AI 에이전트가 커피를 주문하고 암호화폐로 결제하는 데모입니다. AP2 (Agent Payment Protocol)와 x402 결제 프로토콜을 사용합니다.
