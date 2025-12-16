@@ -41,9 +41,11 @@
 
 ## 📞 연락처
 
-**관리자**: Logan (Base Korea Developer Ambassador)
+**관리자**: Logan (Base Devrel Ambassador)
 - **GitHub**: [Ilevk](https://github.com/Ilevk)
-- **X (Twitter)**: [https://x.com/Lo_gan__](https://x.com/Lo_gan__)
+- **X (Twitter)**: [@Lo_gan__](https://x.com/Lo_gan__)
+- **TG**: [@Lgn_K](https://t.me/Lgn_K)
+- **Base App (Farcaster) [@logan-k](https://base.app/profile/0x7fAa3A76Bc8e5075a6B0Bb7d5365529c9548c205)
 
 ---
 
