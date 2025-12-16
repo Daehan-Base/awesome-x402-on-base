@@ -247,8 +247,23 @@ MCP (Model Context Protocol) 트랜스포트는 AI 에이전트와 MCP 클라이
     "_meta": {
       "x402/payment": {
         "x402Version": 2,
-        "scheme": "exact",
-        "network": "eip155:84532",
+        "resource": {
+          "url": "mcp://tool/financial_analysis",
+          "description": "Advanced financial analysis tool",
+          "mimeType": "application/json"
+        },
+        "accepted": {
+          "scheme": "exact",
+          "network": "eip155:84532",
+          "amount": "10000",
+          "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+          "payTo": "0x209693Bc6afc0C5328bA36FaF03C514EF312287C",
+          "maxTimeoutSeconds": 60,
+          "extra": {
+            "name": "USDC",
+            "version": "2"
+          }
+        },
         "payload": {
           "signature": "0x...",
           "authorization": {
@@ -336,14 +351,22 @@ payment-required → payment-submitted → payment-verified → payment-complete
 
 ```json
 {
-  "name": "PaidAgent",
-  "extensions": {
-    "x402": {
-      "version": 2,
-      "networks": ["eip155:84532", "eip155:8453"]
-    }
+  "capabilities": {
+    "extensions": [
+      {
+        "uri": "https://github.com/google-a2a/a2a-x402/v0.1",
+        "description": "Supports payments using the x402 protocol for on-chain settlement.",
+        "required": true
+      }
+    ]
   }
 }
+```
+
+클라이언트는 `X-A2A-Extensions` HTTP 헤더로 확장을 활성화합니다:
+
+```http
+X-A2A-Extensions: https://github.com/google-a2a/a2a-x402/v0.1
 ```
 
 ---
