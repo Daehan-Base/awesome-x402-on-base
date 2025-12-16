@@ -43,24 +43,35 @@ awesome-x402-on-base/
 ├── external/x402/          # 🔗 Git 서브모듈 (공식 x402 레포지토리)
 │   ├── python/             # Python SDK
 │   ├── typescript/         # TypeScript SDK
-│   ├── examples/           # 공식 예제 (Python, TS, Go, Java)
+│   ├── examples/           # 공식 예제 (Python, TS, Go)
 │   └── specs/              # 프로토콜 스펙
 │
 ├── examples/               # 📝 Base 특화 예제
-│   └── base-specific/      # Base 최적화 사용 사례 (준비 중)
+│   ├── README.md           # 예제 허브
+│   ├── v1/                 # v1 Legacy 예제
+│   │   ├── ap2-demo-coffee-shop/  # AI 커피숍 데모
+│   │   └── README.md
+│   └── v2/                 # v2 예제 (준비 중)
+│       └── README.md
 │
 ├── docs/korean/            # 🇰🇷 한국어 문서
+│   ├── README.md                     # 한국어 문서 허브
 │   ├── getting_started.ko.md         # 시작 가이드
-│   └── examples/                     # 예제별 한글 튜토리얼
-│       ├── python-requests-client.ko.md
-│       ├── python-httpx-client.ko.md
-│       ├── python-fastapi-server.ko.md
-│       └── python-discovery.ko.md
+│   ├── x402-v2-specification.ko.md   # v2 프로토콜 스펙
+│   ├── v1/                           # v1 Legacy 문서
+│   │   ├── README.md
+│   │   └── examples/
+│   │       ├── python-requests-client.ko.md
+│   │       ├── python-httpx-client.ko.md
+│   │       ├── python-fastapi-server.ko.md
+│   │       └── python-discovery.ko.md
+│   └── v2/                           # v2 문서
+│       └── README.md
 │
 ├── README.md               # 프로젝트 소개 (한글/영문)
 ├── ROADMAP.md              # 개발 로드맵
 ├── LICENSE                 # MIT 라이선스
-├── claude.md               # Claude Code 컨텍스트 (이 파일)
+├── CLAUDE.md               # Claude Code 컨텍스트 (이 파일)
 └── .cursor/rules           # Cursor AI 규칙
 ```
 
@@ -71,15 +82,20 @@ awesome-x402-on-base/
 - Git 서브모듈, 절대 수정 금지
 - 업데이트: `git submodule update --remote external/x402`
 
-**`examples/base-specific/`** (작성 중)
-- Base 체인 최적화 예제
+**`examples/v1/`** (v1 Legacy 예제)
+- x402 v1 SDK 기반 예제
+- ap2-demo-coffee-shop: AI 커피숍 데모
 - 커뮤니티 기여 환영
-- Base Mainnet 배포, USDC 통합, 가스비 최적화
+
+**`examples/v2/`** (v2 예제 - 준비 중)
+- x402 v2 SDK 기반 예제
+- 공식 예제는 `external/x402/examples/typescript/`에서 참조
 
 **`docs/korean/`** (활발히 작성 중)
 - 한국 개발자를 위한 단계별 가이드
-- Web2 비유를 활용한 Web3 교육
-- 보안 가이드라인 포함
+- v1/v2 버전별 문서 분리
+- `v1/examples/`: v1 Legacy Python 예제 튜토리얼
+- `x402-v2-specification.ko.md`: v2 프로토콜 스펙
 
 ---
 
@@ -92,8 +108,12 @@ awesome-x402-on-base/
 1. 클라이언트 → 서버: HTTP 요청
 2. 서버 → 클라이언트: 402 응답 (결제 정보 포함)
 3. 클라이언트: 결제 서명 생성
-4. 클라이언트 → 서버: `X-PAYMENT` 헤더와 함께 재요청
+4. 클라이언트 → 서버: 결제 헤더와 함께 재요청
 5. 서버: 결제 검증 → 리소스 제공
+
+**버전별 차이**:
+- **v1 (Legacy)**: `X-PAYMENT` 헤더, `base-sepolia` 네트워크 형식
+- **v2 (Current)**: `PAYMENT-SIGNATURE` 헤더, `eip155:84532` CAIP 표준
 
 **특징**:
 - Gasless: 클라이언트와 서버는 가스비 부담 없음
@@ -142,6 +162,23 @@ Private Key = 특정 방 열쇠 (한 계정만 복구)
 - 기본 결제 통화
 - 가격 안정성 (암호화폐 변동성 제거)
 - Base 체인 네이티브 지원
+
+### 6. x402 v1 vs v2
+
+| 항목 | v1 (Legacy) | v2 (Current) |
+|------|------------|--------------|
+| HTTP 헤더 | `X-PAYMENT` | `PAYMENT-SIGNATURE` |
+| 네트워크 형식 | `base-sepolia` | `eip155:84532` (CAIP) |
+| 버전 필드 | `x402Version: 1` | `x402Version: 2` |
+| SDK 구조 | 단일 `x402` 패키지 | 모듈형 `@x402/*` |
+| 문서 위치 | `docs/korean/v1/` | `docs/korean/v2/` |
+| 예제 위치 | `examples/v1/` | `examples/v2/` |
+
+**v2 주요 특징**:
+- 멀티체인 지원 (Base, Solana, EVM 체인)
+- MCP/A2A 전송 프로토콜
+- ERC-1271, ERC-6492 스마트 컨트랙트 지갑 지원
+- CAIP 표준 기반 네트워크/자산 식별
 
 ---
 
@@ -215,11 +252,12 @@ Private Key = 특정 방 열쇠 (한 계정만 복구)
 
 1. **한글 가이드 먼저 확인**
    - `docs/korean/getting_started.ko.md`에서 시작
-   - 예제별 한글 튜토리얼 참조 (`docs/korean/examples/`)
+   - v1 예제 튜토리얼: `docs/korean/v1/examples/`
+   - v2 스펙 문서: `docs/korean/x402-v2-specification.ko.md`
 
 2. **공식 예제 패턴 따르기**
    - `external/x402/examples/`에서 표준 구현 패턴 학습
-   - Base 특화 최적화는 `examples/base-specific/`에 구현
+   - Base 특화 예제는 `examples/v1/` 또는 `examples/v2/`에 구현
 
 3. **Base Sepolia 테스트넷 사용**
    - 무료 테스트 토큰 획득: [QuickNode Faucet](https://faucet.quicknode.com/base/sepolia)
@@ -249,7 +287,17 @@ Private Key = 특정 방 열쇠 (한 계정만 복구)
 - 환경 변수 설정
 - 테스트 자금 획득
 
-### examples/ (4개 실습 예제 문서)
+### x402-v2-specification.ko.md
+**역할**: x402 v2 프로토콜 상세 스펙 (2025-12-11 출시)
+
+**주요 내용**:
+- v2 프로토콜 아키텍처
+- HTTP/MCP/A2A 전송 프로토콜
+- CAIP 표준 기반 네트워크/자산 식별
+- ERC-1271, ERC-6492 스마트 컨트랙트 지갑 지원
+- v1 vs v2 마이그레이션 가이드
+
+### v1/examples/ (4개 실습 예제 문서 - Legacy)
 
 **python-requests-client.ko.md**
 - 간단한 방식: `x402_requests`
@@ -275,15 +323,17 @@ Private Key = 특정 방 열쇠 (한 계정만 복구)
 ```
 1단계: getting_started.ko.md (환경 설정)
     ↓
-2단계: python-requests-client.ko.md (동기 클라이언트)
+2단계: v1/examples/python-requests-client.ko.md (동기 클라이언트)
     ↓
-3단계: python-httpx-client.ko.md (비동기 클라이언트)
+3단계: v1/examples/python-httpx-client.ko.md (비동기 클라이언트)
     ↓
-4단계: python-fastapi-server.ko.md (서버 구현)
+4단계: v1/examples/python-fastapi-server.ko.md (서버 구현)
     ↓
-5단계: python-discovery.ko.md (고급 기능)
+5단계: v1/examples/python-discovery.ko.md (고급 기능)
     ↓
-6단계: Base Mainnet 배포 (준비 중)
+6단계: x402-v2-specification.ko.md (v2 프로토콜 이해)
+    ↓
+7단계: Base Mainnet 배포 (준비 중)
 ```
 
 ---
@@ -292,15 +342,18 @@ Private Key = 특정 방 열쇠 (한 계정만 복구)
 
 ### 한글 가이드
 - `docs/korean/getting_started.ko.md` - 시작 가이드
-- `docs/korean/examples/` - Python 예제 튜토리얼 (4개)
+- `docs/korean/x402-v2-specification.ko.md` - v2 프로토콜 스펙
+- `docs/korean/v1/examples/` - v1 Python 예제 튜토리얼 (4개)
+- `docs/korean/v2/` - v2 문서 (준비 중)
 
 ### 공식 예제 (읽기 전용)
-- `external/x402/examples/python/legacy/clients/` - Python 클라이언트 예제
-- `external/x402/examples/python/legacy/servers/` - Python 서버 예제
-- `external/x402/examples/typescript/` - TypeScript 예제
+- `external/x402/examples/python/legacy/` - Python v1 예제
+- `external/x402/examples/typescript/` - TypeScript v2 예제
+- `external/x402/examples/go/` - Go v2 예제
 
-### Base 특화 예제 (작성 중)
-- `examples/base-specific/` - Base 최적화 사용 사례
+### Base 특화 예제
+- `examples/v1/` - v1 Legacy 예제 (ap2-demo-coffee-shop)
+- `examples/v2/` - v2 예제 (준비 중)
 
 ### 프로젝트 문서
 - `README.md` - 프로젝트 소개 (한글/영문)
@@ -399,9 +452,12 @@ NETWORK=base-sepolia
   - Web2 → Web3 교육 방식
   - 타임스탬프 및 업데이트 경고 포함
 
-- **`examples/base-specific/`**: Base 특화 예제
-  - Base 최적화 (가스비, USDC 통합)
-  - AI 에이전트, 프로덕션 패턴
+- **`examples/v1/`**: v1 Legacy 예제
+  - x402 v1 SDK 기반 데모
+  - ap2-demo-coffee-shop 등
+
+- **`examples/v2/`**: v2 예제 (준비 중)
+  - x402 v2 SDK 기반 예제
   - 커뮤니티 기여 환영
 
 ---
@@ -418,7 +474,7 @@ NETWORK=base-sepolia
 
 **예제 실행**:
 ```bash
-cd external/x402/examples/python/clients/requests
+cd external/x402/examples/python/legacy/clients/requests
 cp .env-local .env
 # .env 파일에 Private Key 추가
 uv sync
@@ -447,7 +503,7 @@ uv run python main.py
 
 ```bash
 # 서브모듈과 함께 클론
-git clone --recursive https://github.com/YOUR_USERNAME/awesome-x402-on-base.git
+git clone --recursive https://github.com/Daehan-Base/awesome-x402-on-base.git
 
 # 또는 이미 클론한 경우
 git submodule update --init --recursive
@@ -491,19 +547,25 @@ uv run python main.py
 ### 한글 가이드 작성
 
 ```bash
-# 새 가이드 작성
-cd docs/korean/examples
+# 새 v1 가이드 작성
+cd docs/korean/v1/examples
 # 템플릿을 참고하여 새 .ko.md 파일 작성
 # 타임스탬프 및 업데이트 경고 포함
+
+# 또는 v2 문서 작성
+cd docs/korean/v2
 ```
 
 ### Base 특화 예제 추가
 
 ```bash
-# 공식 예제를 examples/base-specific/에 복사
-cp -r external/x402/examples/python/servers/fastapi examples/base-specific/
+# v1 예제 추가
+cp -r external/x402/examples/python/legacy/servers/fastapi examples/v1/
 # Base 최적화 적용 (가스비, USDC 통합)
 # README.md 작성
+
+# v2 예제 추가
+cp -r external/x402/examples/typescript/servers examples/v2/
 ```
 
 ---
@@ -579,19 +641,22 @@ cp -r external/x402/examples/python/servers/fastapi examples/base-specific/
 1. docs/korean/getting_started.ko.md
    └─ CDP Platform 계정, 지갑 설정, 환경 변수
       ↓
-2. docs/korean/examples/python-requests-client.ko.md
-   └─ 동기 HTTP 클라이언트
+2. docs/korean/v1/examples/python-requests-client.ko.md
+   └─ 동기 HTTP 클라이언트 (v1 Legacy)
       ↓
-3. docs/korean/examples/python-httpx-client.ko.md
-   └─ 비동기 클라이언트
+3. docs/korean/v1/examples/python-httpx-client.ko.md
+   └─ 비동기 클라이언트 (v1 Legacy)
       ↓
-4. docs/korean/examples/python-fastapi-server.ko.md
-   └─ 유료 API 서버 구현
+4. docs/korean/v1/examples/python-fastapi-server.ko.md
+   └─ 유료 API 서버 구현 (v1 Legacy)
       ↓
-5. docs/korean/examples/python-discovery.ko.md
-   └─ x402 서비스 자동 검색
+5. docs/korean/v1/examples/python-discovery.ko.md
+   └─ x402 서비스 자동 검색 (v1 Legacy)
       ↓
-6. examples/base-specific/ (준비 중)
+6. docs/korean/x402-v2-specification.ko.md
+   └─ v2 프로토콜 이해
+      ↓
+7. examples/v2/ (준비 중)
    └─ Base Mainnet 배포, AI 에이전트 통합
 ```
 
@@ -634,7 +699,11 @@ cp -r external/x402/examples/python/servers/fastapi examples/base-specific/
 ## 🚀 개발 로드맵
 
 - **Phase 1** ✅: 기반 구축 (완료)
-- **Phase 2** 🔄: 한국어 문서화 (진행 중, ~50%)
+- **Phase 2** 🔄: 한국어 문서화 (진행 중, ~70%)
+  - ✅ v1/v2 디렉토리 구조 재편성
+  - ✅ v1 Python 예제 가이드 4개 완료
+  - ✅ x402 v2 프로토콜 스펙 문서 완료
+  - ⏳ Base 체인 가이드 (USDC faucet, 가스비 최적화)
 - **Phase 3** ⏳: AI 에이전트, 프로덕션 가이드 (계획)
 - **Phase 4** ⏳: 글로벌 확장 (계획)
 
@@ -656,5 +725,5 @@ cp -r external/x402/examples/python/servers/fastapi examples/base-specific/
 
 ---
 
-**문서 버전**: 1.0  
-**최종 업데이트**: 2025-12-11
+**문서 버전**: 1.1
+**최종 업데이트**: 2025-12-16
