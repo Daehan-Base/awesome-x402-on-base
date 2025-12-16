@@ -1,4 +1,13 @@
-# x402 Discovery 예제
+# x402 Discovery 예제 (v1 Legacy)
+
+> ⚠️ **Legacy 문서 (v1)**
+>
+> 이 문서는 x402 **v1 SDK**를 다룹니다.
+> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+>
+> **v1 예제 경로**: `external/x402/examples/python/legacy/`
+
+---
 
 x402 패키지의 discovery 기능을 사용하여 네트워크상의 x402로 보호된 리소스를 검색하고 나열하는 방법을 소개합니다.
 
@@ -28,7 +37,7 @@ API 문서를 찾아다니지 않고도 사용 가능한 모든 엔드포인트�
 ## 전제 조건
 
 - Python 3.10 이상
-- uv 패키지 매니저 ([uv.dev](https://uv.dev)에서 설치)
+- uv 패키지 매니저 ([docs.astral.sh/uv](https://docs.astral.sh/uv/)에서 설치)
 
 ## 설정 및 사용법
 
@@ -384,4 +393,4 @@ x402 생태계의 중앙 레지스트리로, 모든 x402 보호 리소스의 메
 
 ---
 
-[← 외부 리소스로 돌아가기](../../external/README.ko.md)
+[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.ko.md)
