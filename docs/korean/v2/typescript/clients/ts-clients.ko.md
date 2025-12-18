@@ -4,12 +4,12 @@
 
 ## 디렉토리 구조
 
-| 디렉토리 | 설명 |
-| --- | --- |
-| [`fetch/`](./fetch/) | 네이티브 Fetch API와 함께 `@x402/fetch`를 사용하는 예제 |
-| [`axios/`](./axios/) | Axios와 함께 `@x402/axios`를 사용하는 예제 |
-| [`advanced/`](./advanced/) | 고급 패턴: 라이프사이클 훅, 네트워크 선호도 설정 |
-| [`custom/`](./custom/) | `@x402/core`만을 사용한 수동 구현 예제 |
+| 디렉토리                                                            | 설명                                                    |
+| ------------------------------------------------------------------- | ------------------------------------------------------- |
+| [`fetch/`](/external/x402/examples/typescript/clients/fetch/)       | 네이티브 Fetch API와 함께 `@x402/fetch`를 사용하는 예제 |
+| [`axios/`](/external/x402/examples/typescript/clients/axios/)       | Axios와 함께 `@x402/axios`를 사용하는 예제              |
+| [`advanced/`](/external/x402/examples/typescript/clients/advanced/) | 고급 패턴: 라이프사이클 훅, 네트워크 선호도 설정        |
+| [`custom/`](/external/x402/examples/typescript/clients/custom/)     | `@x402/core`만을 사용한 수동 구현 예제                  |
 
 ## 프레임워크 예제
 
@@ -18,7 +18,7 @@
 1. 402 응답 인터셉트
 2. 결제 오구 사항 파싱
 3. 결제 생성 및 서명
-4. 결제 해더를 포함하여 요청 재시도
+4. 결제 헤더를 포함하여 요청 재시도
 
 사용 중인 HTTP 클라이언트에 맞는 예제를 선택하세요.
 
@@ -43,4 +43,4 @@
 
 1. 원하는 예제 디렉토리를 선택합니다.
 2. 해당 디렉토리의 README를 따라 진행합니다.
-3. 테스트를 위해 실행 중인 [서버](../servers/)가 있는지 확인합니다.
+3. 테스트를 위해 실행 중인 [서버](/external/x402/examples/typescript/servers/)가 있는지 확인합니다.
