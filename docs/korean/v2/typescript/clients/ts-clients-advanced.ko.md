@@ -83,7 +83,7 @@ pnpm dev:builder-pattern
 
 ## 예제: 빌더 패턴 기반 등록
 
-빌더 패턴을 사용하면 어떤 네트워크를 지원할지, 어떤 서명자를 사용하지를 세밀하게 제어할 수 있습니다.
+빌더 패턴을 사용하면 어떤 네트워크를 지원할지, 어떤 서명자를 사용할지를 세밀하게 제어할 수 있습니다.
 
 ```typescript
 import { x402Client, wrapFetchWithPayment } from "@x402/fetch";

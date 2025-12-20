@@ -36,7 +36,7 @@ pnpm dev
 
 ## 환경 변수 설정 방법
 
-Configure the following variables in your `.env`:
+`.env` 파일에서 다음 환경 변수들을 설정하세요.
 
 ### 필요한 변수
 

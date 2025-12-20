@@ -89,4 +89,4 @@ curl -L https://foundry.paradigm.xyz | bash
 cast w new
 ```
 
-생성된 지갑은 대부분의 네트워크에서 테스트넷 [CDP Faucet](https://portal.cdp.coinbase.com/products/faucet)을 통해 자금을 받을 수 있습니다. case 명령으로 생성한 주소를 입력하면 됩니다.
+생성된 지갑은 대부분의 네트워크에서 테스트넷 [CDP Faucet](https://portal.cdp.coinbase.com/products/faucet)을 통해 자금을 받을 수 있습니다. cast 명령으로 생성한 주소를 입력하면 됩니다.
