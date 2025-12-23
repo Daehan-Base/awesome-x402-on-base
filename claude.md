@@ -9,7 +9,7 @@ Read `README.md` for overall architecture and purpose of this project.
 
 Consult component READMEs for detailed information:
 - `docs/korean/README.md` - Korean documentation structure
-- `docs/korean/v1/README.md` - v1 Legacy examples guide
+- `docs/korean/python/v1/README.md` - Python v1 Legacy examples guide
 - `examples/README.md` - Base-specific examples
 
 
@@ -19,11 +19,13 @@ Consult component READMEs for detailed information:
 awesome-x402-on-base/
 ├── external/x402/       # Git submodule - official x402 repository (READ-ONLY)
 ├── examples/            # Base chain-specific examples
-│   ├── v1/              # v1 Legacy SDK examples
-│   └── v2/              # v2 SDK examples (in progress)
+│   └── python/          # Python examples
+│       ├── v1/          # v1 Legacy SDK examples (ap2-demo-coffee-shop)
+│       └── v2/          # v2 SDK examples (in progress)
 ├── docs/korean/         # Korean documentation
-│   ├── v1/examples/     # v1 Python example tutorials (4 files)
-│   └── v2/              # v2 documentation (in progress)
+│   └── python/          # Python documentation
+│       ├── v1/examples/ # v1 Python example tutorials (4 files)
+│       └── v2/          # v2 documentation (in progress)
 ├── README.md            # Project introduction
 ├── ROADMAP.md           # Development roadmap
 └── CLAUDE.md            # This file
@@ -37,15 +39,15 @@ awesome-x402-on-base/
 - Never modify directly; update via `git submodule update --remote`
 
 **`examples/`** - Base chain-specific examples
-- `v1/`: Examples using x402 v1 Legacy SDK (e.g., ap2-demo-coffee-shop)
-- `v2/`: Examples using x402 v2 SDK (in progress)
+- `python/v1/`: Python examples using x402 v1 Legacy SDK (e.g., ap2-demo-coffee-shop)
+- `python/v2/`: Python examples using x402 v2 SDK (in progress)
 - Community contributions welcome
 
 **`docs/korean/`** - Korean documentation for x402 on Base
 - `getting_started.ko.md`: Environment setup guide
 - `x402-v2-specification.ko.md`: v2 protocol specification
-- `v1/examples/`: Step-by-step tutorials for v1 Python examples
-- `v2/`: v2 documentation (in progress)
+- `python/v1/examples/`: Step-by-step tutorials for v1 Python examples
+- `python/v2/`: Python v2 documentation (in progress)
 
 
 ## README-First Development

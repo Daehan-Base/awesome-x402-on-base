@@ -8,14 +8,16 @@
 
 ## 버전별 예제
 
-### v1 (Legacy)
+### Python
 
-- [v1/](v1/) - x402 v1 SDK 기반 예제
-  - [ap2-demo-coffee-shop](v1/ap2-demo-coffee-shop/) - AI 에이전트 커피숍 데모
+#### v1 (Legacy)
 
-### v2 (최신)
+- [python/v1/](python/v1/) - x402 v1 SDK 기반 예제
+  - [ap2-demo-coffee-shop](python/v1/ap2-demo-coffee-shop/) - AI 에이전트 커피숍 데모
 
-- [v2/](v2/) - x402 v2 SDK 기반 예제 (준비 중)
+#### v2 (최신)
+
+- [python/v2/](python/v2/) - x402 v2 SDK 기반 예제 (준비 중)
 
 ---
 

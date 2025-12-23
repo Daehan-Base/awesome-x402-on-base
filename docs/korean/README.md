@@ -19,17 +19,17 @@
 > 2025년 12월 11일 출시
 
 - [x402-v2-specification.ko.md](x402-v2-specification.ko.md) - **v2 프로토콜 전체 명세서**
-- [v2/](v2/) - v2 관련 문서
+- [python/v2/](python/v2/) - Python v2 관련 문서
 
 ### v1 (Legacy)
 
 > Python SDK 기반 예제 문서
 
-- [v1/](v1/) - v1 Legacy 문서
-  - [python-requests-client.ko.md](v1/examples/python-requests-client.ko.md)
-  - [python-httpx-client.ko.md](v1/examples/python-httpx-client.ko.md)
-  - [python-fastapi-server.ko.md](v1/examples/python-fastapi-server.ko.md)
-  - [python-discovery.ko.md](v1/examples/python-discovery.ko.md)
+- [python/v1/](python/v1/) - Python v1 Legacy 문서
+  - [requests-client.ko.md](python/v1/examples/requests-client.ko.md)
+  - [httpx-client.ko.md](python/v1/examples/httpx-client.ko.md)
+  - [fastapi-server.ko.md](python/v1/examples/fastapi-server.ko.md)
+  - [discovery.ko.md](python/v1/examples/discovery.ko.md)
 
 ---
 
