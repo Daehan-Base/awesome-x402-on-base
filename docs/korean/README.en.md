@@ -19,17 +19,17 @@
 > Released on December 11, 2025
 
 - [x402-v2-specification.ko.md](x402-v2-specification.ko.md) - **Complete v2 Protocol Specification**
-- [v2/](v2/) - v2 related documentation
+- [python/v2/](python/v2/) - Python v2 related documentation
 
 ### v1 (Legacy)
 
 > Python SDK-based example documentation
 
-- [v1/](v1/) - v1 Legacy documentation
-  - [python-requests-client.ko.md](v1/examples/python-requests-client.ko.md)
-  - [python-httpx-client.ko.md](v1/examples/python-httpx-client.ko.md)
-  - [python-fastapi-server.ko.md](v1/examples/python-fastapi-server.ko.md)
-  - [python-discovery.ko.md](v1/examples/python-discovery.ko.md)
+- [python/v1/](python/v1/) - Python v1 Legacy documentation
+  - [requests-client.ko.md](python/v1/examples/requests-client.ko.md)
+  - [httpx-client.ko.md](python/v1/examples/httpx-client.ko.md)
+  - [fastapi-server.ko.md](python/v1/examples/fastapi-server.ko.md)
+  - [discovery.ko.md](python/v1/examples/discovery.ko.md)
 
 ---
 

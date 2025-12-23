@@ -8,14 +8,16 @@
 
 ## Examples by Version
 
-### v1 (Legacy)
+### Python
 
-- [v1/](v1/) - Examples based on x402 v1 SDK
-  - [ap2-demo-coffee-shop](v1/ap2-demo-coffee-shop/) - AI agent coffee shop demo
+#### v1 (Legacy)
 
-### v2 (Latest)
+- [python/v1/](python/v1/) - Examples based on x402 v1 SDK
+  - [ap2-demo-coffee-shop](python/v1/ap2-demo-coffee-shop/) - AI agent coffee shop demo
 
-- [v2/](v2/) - Examples based on x402 v2 SDK (coming soon)
+#### v2 (Latest)
+
+- [python/v2/](python/v2/) - Examples based on x402 v2 SDK (coming soon)
 
 ---
 
