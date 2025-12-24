@@ -43,11 +43,11 @@ cd clients/mcp
 }
 ```
 
-1. `RESOURCE_SERVER_URL`에 지정한 주소에서 x402 서버가 실행 중인지 확인 (예: express 서버 예시 `examples/typescript/servers/express`)
+3. `RESOURCE_SERVER_URL`에 지정한 주소에서 x402 서버가 실행 중인지 확인 (예: express 서버 예시 `examples/typescript/servers/express`)
 
-2. 새로운 MCP 서버로 Claude 데스크탑 재시작 
+4. 새로운 MCP 서버로 Claude 데스크탑 재시작 
 
-3. Claude에게 `get-data-from-resource-server` 도구(tool) 사용 요청
+5. Claude에게 `get-data-from-resource-server` 도구(tool) 사용 요청
 
 ## 동작 방식
 
