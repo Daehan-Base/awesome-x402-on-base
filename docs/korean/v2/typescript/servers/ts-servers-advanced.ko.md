@@ -82,7 +82,7 @@ pnpm dev
 ### Fetch 클라이언트 사용
 
 ```bash
-cd ../clients/fetch
+cd ../../clients/fetch
 # .env 설정이 되어 있는지 확인
 pnpm dev
 ```
