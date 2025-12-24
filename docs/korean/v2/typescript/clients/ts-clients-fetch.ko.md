@@ -41,7 +41,7 @@ cp .env-local .env
 
 필수적인 환경 변수는 다음과 같습니다.
 
-- `EVM_PRIVATE_KEY` - VM 결제를 위한 이더리움 개인키
+- `EVM_PRIVATE_KEY` - EVM 결제를 위한 이더리움 개인키
 - `SVM_PRIVATE_KEY` - SVM 결제를 위한 솔라나 개인키
 
 3. 클라이언트 실행
