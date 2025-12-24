@@ -90,7 +90,7 @@ pnpm dev
 ### Axios 클라이언트 사용
 
 ```bash
-cd ../clients/axios
+cd ../../clients/axios
 # .env 설정이 되어 있는지 확인
 pnpm dev
 ```
