@@ -2,7 +2,7 @@
 
 # x402 Farcaster Mini App 예제 (v2 SDK)
 
-이 프로젝트는 [Next.js](https://nextjs.org) 기반으로 `@x402/next`, `@x402/fetch`, `@x402/evm` 패키지를 사용해 x402 결제 보호 API 엔드포인트를 포함한 Farcaster Mini App(Farcaster Mini App￼)을 구축하는 방법을 시연합니다.
+이 프로젝트는 [Next.js](https://nextjs.org) 기반으로 `@x402/next`, `@x402/fetch`, `@x402/evm` 패키지를 사용해 x402 결제 보호 API 엔드포인트를 포함한 [Farcaster Mini App](https://miniapps.farcaster.xyz/)을 구축하는 방법을 시연합니다.
 
 ## 사전 준비 사항
 

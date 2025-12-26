@@ -247,7 +247,7 @@ const facilitatorClient = [
 
 ## 다음 단계
 
-[Advanced 예제](/external/x402/examples/typescript/servers/advanced/)에서 아래 항목을 확인할 수 있습니다.
+[Advanced 예제](../advanced/)에서 아래 항목을 확인할 수 있습니다.
 
 - **Bazaar Discovery** — API를 발견 가능하게 노출
 - **Dynamic pricing** — 요청 컨텍스트 기반 가격 산정
