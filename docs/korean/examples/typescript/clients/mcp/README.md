@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402 MCP 클라이언트 예제
 
 이 예제는 Model Context Protocol(MCP) 과 x402 결제 프로토콜(v2) 을 함께 사용하여, MCP 서버를 통해 유료 API 요청을 수행하는 방법을 보여주는 클라이언트 예제입니다.

@@ -1,15 +1,17 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402 Client 예제
 
 이 디렉토리는 x402로 보호되는 엔드포인트에 HTTP 요청을 보내는 방법을 보여주는 TypeScript 기반 클라이언트 예제들을 포함하고 있습니다.
 
 ## 디렉토리 구조
 
-| 디렉토리                                                            | 설명                                                    |
-| ------------------------------------------------------------------- | ------------------------------------------------------- |
-| [`fetch/`](/external/x402/examples/typescript/clients/fetch/)       | 네이티브 Fetch API와 함께 `@x402/fetch`를 사용하는 예제 |
-| [`axios/`](/external/x402/examples/typescript/clients/axios/)       | Axios와 함께 `@x402/axios`를 사용하는 예제              |
-| [`advanced/`](/external/x402/examples/typescript/clients/advanced/) | 고급 패턴: 라이프사이클 훅, 네트워크 선호도 설정        |
-| [`custom/`](/external/x402/examples/typescript/clients/custom/)     | `@x402/core`만을 사용한 수동 구현 예제                  |
+| 디렉토리                   | 설명                                                    |
+| -------------------------- | ------------------------------------------------------- |
+| [`fetch/`](./fetch/)       | 네이티브 Fetch API와 함께 `@x402/fetch`를 사용하는 예제 |
+| [`axios/`](./axios/)       | Axios와 함께 `@x402/axios`를 사용하는 예제              |
+| [`advanced/`](./advanced/) | 고급 패턴: 라이프사이클 훅, 네트워크 선호도 설정        |
+| [`custom/`](./custom/)     | `@x402/core`만을 사용한 수동 구현 예제                  |
 
 ## 프레임워크 예제
 
@@ -43,4 +45,4 @@
 
 1. 원하는 예제 디렉토리를 선택합니다.
 2. 해당 디렉토리의 README를 따라 진행합니다.
-3. 테스트를 위해 실행 중인 [서버](/external/x402/examples/typescript/servers/)가 있는지 확인합니다.
+3. 테스트를 위해 실행 중인 [서버](../servers/)가 있는지 확인합니다.

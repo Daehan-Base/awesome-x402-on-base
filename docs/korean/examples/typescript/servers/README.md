@@ -1,15 +1,17 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402 Server 예제
 
 이 디렉토리는 x402 결제 요구 사항을 사용해 API 엔드포인트를 보호하는 방법을 보여주는 타입스크립트 서버 예제들을 포함하고 있습니다.
 
 ## 디렉토리 구조
 
-| 디렉토리                                                            | 설명                                       |
-| ------------------------------------------------------------------- | ------------------------------------------ |
-| [`express/`](/external/x402/examples/typescript/servers/express/)   | `@x402/express` 미들웨어 사용              |
-| [`hono/`](/external/x402/examples/typescript/servers/hono/)         | `@x402/hono` 미들웨어 사용                 |
-| [`advanced/`](/external/x402/examples/typescript/servers/advanced/) | 고급 패턴: 훅, 동적 가격 책정, 커스텀 토큰 |
-| [`custom/`](/external/x402/examples/typescript/servers/custom/)     | `@x402/core`만을 사용한 수동 구현          |
+| 디렉토리                   | 설명                                       |
+| -------------------------- | ------------------------------------------ |
+| [`express/`](./express/)   | `@x402/express` 미들웨어 사용              |
+| [`hono/`](./hono/)         | `@x402/hono` 미들웨어 사용                 |
+| [`advanced/`](./advanced/) | 고급 패턴: 훅, 동적 가격 책정, 커스텀 토큰 |
+| [`custom/`](./custom/)     | `@x402/core`만을 사용한 수동 구현          |
 
 ## 프레임워크 예제
 
@@ -46,5 +48,4 @@
 
 1. 원하는 예제 디렉토리를 선택합니다.
 2. 해당 디렉토리의 README를 따라 진행합니다.
-3. 서버 테스트를 위해 [클라이언트 예제](/external/x402/examples/typescript/clients/) 중 하나를 사용합니다.
-
+3. 서버 테스트를 위해 [클라이언트 예제](../clients/) 중 하나를 사용합니다.

@@ -1,14 +1,16 @@
-# @x402/express 서버 예제
+[한국어](./README.md) | [English](./README.en.md)
 
-`@x402/express` 미들웨어를 사용해 페이월(paywall)로 API 엔드포인트를 보호하는 방법을 보여주는 Express.js 서버 예제입니다.
+# @x402/hono 서버 예제
+
+`@x402/hono` 미들웨어를 사용해 페이월(paywall)로 API 엔드포인트를 보호하는 방법을 보여주는 Hono 서버 예제입니다.
 
 ```typescript
-import express from "express";
-import { paymentMiddleware, x402ResourceServer } from "@x402/express";
+import { Hono } from "hono";
+import { paymentMiddleware, x402ResourceServer } from "@x402/hono";
 import { ExactEvmScheme } from "@x402/evm/exact/server";
 import { HTTPFacilitatorClient } from "@x402/core/server";
 
-const app = express();
+const app = new Hono();
 
 app.use(
   paymentMiddleware(
@@ -24,7 +26,7 @@ app.use(
   ),
 );
 
-app.get("/weather", (req, res) => res.json({ weather: "sunny", temperature: 70 }));
+app.get("/weather", c => c.json({ weather: "sunny", temperature: 70 }));
 ```
 
 ## 사전 준비 사항
@@ -34,7 +36,7 @@ app.get("/weather", (req, res) => res.json({ weather: "sunny", temperature: 70 }
 - 결제 받기 위한 유효한 EVM 및 SVM 주소
 - 원하는 결제 네트워크를 지원하는 Facilitator URL (참고: [facilitator 목록](https://www.x402.org/ecosystem?category=facilitators))
 
-## 설정 방법
+## Setup
 
 1. `.env-local`파일을 `.env`로 복사
 
@@ -53,7 +55,7 @@ cp .env-local .env
 ```bash
 cd ../../
 pnpm install && pnpm build
-cd servers/express
+cd servers/hono
 ```
 
 3. 서버 실행
@@ -205,8 +207,8 @@ app.use(
 );
 
 // 라우트는 평소처럼 정의
-app.get("/your-endpoint", (req, res) => {
-  res.json({
+app.get("/your-endpoint", (c) => {
+  return c.json({
     // 응답 데이터
   });
 });
@@ -225,8 +227,8 @@ app.get("/your-endpoint", (req, res) => {
 
 ```typescript
 const resourceServer = new x402ResourceServer(facilitatorClient)
-  .register("eip155:*", new ExactEvmScheme())   // 모든 EVM 체인
-  .register("solana:*", new ExactSvmScheme())   // 모든 SVM 체인
+  .register("eip155:*", new ExactEvmScheme()) // 모든 EVM 체인
+  .register("solana:*", new ExactSvmScheme()); // 모든 SVM 체인
 ```
 
 ## Facilitator 설정
@@ -252,3 +254,4 @@ const facilitatorClient = [
 - **Dynamic payTo** — 요청별 결제 수신자 라우팅
 - **Lifecycle hooks** — verify/settle에 사용자 정의 로직 추가
 - **Custom tokens** — 커스텀 토큰 결제 수락
+

@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](./README.en.md)
+
 # x402-next 예제 앱
 
 `@x402/next` 미들웨어를 사용하여 페이월(paywall)로 라우트를 보호하는 방법을 보여주는 Next.js 애플리케이션 예제입니다.

@@ -1,16 +1,18 @@
-# x402 Farcaster Mini App 예제 (v2 SDK)
+[한국어](./README.md) | [English](./README.en.md)
 
-이 프로젝트는 [Next.js](https://nextjs.org) 기반으로 `@x402/next`, `@x402/fetch`, `@x402/evm` 패키지를 사용해 x402 결제 보호 API 엔드포인트를 포함한 Farcaster Mini App(Farcaster Mini App￼)을 구축하는 방법을 시연합니다.
+# x402 Farcaster Mini App Example (v2 SDK)
 
-## 사전 준비 사항
+This is a [Next.js](https://nextjs.org) project demonstrating how to build a [Farcaster Mini App](https://miniapps.farcaster.xyz/) with x402 payment-protected API endpoints using the `@x402/next`, `@x402/fetch` and `@x402/evm` packages.
 
-- Node.js 22 이상
-- pnpm v10 (설치: [pnpm.io/installation](https://pnpm.io/installation))
-- Base Sepolia 테스트넷의 USDC
+## Prerequisites
 
-## 시작하기
+- Node.js 22+
+- pnpm v10 (install via [pnpm.io/installation](https://pnpm.io/installation))
+- USDC on Base Sepolia testnet
 
-1. 타입스크립트 예제 루트에서 전체 패키지 설치 및 빌드
+## Getting Started
+
+1. Install and build all packages from the typescript examples root:
 
 ```bash
 cd ../../
@@ -18,38 +20,38 @@ pnpm install && pnpm build
 cd fullstack/miniapp
 ```
 
-2. 다음 환경 변수를 설정합니다.
+2. Copy environment variables:
 
 ```bash
 cp .env-local .env
 ```
 
-3. 환경 변수 설정 (아래 "환경 변수 설정 방법" 참고)
+3. Configure your environment variables (see Environment Setup below)
 
-4. 개발 서버 실행
+4. Start the development server:
 
 ```bash
 pnpm dev
 ```
 
-5. 브라우저에서 [http://localhost:3000](http://localhost:3000) 접속
+5. Open [http://localhost:3000](http://localhost:3000) with your browser
 
-## 환경 변수 설정 방법
+## Environment Setup
 
-`.env` 파일에서 다음 환경 변수들을 설정하세요.
+Configure the following variables in your `.env`:
 
-### 필요한 변수
+### Required Variables
 
 ```bash
-# x402 결제 설정 (필수)
+# x402 Payment Configuration (required)
 FACILITATOR_URL=https://x402.org/facilitator
 EVM_ADDRESS=0xYourWalletAddress
 
-# OnchainKit 설정
+# OnchainKit Configuration
 NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_onchainkit_api_key_here
 NEXT_PUBLIC_ONCHAINKIT_PROJECT_NAME=x402 Mini App
 
-# 앱 URL과 이미지
+# App URLs and Images
 NEXT_PUBLIC_URL=http://localhost:3000
 NEXT_PUBLIC_APP_HERO_IMAGE=https://example.com/app-logo.png
 NEXT_PUBLIC_SPLASH_IMAGE=https://example.com/app-logo-200x200.png
@@ -57,17 +59,17 @@ NEXT_PUBLIC_SPLASH_BACKGROUND_COLOR=#3b82f6
 NEXT_PUBLIC_ICON_URL=https://example.com/app-logo.png
 ```
 
-### API 가져오기
+### Getting API Keys
 
-1. **OnchainKit API Key**: [OnchainKit](https://onchainkit.xyz)에서 발급
-2. **EVM Address**: 결제 받을 지갑 주소
-3. **Facilitator URL**: 공개 facilitator를 사용하거나 직접 운영
+1. **OnchainKit API Key**: Get from [OnchainKit](https://onchainkit.xyz)
+2. **EVM Address**: Your wallet address to receive payments
+3. **Facilitator URL**: Use a public facilitator or run your own
 
-## 동작 방식
+## How It Works
 
-### 서버 사이드 결제 보호
+### Server-Side Payment Protection
 
-`/api/protected` 엔드포인트는 `withX402` 래퍼를 사용하여 결제 보호를 적용합니다.
+The `/api/protected` endpoint uses the `withX402` wrapper for payment protection:
 
 ```typescript
 // app/api/protected/route.ts
@@ -99,28 +101,28 @@ export const GET = withX402(
 );
 ```
 
-### 클라이언트 사이드 결제 처리
+### Client-Side Payment Handling
 
-프론트엔드는 `@x402/fetch`를 사용해 결제를 처리합니다.
+The frontend uses `@x402/fetch` to handle payments:
 
 ```typescript
 import { x402Client, wrapFetchWithPayment } from "@x402/fetch";
 import { registerExactEvmScheme } from "@x402/evm/exact/client";
 
-// 클라이언트 생성 및 EVM 스키마 등록
+// Create client and register EVM scheme
 const client = new x402Client();
 registerExactEvmScheme(client, { signer: wagmiToClientSigner(walletClient) });
 
-// 결제 처리가 포함된 fetch 래핑
+// Wrap fetch with payment handling
 const fetchWithPayment = wrapFetchWithPayment(fetch, client);
 
-// 요청 수행 - 결제는 자동 처리됨
+// Make request - payment is handled automatically
 const response = await fetchWithPayment("/api/protected");
 ```
 
-### Farcaster Mini App 통합
+### Farcaster Mini App Integration
 
-Farcaster Mini App SDK를 사용하여 Mini App 컨텍스트 여부를 감지합니다.
+The app uses the Farcaster Mini App SDK to detect Mini App context:
 
 ```typescript
 import { sdk } from "@farcaster/miniapp-sdk";
@@ -129,9 +131,9 @@ await sdk.actions.ready();
 const isInMiniApp = await sdk.isInMiniApp();
 ```
 
-### Manifest 설정
+### Manifest Configuration
 
-이 앱은 Farcaster 및 Base 앱에 Mini App을 퍼블리시하기 위해 필요한 manifest를 `/.well-known/farcaster.json` 경로에서 제공합니다. `minikit.config.ts`에서 앱 설정을 구성합니다.
+The app serves a manifest at `/.well-known/farcaster.json` which is required for publishing the Mini App to Farcaster and the Base app. Configure your app in `minikit.config.ts`:
 
 ```typescript
 // minikit.config.ts
@@ -153,17 +155,17 @@ export const minikitConfig = {
 };
 ```
 
-**배포하기 전에**, 반드시 해야하는 것들
+**Before publishing**, you must:
 
-1. [Base Dev Mini App Tools](https://www.base.dev/preview?tab=account) 또는 [Farcaster Manifest Tool](https://farcaster.xyz/~/developers/mini-apps/manifest)애서 `accountAssociation` 생성
-2. `baseBuilder.ownerAddress`를 본인 지갑 주소로 설정
-3. `NEXT_PUBLIC_URL`를 프로덕션 도메인으로 변경
-4. 이미지가 요구 조건을 만족하는지 확인
-   - `iconUrl`: 1024x1024px PNG, 알파 채널 없음
+1. Generate `accountAssociation` using [Base Dev Mini App Tools](https://www.base.dev/preview?tab=account) or [Farcaster Manifest Tool](https://farcaster.xyz/~/developers/mini-apps/manifest)
+2. Set `baseBuilder.ownerAddress` to your wallet address
+3. Set `NEXT_PUBLIC_URL` to your production domain
+4. Ensure images meet size requirements:
+   - `iconUrl`: 1024x1024px PNG, no alpha
    - `splashImageUrl`: 200x200px
-   - `heroImageUrl`: 1200x630px (1.91:1 비율)
+   - `heroImageUrl`: 1200x630px (1.91:1 aspect ratio)
 
-## 응답 포맷
+## Response Format
 
 ### Payment Required (402)
 
@@ -173,7 +175,7 @@ Content-Type: application/json
 PAYMENT-REQUIRED: <base64-encoded JSON>
 ```
 
-`PAYMENT-REQUIRED` 헤더에는 결제 요구사항이 포함됩니다.
+The `PAYMENT-REQUIRED` header contains payment requirements:
 
 ```json
 {
@@ -193,7 +195,7 @@ PAYMENT-REQUIRED: <base64-encoded JSON>
 }
 ```
 
-### 성공 응답
+### Successful Response
 
 ```json
 {
@@ -207,11 +209,11 @@ PAYMENT-REQUIRED: <base64-encoded JSON>
 }
 ```
 
-## 예제 확장하기
+## Extending the Example
 
-### 보호 라우트 추가
+### Adding More Protected Routes
 
-새 라우트 파일(예: `app/api/premium/route.ts`)를 만들고 `withX402` 레퍼를 적용합니다.
+Create a new route file (e.g., `app/api/premium/route.ts`) and use the `withX402` wrapper:
 
 ```typescript
 // app/api/premium/route.ts
@@ -248,18 +250,18 @@ export const GET = withX402(
 );
 ```
 
-### 네트워크 식별자
+### Network Identifiers
 
-네트워크 식별자는 [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-2.md) 형식을 사용합니다.
+Network identifiers use [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/main/CAIPs/caip-2.md) format:
 
 - `eip155:84532` - Base Sepolia
 - `eip155:8453` - Base Mainnet
 
 ## Resources
 
-- [Farcaster Mini Apps 문서](https://miniapps.farcaster.xyz/)
-- [x402 Protocol 문서](https://x402.org)
-- [OnchainKit 문서](https://onchainkit.xyz)
-- [MiniKit 문서](https://docs.base.org/builderkits/minikit/overview)
-- [Next.js 문서](https://nextjs.org/docs)
-- [Tailwind CSS v4 문서](https://tailwindcss.com/docs)
+- [Farcaster Mini Apps Documentation](https://miniapps.farcaster.xyz/)
+- [x402 Protocol Documentation](https://x402.org)
+- [OnchainKit Documentation](https://onchainkit.xyz)
+- [MiniKit Documentation](https://docs.base.org/builderkits/minikit/overview)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)

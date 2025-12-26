@@ -1,7 +1,8 @@
-# Custom x402 클라이언트 구현
+[한국어](./README.md) | [English](./README.en.md)
+
+# 커스텀 x402 클라이언트 구현
 
 이 예제는 `@x402/fetch`, `@x402/axios` 같은 편의 래퍼 없이, 코어 패키지만 사용해서 x402 결제 처리를 수동으로 구현하는 방법을 보여줍니다.
-
 
 ```typescript
 import { x402Client } from "@x402/core/client";
