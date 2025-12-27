@@ -18,6 +18,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **Python v2 SDK 참조** - PR [#841](https://github.com/coinbase/x402/pull/841) 링크 추가
 
 ### Changed
+- **External 링크 이원화** - 모든 외부 x402 참조에 이중 링크 적용 (30개 파일)
+  - 📂 로컬: `external/x402/` 서브모듈 경로
+  - 🔗 원본: GitHub coinbase/x402 레포 링크
+  - 테이블 형식: "로컬 코드" + "원본 레포" 열 분리
 - **디렉토리 구조 재편** - "language-first" 패턴 도입
   - `docs/korean/` → `docs/` (언어 접두사 제거)
   - `docs/korean/v1/examples/` → `docs/python/v1/` (언어 → 버전 → 기능 구조)
