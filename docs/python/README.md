@@ -13,6 +13,7 @@
 > 2025년 12월 출시, 모듈형 SDK 기반
 
 - [v2/](v2/) - Python v2 문서 (준비 중)
+- 🚧 **Python v2 SDK 작업 중**: [PR #841](https://github.com/coinbase/x402/pull/841)
 
 ### v1 (Legacy)
 

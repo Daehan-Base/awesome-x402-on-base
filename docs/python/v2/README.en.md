@@ -29,7 +29,8 @@
 
 ## v2 Examples (In Progress)
 
-> v2 Python examples are currently being prepared in the official repository.
+> 🚧 **Python v2 SDK In Progress**: [PR #841](https://github.com/coinbase/x402/pull/841)
+>
 > TypeScript examples are available at [official repository](https://github.com/coinbase/x402/tree/main/examples/typescript).
 
 ### TypeScript Examples

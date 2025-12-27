@@ -29,7 +29,8 @@
 
 ## v2 예제 (준비 중)
 
-> v2 Python 예제는 현재 공식 레포지토리에서 준비 중입니다.
+> 🚧 **Python v2 SDK 작업 중**: [PR #841](https://github.com/coinbase/x402/pull/841)
+>
 > TypeScript 예제는 [공식 레포지토리](https://github.com/coinbase/x402/tree/main/examples/typescript)에서 확인할 수 있습니다.
 
 ### TypeScript 예제
