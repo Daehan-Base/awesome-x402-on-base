@@ -510,7 +510,7 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 ## Additional Resources
 
 - [FastAPI Official Documentation](https://fastapi.tiangolo.com/)
-- [x402 Protocol Specification](https://github.com/coinbase/x402)
+- x402 Protocol Specification: [📂 Local](../../../../../external/x402/) | [🔗 Origin](https://github.com/coinbase/x402)
 - [Base Network Documentation](https://docs.base.org/)
 
 ---

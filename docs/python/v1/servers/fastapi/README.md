@@ -510,7 +510,7 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 ## 추가 리소스
 
 - [FastAPI 공식 문서](https://fastapi.tiangolo.com/)
-- [x402 프로토콜 사양](https://github.com/coinbase/x402)
+- x402 프로토콜 사양: [📂 로컬](../../../../../external/x402/) | [🔗 원본](https://github.com/coinbase/x402)
 - [Base 네트워크 문서](https://docs.base.org/)
 
 ---
