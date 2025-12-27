@@ -126,15 +126,15 @@ awesome-x402-on-base/
 
 ### TypeScript 예제 (v2 최신)
 
-| 예제 | 한글 가이드 |
-|------|------------|
-| **Axios 클라이언트** | [→ 한글 가이드](./docs/typescript/v2/clients/axios/) |
-| **Fetch 클라이언트** | [→ 한글 가이드](./docs/typescript/v2/clients/fetch/) |
-| **Express 서버** | [→ 한글 가이드](./docs/typescript/v2/servers/express/) |
-| **Hono 서버** | [→ 한글 가이드](./docs/typescript/v2/servers/hono/) |
-| **Next.js Fullstack** | [→ 한글 가이드](./docs/typescript/v2/fullstack/next/) |
-| **Farcaster Mini App** | [→ 한글 가이드](./docs/typescript/v2/fullstack/miniapp/) |
-| **MCP 클라이언트** | [→ 한글 가이드](./docs/typescript/v2/clients/mcp/) |
+| 예제 | 공식 코드 | 한글 가이드 |
+|------|----------|------------|
+| **Axios 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) | [→ 한글 가이드](./docs/typescript/v2/clients/axios/) |
+| **Fetch 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) | [→ 한글 가이드](./docs/typescript/v2/clients/fetch/) |
+| **Express 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) | [→ 한글 가이드](./docs/typescript/v2/servers/express/) |
+| **Hono 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ 한글 가이드](./docs/typescript/v2/servers/hono/) |
+| **Next.js Fullstack** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ 한글 가이드](./docs/typescript/v2/fullstack/next/) |
+| **Farcaster Mini App** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ 한글 가이드](./docs/typescript/v2/fullstack/miniapp/) |
+| **MCP 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ 한글 가이드](./docs/typescript/v2/clients/mcp/) |
 
 ### 서브모듈 사용하기
 

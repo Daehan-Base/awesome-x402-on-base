@@ -126,15 +126,15 @@ awesome-x402-on-base/
 
 ### TypeScript Examples (v2 Latest)
 
-| Example | Korean Guide |
-|---------|--------------|
-| **Axios Client** | [→ Korean Guide](./docs/typescript/v2/clients/axios/) |
-| **Fetch Client** | [→ Korean Guide](./docs/typescript/v2/clients/fetch/) |
-| **Express Server** | [→ Korean Guide](./docs/typescript/v2/servers/express/) |
-| **Hono Server** | [→ Korean Guide](./docs/typescript/v2/servers/hono/) |
-| **Next.js Fullstack** | [→ Korean Guide](./docs/typescript/v2/fullstack/next/) |
-| **Farcaster Mini App** | [→ Korean Guide](./docs/typescript/v2/fullstack/miniapp/) |
-| **MCP Client** | [→ Korean Guide](./docs/typescript/v2/clients/mcp/) |
+| Example | Official Code | Korean Guide |
+|---------|---------------|--------------|
+| **Axios Client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) | [→ Korean Guide](./docs/typescript/v2/clients/axios/) |
+| **Fetch Client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) | [→ Korean Guide](./docs/typescript/v2/clients/fetch/) |
+| **Express Server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) | [→ Korean Guide](./docs/typescript/v2/servers/express/) |
+| **Hono Server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ Korean Guide](./docs/typescript/v2/servers/hono/) |
+| **Next.js Fullstack** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ Korean Guide](./docs/typescript/v2/fullstack/next/) |
+| **Farcaster Mini App** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ Korean Guide](./docs/typescript/v2/fullstack/miniapp/) |
+| **MCP Client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ Korean Guide](./docs/typescript/v2/clients/mcp/) |
 
 ### Using the Submodule
 
