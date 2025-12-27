@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests)
+
 # x402 requests 클라이언트 예제 (v1 Legacy)
 
 > ⚠️ **Legacy 문서 (v1)**

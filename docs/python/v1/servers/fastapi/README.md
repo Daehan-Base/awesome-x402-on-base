@@ -1,3 +1,5 @@
+[한국어](./README.md) | [English](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi)
+
 # x402 FastAPI 서버 예제 (v1 Legacy)
 
 > ⚠️ **Legacy 문서 (v1)**
