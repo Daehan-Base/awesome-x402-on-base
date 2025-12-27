@@ -12,7 +12,7 @@
 **What**: Base chain-specific x402 v1 examples and advanced use cases
 **Official Examples**: Use [`external/x402/examples/python/legacy`](https://github.com/coinbase/x402/tree/main/examples/python/legacy) (via submodule)
 **This Directory**: Base optimizations, AI agents, production patterns
-**Korean Guides**: Available in [`docs/python/v1/examples/`](../../../docs/python/v1/examples/)
+**Korean Guides**: Available in [`docs/python/v1/`](../../../docs/python/v1/)
 
 ---
 
@@ -52,7 +52,7 @@ The [official x402 v1 examples](https://github.com/coinbase/x402/tree/main/examp
 
 For standard x402 v1 implementations, refer to:
 - [Official Python Examples](https://github.com/coinbase/x402/tree/main/examples/python/legacy) (via submodule)
-- [Korean Guides for Official Examples](../../../docs/python/v1/examples/)
+- [Korean Guides for Official Examples](../../../docs/python/v1/)
 
 ## Base-Specific Examples (Coming Soon)
 

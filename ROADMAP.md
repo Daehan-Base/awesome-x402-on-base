@@ -31,7 +31,7 @@
 - [x] x402 v2 프로토콜 스펙 문서 (한글) - `x402-v2-specification.md`
 
 ### Python v1 예제 가이드 (완료)
-- [x] requests 클라이언트 가이드 (한글) - `docs/v1/examples/`
+- [x] requests 클라이언트 가이드 (한글) - `docs/python/v1/`
 - [x] httpx 클라이언트 가이드 (한글)
 - [x] FastAPI 서버 가이드 (한글)
 - [x] Discovery 예제 가이드 (한글)

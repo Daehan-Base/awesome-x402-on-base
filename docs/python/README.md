@@ -18,8 +18,7 @@
 
 > 단일 `x402` 패키지 기반
 
-- [v1/](v1/) - Python v1 Legacy 문서
-  - [examples/](v1/examples/) - 예제 가이드 (requests, httpx, fastapi, discovery)
+- [v1/](v1/) - Python v1 Legacy 문서 (clients/, servers/, discovery/)
 
 ---
 

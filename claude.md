@@ -22,9 +22,9 @@ awesome-x402-on-base/
 │   └── python/          # Python examples
 │       ├── v1/          # v1 Legacy SDK examples (ap2-demo-coffee-shop)
 │       └── v2/          # v2 SDK examples (in progress)
-├── docs/         # Korean documentation
+├── docs/                # Korean documentation
 │   └── python/          # Python documentation
-│       ├── v1/examples/ # v1 Python example tutorials (4 files)
+│       ├── v1/          # v1 Legacy docs (clients/, servers/, discovery/)
 │       └── v2/          # v2 documentation (in progress)
 ├── README.md            # Project introduction
 ├── ROADMAP.md           # Development roadmap
@@ -46,7 +46,7 @@ awesome-x402-on-base/
 **`docs/`** - Korean documentation for x402 on Base
 - `getting_started.md`: Environment setup guide
 - `x402-v2-specification.md`: v2 protocol specification
-- `python/v1/examples/`: Step-by-step tutorials for v1 Python examples
+- `python/v1/`: v1 Legacy tutorials (clients/, servers/, discovery/)
 - `python/v2/`: Python v2 documentation (in progress)
 
 

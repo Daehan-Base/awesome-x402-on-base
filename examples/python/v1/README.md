@@ -12,7 +12,7 @@
 **무엇**: Base 체인 특화 x402 v1 예제 및 고급 사용 사례
 **공식 예제**: [`external/x402/examples/python/legacy`](https://github.com/coinbase/x402/tree/main/examples/python/legacy) 사용 (서브모듈)
 **이 디렉토리**: Base 최적화, AI 에이전트, 프로덕션 패턴
-**한글 가이드**: [`docs/python/v1/examples/`](../../../docs/python/v1/examples/)에서 확인
+**한글 가이드**: [`docs/python/v1/`](../../../docs/python/v1/)에서 확인
 
 ---
 
@@ -52,7 +52,7 @@ examples/
 
 표준 x402 v1 구현은 다음을 참조하세요:
 - [공식 Python 예제](https://github.com/coinbase/x402/tree/main/examples/python/legacy) (서브모듈)
-- [공식 예제 한글 가이드](../../../docs/python/v1/examples/)
+- [공식 예제 한글 가이드](../../../docs/python/v1/)
 
 ## Base 특화 예제 (준비 중)
 

@@ -18,8 +18,7 @@
 
 > Single `x402` package based
 
-- [v1/](v1/) - Python v1 Legacy Documentation
-  - [examples/](v1/examples/) - Example Guides (requests, httpx, fastapi, discovery)
+- [v1/](v1/) - Python v1 Legacy Documentation (clients/, servers/, discovery/)
 
 ---
 

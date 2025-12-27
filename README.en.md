@@ -155,7 +155,7 @@ Access official examples:
 ls external/x402/examples/python  # If empty, run the commands above
 
 cd external/x402/examples/python
-# Follow Korean guides in docs/python/v1/examples/
+# Follow Korean guides in docs/python/v1/
 ```
 
 ## 🗺️ Roadmap
