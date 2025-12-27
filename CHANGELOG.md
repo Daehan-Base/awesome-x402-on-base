@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [2025-12-27]
 
 ### Added
+- **Agent Skills** - [agentskills.io](https://agentskills.io) 오픈 스탠다드 준수 ([#16](https://github.com/Daehan-Base/awesome-x402-on-base/pull/16))
+  - `.agents/skills/` 디렉토리에 4개 skill 추가
+  - `validate-links`: 문서 링크 유효성 검사
+  - `sync-docs`: 한/영 문서 쌍 확인 + 수정일 비교
+  - `create-doc`: 문서 템플릿 생성
+  - `check-contribution`: PR 전 체크리스트
+  - `.claude/skills/` 심볼릭 링크로 Claude Code 연동
 - **docs/ 루트 인덱스** - README.md, README.en.md 추가
 - **docs/python/** - Python 문서 디렉토리 신설 (README.md, README.en.md)
 - **docs/python/v1/** - feature-based 구조로 재편성
