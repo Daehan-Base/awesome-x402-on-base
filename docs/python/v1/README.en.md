@@ -11,12 +11,12 @@
 
 ## Python Example Documentation
 
-| Document | Description | Official Example |
-|------|------|----------------|
-| [requests Client](clients/requests/README.md) | Synchronous HTTP client | [clients/requests](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
-| [httpx Client](clients/httpx/README.md) | Asynchronous HTTP client | [clients/httpx](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
-| [FastAPI Server](servers/fastapi/README.md) | FastAPI server | [servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
-| [Discovery](discovery/README.md) | Resource discovery | [discovery](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
+| Document | Description | Local Code | Origin Repo |
+|------|------|----------|----------|
+| [requests Client](clients/requests/README.md) | Synchronous HTTP client | [→ Local](../../../external/x402/examples/python/legacy/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
+| [httpx Client](clients/httpx/README.md) | Asynchronous HTTP client | [→ Local](../../../external/x402/examples/python/legacy/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
+| [FastAPI Server](servers/fastapi/README.md) | FastAPI server | [→ Local](../../../external/x402/examples/python/legacy/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
+| [Discovery](discovery/README.md) | Resource discovery | [→ Local](../../../external/x402/examples/python/legacy/discovery/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
 
 ---
 

@@ -15,7 +15,9 @@
 
 TypeScript v1 Legacy 예제 문서는 준비 중입니다.
 
-공식 예제는 [coinbase/x402 TypeScript Legacy](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy)를 참조하세요.
+공식 예제:
+- 📂 로컬: [`external/x402/examples/typescript/legacy/`](../../../external/x402/examples/typescript/legacy/)
+- 🔗 원본: [coinbase/x402/.../typescript/legacy/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy)
 
 ---
 

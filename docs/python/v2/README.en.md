@@ -31,13 +31,17 @@
 
 > 🚧 **Python v2 SDK In Progress**: [PR #841](https://github.com/coinbase/x402/pull/841)
 >
-> TypeScript examples are available at [official repository](https://github.com/coinbase/x402/tree/main/examples/typescript).
+> TypeScript examples:
+> - 📂 Local: [`external/x402/examples/typescript/`](../../../external/x402/examples/typescript/)
+> - 🔗 Origin: [coinbase/x402/.../examples/typescript/](https://github.com/coinbase/x402/tree/main/examples/typescript)
 
 ### TypeScript Examples
 
-- [Client Examples](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/)
-- [Server Examples](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/)
-- [Facilitator Examples](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator/)
+| Example | Local Code | Origin Repo |
+|---------|----------|----------|
+| Clients | [→ Local](../../../external/x402/examples/typescript/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/) |
+| Servers | [→ Local](../../../external/x402/examples/typescript/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/) |
+| Facilitator | [→ Local](../../../external/x402/examples/typescript/facilitator/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator/) |
 
 ---
 

@@ -15,7 +15,9 @@
 
 TypeScript v1 Legacy example documentation is under preparation.
 
-For official examples, see [coinbase/x402 TypeScript Legacy](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy).
+Official examples:
+- 📂 Local: [`external/x402/examples/typescript/legacy/`](../../../external/x402/examples/typescript/legacy/)
+- 🔗 Origin: [coinbase/x402/.../typescript/legacy/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy)
 
 ---
 

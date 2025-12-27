@@ -31,13 +31,17 @@
 
 > 🚧 **Python v2 SDK 작업 중**: [PR #841](https://github.com/coinbase/x402/pull/841)
 >
-> TypeScript 예제는 [공식 레포지토리](https://github.com/coinbase/x402/tree/main/examples/typescript)에서 확인할 수 있습니다.
+> TypeScript 예제:
+> - 📂 로컬: [`external/x402/examples/typescript/`](../../../external/x402/examples/typescript/)
+> - 🔗 원본: [coinbase/x402/.../examples/typescript/](https://github.com/coinbase/x402/tree/main/examples/typescript)
 
 ### TypeScript 예제
 
-- [클라이언트 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/)
-- [서버 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/)
-- [Facilitator 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator/)
+| 예제 | 로컬 코드 | 원본 레포 |
+|------|----------|----------|
+| 클라이언트 | [→ 로컬](../../../external/x402/examples/typescript/clients/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/) |
+| 서버 | [→ 로컬](../../../external/x402/examples/typescript/servers/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/) |
+| Facilitator | [→ 로컬](../../../external/x402/examples/typescript/facilitator/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator/) |
 
 ---
 

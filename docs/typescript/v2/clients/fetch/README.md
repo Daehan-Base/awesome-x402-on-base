@@ -22,7 +22,7 @@ console.log(await response.json());
 
 - Node.js v20 이상 (설치: [nvm](https://github.com/nvm-sh/nvm))
 - pnpm v10 (설치: [pnpm.io/installation](https://pnpm.io/installation))
-- 실행 중인 x402 서버 (참고: [express 서버 예제](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express))
+- 실행 중인 x402 서버 (참고: express 서버 예제 [📂 로컬](../../../../external/x402/examples/typescript/servers/express/) | [🔗 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express))
 - 결제를 수행하기 위한 유효한 EVM 또는 SVM 개인키
 
 ## 설정 방법

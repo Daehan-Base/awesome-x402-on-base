@@ -10,7 +10,7 @@
 ## 📝 요약 (TL;DR)
 
 **무엇**: Base 체인 특화 x402 v1 예제 및 고급 사용 사례
-**공식 예제**: [`external/x402/examples/python/legacy`](https://github.com/coinbase/x402/tree/main/examples/python/legacy) 사용 (서브모듈)
+**공식 예제**: `external/x402/examples/python/legacy` 사용 ([📂 로컬](../../external/x402/examples/python/legacy/) | [🔗 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy))
 **이 디렉토리**: Base 최적화, AI 에이전트, 프로덕션 패턴
 **한글 가이드**: [`docs/python/v1/`](../../../docs/python/v1/)에서 확인
 
@@ -31,7 +31,7 @@ examples/
 
 ## 공식 예제와의 차이점
 
-[공식 x402 v1 예제](https://github.com/coinbase/x402/tree/main/examples/python/legacy)는 이미 Base 체인을 기본으로 사용합니다. 이 디렉토리는 다음을 제공합니다:
+공식 x402 v1 예제 ([📂 로컬](../../external/x402/examples/python/legacy/) | [🔗 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy))는 이미 Base 체인을 기본으로 사용합니다. 이 디렉토리는 다음을 제공합니다:
 
 1. **Base 특화 최적화**
    - Base용 가스 최적화 기법
@@ -51,7 +51,7 @@ examples/
 ## 공식 예제
 
 표준 x402 v1 구현은 다음을 참조하세요:
-- [공식 Python 예제](https://github.com/coinbase/x402/tree/main/examples/python/legacy) (서브모듈)
+- 공식 Python 예제: [📂 로컬](../../external/x402/examples/python/legacy/) | [🔗 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy)
 - [공식 예제 한글 가이드](../../../docs/python/v1/)
 
 ## Base 특화 예제 (준비 중)

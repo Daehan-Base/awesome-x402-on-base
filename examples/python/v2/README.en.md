@@ -15,13 +15,19 @@ v2 examples are currently in preparation.
 Official v2 examples can be found in the submodule:
 
 ### TypeScript v2 Examples
-- [typescript/clients/](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) - Client examples
-- [typescript/servers/](https://github.com/coinbase/x402/tree/main/examples/typescript/servers) - Server examples
-- [typescript/facilitator/](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator) - Facilitator examples
+
+| Example | Local Code | Origin Repo |
+|---------|----------|----------|
+| Clients | [→ Local](../../external/x402/examples/typescript/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) |
+| Servers | [→ Local](../../external/x402/examples/typescript/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/servers) |
+| Facilitator | [→ Local](../../external/x402/examples/typescript/facilitator/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator) |
 
 ### Go v2 Examples
-- [go/clients/](https://github.com/coinbase/x402/tree/main/examples/go/clients) - Client examples
-- [go/servers/](https://github.com/coinbase/x402/tree/main/examples/go/servers) - Server examples
+
+| Example | Local Code | Origin Repo |
+|---------|----------|----------|
+| Clients | [→ Local](../../external/x402/examples/go/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go/clients) |
+| Servers | [→ Local](../../external/x402/examples/go/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go/servers) |
 
 ---
 
