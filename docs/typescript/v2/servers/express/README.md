@@ -254,3 +254,7 @@ const facilitatorClient = [
 - **Dynamic payTo** — 요청별 결제 수신자 라우팅
 - **Lifecycle hooks** — verify/settle에 사용자 정의 로직 추가
 - **Custom tokens** — 커스텀 토큰 결제 수락
+
+---
+
+[← 서버 목록](../README.md) | [v2 문서 →](../../README.md)

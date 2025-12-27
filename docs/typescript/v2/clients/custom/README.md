@@ -192,3 +192,7 @@ const settlement = decodePaymentResponseHeader(settlementHeader);
 5. `encodePaymentSignatureHeader()`로 헤더 값 인코딩
 6. `PAYMENT-SIGNATURE` 헤더를 추가해 요청 재시도
 7. `PAYMENT-RESPONSE` 헤더에서 정산 정보 추출
+
+---
+
+[← 클라이언트 목록](../README.md) | [v2 문서 →](../../README.md)

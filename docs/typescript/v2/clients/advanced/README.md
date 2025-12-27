@@ -199,3 +199,7 @@ const response = await fetchWithPayment("http://localhost:4021/weather");
 2. **에러는 우아하게(graceful)하게 처리** — 훅 내부에서 예외를 throw 하지 말 것
 3. **적절한 로그 남기기** — 구조화된 로그 사용
 4. **before 훅에서 사이드 이펙트 최소화** — 검증 용도로만 사용
+
+---
+
+[← 클라이언트 목록](../README.md) | [v2 문서 →](../../README.md)

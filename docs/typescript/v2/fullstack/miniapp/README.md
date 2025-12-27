@@ -265,3 +265,7 @@ export const GET = withX402(
 - [MiniKit 문서](https://docs.base.org/builderkits/minikit/overview)
 - [Next.js 문서](https://nextjs.org/docs)
 - [Tailwind CSS v4 문서](https://tailwindcss.com/docs)
+
+---
+
+[← v2 문서로 돌아가기](../../README.md)

@@ -139,3 +139,7 @@ await server.connect(transport);
 2. x402 v2 프로토콜을 사용해 결제 과정을 자동 처리
 3. MCP 프로토콜을 통해 응답 데이터를 반환
 4. Claude가 결과를 처리하고 표시할 수 있도록 지원
+
+---
+
+[← 클라이언트 목록](../README.md) | [v2 문서 →](../../README.md)

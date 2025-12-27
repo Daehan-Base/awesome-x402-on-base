@@ -312,3 +312,7 @@ res.set("PAYMENT-RESPONSE", settlementHeader);
 4. 응답을 가로채 정산 헤더를 추가
 
 `index.ts`의 패턴은 어떤 Node.js 웹 프레임워크에도 그대로 응용할 수 있습니다.
+
+---
+
+[← 서버 목록](../README.md) | [v2 문서 →](../../README.md)

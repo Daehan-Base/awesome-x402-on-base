@@ -221,3 +221,7 @@ const facilitator = new x402Facilitator()
 - `eip155:8453` — Base Mainnet
 - `solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1` — Solana Devnet
 - `solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp` — Solana Mainnet
+
+---
+
+[← v2 문서로 돌아가기](../README.md)

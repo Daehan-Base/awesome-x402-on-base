@@ -12,10 +12,10 @@
 
 **What**: Korean guide for x402 payment protocol on Base chain
 **Why**: Official examples already use Base - adding detailed Korean tutorials
-**How**: Link official code (`external/`) via Git submodule + Korean guides (`docs/korean/`)
+**How**: Link official code (`external/`) via Git submodule + Korean guides (`docs/`)
 **Target**: Korean developers & global builders interested in Base-specific x402 implementations
 
-**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/korean/getting_started.ko.md)
+**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/getting_started.ko.md)
 
 ---
 
@@ -25,7 +25,7 @@ This repository provides **Korean guides and documentation** for using the **x40
 
 **What's Included:**
 - 🔗 **Official Examples** (Git submodule in `external/`) - Direct access to Coinbase's x402 examples
-- 📝 **Korean Guides** (`docs/korean/`) - Step-by-step Korean tutorials for each example
+- 📝 **Korean Guides** (`docs/`) - Step-by-step Korean tutorials for each example
 - 🔵 **Base-Specific Content** (`examples/`) - Base chain optimizations and use cases
 - 🇰🇷 **Korean Community** - Resources for Korean developers
 
@@ -76,27 +76,31 @@ The x402 ecosystem is rapidly growing with support from major tech companies:
 
 ```
 awesome-x402-on-base/
-├── external/x402/          # 🔗 Git Submodule (Official x402 repository)
-│   └── examples/python/    # Official Python examples (read-only)
+├── external/x402/              # 🔗 Git Submodule (Official x402 repository, read-only)
 │
-├── examples/               # 📝 Base-specific examples and demos
-│   ├── ap2-demo-coffee-shop/  # AI coffee shop demo (AP2 & x402)
-│   └── base-specific/         # Base chain optimized examples (coming soon)
+├── examples/                   # 📝 Base-specific examples and demos
+│   └── python/                 # Python examples
+│       ├── v1/                 # v1 Legacy SDK examples
+│       └── v2/                 # v2 SDK examples (coming soon)
 │
-├── docs/korean/            # 🇰🇷 Korean documentation
-│   ├── v1/examples/        # v1 Legacy example Korean guides
-│   ├── v2/                 # v2 documentation
-│   └── getting_started.ko.md # Getting started guide
+├── docs/                       # 🇰🇷 Korean documentation
+│   ├── getting_started.ko.md   # Getting started guide
+│   ├── x402-v2-specification.ko.md  # v2 protocol specification
+│   ├── python/                 # Python documentation
+│   │   ├── v1/examples/        # v1 Legacy example guides
+│   │   └── v2/                 # v2 documentation (coming soon)
+│   └── typescript/             # TypeScript documentation
+│       ├── v1/                 # v1 Legacy docs (coming soon)
+│       └── v2/                 # v2 example guides
 │
-├── external/               # 📖 External resources description
-├── ROADMAP.md              # 🗺️ Development roadmap
-└── LICENSE                 # 📄 MIT License
+├── ROADMAP.md                  # 🗺️ Development roadmap
+└── LICENSE                     # 📄 MIT License
 ```
 
 **Clear Separation:**
 - **`external/`** = Official x402 examples (submodule, do not modify)
-- **`examples/`** = x402 example use cases
-- **`docs/`** = Korean guides and tutorials
+- **`examples/`** = Base-specific x402 examples
+- **`docs/`** = Korean guides and tutorials (language → version structure)
 
 ## 🚀 Quick Start
 
@@ -104,7 +108,7 @@ awesome-x402-on-base/
 → Start with the [Official x402 Documentation](https://docs.cdp.coinbase.com/x402/welcome)
 
 ### For Korean Developers 🇰🇷
-→ Start with the [Korean Quick Start Guide](./docs/korean/getting_started.ko.md)
+→ Start with the [Korean Quick Start Guide](./docs/getting_started.ko.md)
 
 ## 💡 Examples & Korean Guides
 
@@ -112,10 +116,10 @@ awesome-x402-on-base/
 
 | Example | Official Code | Korean Guide |
 |---------|---------------|--------------|
-| **requests client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Korean Guide](./docs/korean/v1/examples/python-requests-client.ko.md) |
-| **httpx client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Korean Guide](./docs/korean/v1/examples/python-httpx-client.ko.md) |
-| **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/korean/v1/examples/python-fastapi-server.ko.md) |
-| **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/korean/v1/examples/python-discovery.ko.md) |
+| **requests client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Korean Guide](./docs/python/v1/examples/requests-client.ko.md) |
+| **httpx client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Korean Guide](./docs/python/v1/examples/httpx-client.ko.md) |
+| **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/python/v1/examples/fastapi-server.ko.md) |
+| **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/python/v1/examples/discovery.ko.md) |
 
 ### Using the Submodule
 
@@ -136,7 +140,7 @@ Access official examples:
 ls external/x402/examples/python  # If empty, run the commands above
 
 cd external/x402/examples/python
-# Follow Korean guides in docs/korean/v1/examples/
+# Follow Korean guides in docs/python/v1/examples/
 ```
 
 ## 🗺️ Roadmap

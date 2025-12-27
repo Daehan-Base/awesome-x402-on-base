@@ -342,3 +342,7 @@ PAYMENT-RESPONSE: <base64-encoded JSON>
   }
 }
 ```
+
+---
+
+[← 서버 목록](../README.md) | [v2 문서 →](../../README.md)
