@@ -45,7 +45,7 @@ awesome-x402-on-base/
 
 **`docs/`** - Korean documentation for x402 on Base
 - `getting_started.md`: Environment setup guide
-- `x402-v2-specification.ko.md`: v2 protocol specification
+- `x402-v2-specification.md`: v2 protocol specification
 - `python/v1/examples/`: Step-by-step tutorials for v1 Python examples
 - `python/v2/`: Python v2 documentation (in progress)
 

@@ -3,7 +3,7 @@
 # x402 v1 (Legacy) Korean Documentation
 
 > This is legacy documentation covering **x402 v1 SDK**.
-> For the latest v2 specification, see [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md).
+> For the latest v2 specification, see [x402-v2-specification.md](../../x402-v2-specification.md).
 >
 > 📚 **v1 → v2 Migration**: [Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide)
 
@@ -47,4 +47,4 @@ Step 5: discovery/README.md (Advanced features)
 
 ---
 
-[← Back to Korean Documentation](../../README.md) | [View v2 Spec →](../../x402-v2-specification.ko.md)
+[← Back to Korean Documentation](../../README.md) | [View v2 Spec →](../../x402-v2-specification.md)

@@ -5,7 +5,7 @@
 > ⚠️ **Legacy 문서 (v1)**
 >
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
-> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+> 최신 v2 스펙은 [x402-v2-specification.md](../../x402-v2-specification.md)를 참조하세요.
 >
 > 📚 **v1 → v2 마이그레이션**: [Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide)
 

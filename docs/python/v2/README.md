@@ -11,7 +11,7 @@
 
 ## v2 스펙 문서
 
-- [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md) - v2 프로토콜 전체 명세서
+- [x402-v2-specification.md](../../x402-v2-specification.md) - v2 프로토콜 전체 명세서
 
 ---
 

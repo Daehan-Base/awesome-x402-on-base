@@ -18,7 +18,7 @@
 
 > 2025년 12월 11일 출시
 
-- [x402-v2-specification.ko.md](x402-v2-specification.ko.md) - **v2 프로토콜 전체 명세서**
+- [x402-v2-specification.md](x402-v2-specification.md) - **v2 프로토콜 전체 명세서**
 - [python/v2/](python/v2/) - Python v2 관련 문서
 
 ### v1 (Legacy)

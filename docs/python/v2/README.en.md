@@ -11,7 +11,7 @@
 
 ## v2 Specification Document
 
-- [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md) - Complete v2 protocol specification
+- [x402-v2-specification.md](../../x402-v2-specification.md) - Complete v2 protocol specification
 
 ---
 

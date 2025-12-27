@@ -18,7 +18,7 @@
 
 > Released on December 11, 2025
 
-- [x402-v2-specification.ko.md](x402-v2-specification.ko.md) - **Complete v2 Protocol Specification**
+- [x402-v2-specification.md](x402-v2-specification.md) - **Complete v2 Protocol Specification**
 - [python/v2/](python/v2/) - Python v2 related documentation
 
 ### v1 (Legacy)

@@ -28,7 +28,7 @@
 ### v1/v2 문서 구조화
 - [x] v1/v2 디렉토리 구조 재편성 (`docs/v1/`, `docs/v2/`)
 - [x] examples v1/v2 디렉토리 구조 재편성 (`examples/v1/`, `examples/v2/`)
-- [x] x402 v2 프로토콜 스펙 문서 (한글) - `x402-v2-specification.ko.md`
+- [x] x402 v2 프로토콜 스펙 문서 (한글) - `x402-v2-specification.md`
 
 ### Python v1 예제 가이드 (완료)
 - [x] requests 클라이언트 가이드 (한글) - `docs/v1/examples/`

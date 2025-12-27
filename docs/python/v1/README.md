@@ -3,7 +3,7 @@
 # x402 v1 (Legacy) 한국어 문서
 
 > **x402 v1 SDK**를 다루는 Legacy 문서입니다.
-> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+> 최신 v2 스펙은 [x402-v2-specification.md](../../x402-v2-specification.md)를 참조하세요.
 >
 > 📚 **v1 → v2 마이그레이션**: [Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide)
 
@@ -47,4 +47,4 @@
 
 ---
 
-[← 한국어 문서로 돌아가기](../../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.ko.md)
+[← 한국어 문서로 돌아가기](../../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.md)

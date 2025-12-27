@@ -85,7 +85,7 @@ awesome-x402-on-base/
 │
 ├── docs/                       # 🇰🇷 Korean documentation
 │   ├── getting_started.md   # Getting started guide
-│   ├── x402-v2-specification.ko.md  # v2 protocol specification
+│   ├── x402-v2-specification.md  # v2 protocol specification
 │   ├── python/                 # Python documentation
 │   │   ├── v1/                 # v1 Legacy docs
 │   │   │   ├── clients/        # Clients (requests, httpx)
