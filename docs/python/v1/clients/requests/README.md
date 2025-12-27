@@ -1,11 +1,11 @@
-[한국어](./README.md) | [English](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests)
+[한국어](./README.md) | [English](./README.en.md)
 
 # x402 requests 클라이언트 예제 (v1 Legacy)
 
 > ⚠️ **Legacy 문서 (v1)**
 >
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
-> 최신 v2 스펙은 [x402-v2-specification.md](../../../x402-v2-specification.md)를 참조하세요.
+> 최신 v2 스펙은 [x402-v2-specification.md](../../../../x402-v2-specification.md)를 참조하세요.
 >
 > **v1 예제 경로**: [python/legacy/clients/requests](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests)
 
@@ -114,4 +114,4 @@ external/x402/examples/python/legacy/clients/requests/
 
 ---
 
-[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../../x402-v2-specification.md)
+[← v1 문서로 돌아가기](../../README.md) | [v2 스펙 보기 →](../../../../x402-v2-specification.md)
