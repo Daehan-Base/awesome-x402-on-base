@@ -494,7 +494,7 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 
 ## 라이선스
 
-이 문서는 [MIT License](../../LICENSE)에 따라 제공됩니다.
+이 문서는 [MIT License](../LICENSE)에 따라 제공됩니다.
 
 ---
 
