@@ -410,16 +410,16 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 ### 추천 학습 경로
 
 1. **Python 예제 시작하기** (v1 Legacy)
-   - [requests 클라이언트 가이드](./v1/examples/python-requests-client.ko.md)
-   - [httpx 클라이언트 가이드](./v1/examples/python-httpx-client.ko.md)
-   - [FastAPI 서버 가이드](./v1/examples/python-fastapi-server.ko.md)
+   - [requests 클라이언트 가이드](./python/v1/examples/requests-client.ko.md)
+   - [httpx 클라이언트 가이드](./python/v1/examples/httpx-client.ko.md)
+   - [FastAPI 서버 가이드](./python/v1/examples/fastapi-server.ko.md)
 
 2. **TypeScript 예제 탐색**
    - CDP SDK 클라이언트: [typescript/legacy/clients/cdp-sdk/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy/clients/cdp-sdk)
    - Express 서버: [typescript/servers/express/](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express)
 
 3. **Discovery 기능 배우기** (v1 Legacy)
-   - [Discovery 가이드](./v1/examples/python-discovery.ko.md)
+   - [Discovery 가이드](./python/v1/examples/discovery.ko.md)
 
 4. **고급 주제**
    - Mainnet 배포
@@ -431,7 +431,7 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 - 📖 [x402 공식 문서](https://docs.cdp.coinbase.com/x402/welcome)
 - 💻 [x402 GitHub](https://github.com/coinbase/x402)
 - 🔵 [Base 문서](https://docs.base.org)
-- 🇰🇷 [한글 커뮤니티 리소스](../../resources/korean-community.md)
+- 🇰🇷 [한글 커뮤니티 리소스](../resources/korean-community.md)
 
 ---
 
