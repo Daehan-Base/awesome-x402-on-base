@@ -88,8 +88,8 @@ GitHub에서 Pull Request를 생성하세요.
 
 | 버전 | 위치 | 설명 |
 |------|------|------|
-| v1 (Legacy) | `docs/korean/v1/` | 기존 SDK 문서 |
-| v2 (Current) | `docs/korean/v2/` | 새 프로토콜 문서 |
+| v1 (Legacy) | `docs/v1/` | 기존 SDK 문서 |
+| v2 (Current) | `docs/v2/` | 새 프로토콜 문서 |
 
 새 문서 작성 시 적절한 버전 디렉토리에 배치해주세요.
 
