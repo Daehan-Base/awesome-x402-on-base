@@ -511,4 +511,4 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 
 ---
 
-[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.ko.md)
+[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../../x402-v2-specification.ko.md)

@@ -696,10 +696,10 @@ v1 SDK를 사용하는 기존 Python 예제 문서입니다.
 
 | 문서 | 설명 | 경로 |
 |------|------|------|
-| [python-requests-client.ko.md](v1/examples/python-requests-client.ko.md) | 동기 HTTP 클라이언트 | `legacy/clients/requests` |
-| [python-httpx-client.ko.md](v1/examples/python-httpx-client.ko.md) | 비동기 HTTP 클라이언트 | `legacy/clients/httpx` |
-| [python-fastapi-server.ko.md](v1/examples/python-fastapi-server.ko.md) | FastAPI 서버 | `legacy/servers/fastapi` |
-| [python-discovery.ko.md](v1/examples/python-discovery.ko.md) | 리소스 검색 | `legacy/` |
+| [requests-client.ko.md](python/v1/examples/requests-client.ko.md) | 동기 HTTP 클라이언트 | `legacy/clients/requests` |
+| [httpx-client.ko.md](python/v1/examples/httpx-client.ko.md) | 비동기 HTTP 클라이언트 | `legacy/clients/httpx` |
+| [fastapi-server.ko.md](python/v1/examples/fastapi-server.ko.md) | FastAPI 서버 | `legacy/servers/fastapi` |
+| [discovery.ko.md](python/v1/examples/discovery.ko.md) | 리소스 검색 | `legacy/` |
 
 ### v1 vs v2 주요 차이점 요약
 

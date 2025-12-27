@@ -341,3 +341,7 @@ The `PAYMENT-RESPONSE` header contains base64-encoded JSON with the settlement d
   }
 }
 ```
+
+---
+
+[← Server List](../README.md) | [v2 Docs →](../../README.md)

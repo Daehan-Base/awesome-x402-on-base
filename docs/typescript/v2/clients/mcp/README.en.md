@@ -139,3 +139,7 @@ This example is designed to work with Claude Desktop's MCP support. The MCP serv
 2. Handle the payment process automatically using x402 v2 protocol
 3. Return the response data through the MCP protocol
 4. Allow Claude to process and display the results
+
+---
+
+[← Client List](../README.md) | [v2 Docs →](../../README.md)

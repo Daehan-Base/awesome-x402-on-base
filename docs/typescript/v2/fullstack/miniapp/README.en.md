@@ -265,3 +265,7 @@ Network identifiers use [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/mai
 - [MiniKit Documentation](https://docs.base.org/builderkits/minikit/overview)
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
+
+---
+
+[← Back to v2 Documentation](../../README.md)

@@ -254,3 +254,7 @@ See [Advanced Examples](../advanced/) for:
 - **Dynamic payTo** — route payments to different recipients
 - **Lifecycle hooks** — custom logic on verify/settle
 - **Custom tokens** — accept payments in custom tokens
+
+---
+
+[← Server List](../README.md) | [v2 Docs →](../../README.md)

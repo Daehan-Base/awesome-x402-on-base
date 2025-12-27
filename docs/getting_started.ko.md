@@ -431,7 +431,7 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 - 📖 [x402 공식 문서](https://docs.cdp.coinbase.com/x402/welcome)
 - 💻 [x402 GitHub](https://github.com/coinbase/x402)
 - 🔵 [Base 문서](https://docs.base.org)
-- 🇰🇷 [한글 커뮤니티 리소스](../resources/korean-community.md)
+- 🇰🇷 한글 커뮤니티 리소스 (준비 중)
 
 ---
 

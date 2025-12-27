@@ -312,3 +312,7 @@ To use this pattern with other frameworks:
 4. Intercept responses to add settlement headers
 
 The pattern in `index.ts` can be adapted to any Node.js web framework.
+
+---
+
+[← Server List](../README.md) | [v2 Docs →](../../README.md)

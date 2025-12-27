@@ -199,3 +199,7 @@ const response = await fetchWithPayment("http://localhost:4021/weather");
 2. **Handle errors gracefully** — Don't throw in hooks
 3. **Log appropriately** — Use structured logging
 4. **Avoid side effects in before hooks** — Only use for validation
+
+---
+
+[← Client List](../README.md) | [v2 Docs →](../../README.md)

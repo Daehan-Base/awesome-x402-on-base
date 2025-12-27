@@ -192,3 +192,7 @@ To use this pattern with other HTTP clients (axios, got, etc.):
 5. Use `encodePaymentSignatureHeader()` to encode
 6. Add `PAYMENT-SIGNATURE` header to retry request
 7. Extract settlement from `PAYMENT-RESPONSE` header
+
+---
+
+[← Client List](../README.md) | [v2 Docs →](../../README.md)

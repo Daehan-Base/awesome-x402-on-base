@@ -393,4 +393,4 @@ x402 생태계의 중앙 레지스트리로, 모든 x402 보호 리소스의 메
 
 ---
 
-[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../x402-v2-specification.ko.md)
+[← v1 문서로 돌아가기](../README.md) | [v2 스펙 보기 →](../../../x402-v2-specification.ko.md)

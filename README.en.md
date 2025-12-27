@@ -121,6 +121,18 @@ awesome-x402-on-base/
 | **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/python/v1/examples/fastapi-server.ko.md) |
 | **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/python/v1/examples/discovery.ko.md) |
 
+### TypeScript Examples (v2 Latest)
+
+| Example | Korean Guide |
+|---------|--------------|
+| **Axios Client** | [→ Korean Guide](./docs/typescript/v2/clients/axios/) |
+| **Fetch Client** | [→ Korean Guide](./docs/typescript/v2/clients/fetch/) |
+| **Express Server** | [→ Korean Guide](./docs/typescript/v2/servers/express/) |
+| **Hono Server** | [→ Korean Guide](./docs/typescript/v2/servers/hono/) |
+| **Next.js Fullstack** | [→ Korean Guide](./docs/typescript/v2/fullstack/next/) |
+| **Farcaster Mini App** | [→ Korean Guide](./docs/typescript/v2/fullstack/miniapp/) |
+| **MCP Client** | [→ Korean Guide](./docs/typescript/v2/clients/mcp/) |
+
 ### Using the Submodule
 
 ⚠️ **Important**: `external/x402` is a Git submodule. Initialization is required.

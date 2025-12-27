@@ -56,3 +56,7 @@ pnpm start
 ## Next Steps
 
 See [Advanced Examples](../advanced/) for builder pattern registration, payment lifecycle hooks, and network preferences.
+
+---
+
+[← Client List](../README.md) | [v2 Docs →](../../README.md)

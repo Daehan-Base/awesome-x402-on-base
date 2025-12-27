@@ -47,3 +47,7 @@ The **custom** directory shows how to implement x402 payment handling manually u
 2. Follow the README in that directory
 3. Make sure you have a [server](../servers/) running to test against
 
+---
+
+[← Back to v2 Documentation](../README.md)
+

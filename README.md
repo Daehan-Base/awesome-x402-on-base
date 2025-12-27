@@ -121,6 +121,18 @@ awesome-x402-on-base/
 | **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/python/v1/examples/fastapi-server.ko.md) |
 | **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/python/v1/examples/discovery.ko.md) |
 
+### TypeScript 예제 (v2 최신)
+
+| 예제 | 한글 가이드 |
+|------|------------|
+| **Axios 클라이언트** | [→ 한글 가이드](./docs/typescript/v2/clients/axios/) |
+| **Fetch 클라이언트** | [→ 한글 가이드](./docs/typescript/v2/clients/fetch/) |
+| **Express 서버** | [→ 한글 가이드](./docs/typescript/v2/servers/express/) |
+| **Hono 서버** | [→ 한글 가이드](./docs/typescript/v2/servers/hono/) |
+| **Next.js Fullstack** | [→ 한글 가이드](./docs/typescript/v2/fullstack/next/) |
+| **Farcaster Mini App** | [→ 한글 가이드](./docs/typescript/v2/fullstack/miniapp/) |
+| **MCP 클라이언트** | [→ 한글 가이드](./docs/typescript/v2/clients/mcp/) |
+
 ### 서브모듈 사용하기
 
 ⚠️ **중요**: `external/x402`는 Git 서브모듈입니다. 초기화가 필요합니다.
