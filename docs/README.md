@@ -33,6 +33,24 @@
 
 ---
 
+## TypeScript 예제 문서
+
+### v2 (최신)
+
+> 모듈형 `@x402/*` 패키지 기반
+
+- [typescript/v2/](typescript/v2/) - TypeScript v2 예제 문서
+  - [clients/](typescript/v2/clients/) - 클라이언트 예제 (axios, fetch, custom, advanced, mcp)
+  - [servers/](typescript/v2/servers/) - 서버 예제 (express, hono, advanced, custom)
+  - [facilitator/](typescript/v2/facilitator/) - Facilitator 예제
+  - [fullstack/](typescript/v2/fullstack/) - Fullstack 예제 (next, miniapp)
+
+### v1 (Legacy)
+
+- [typescript/v1/](typescript/v1/) - TypeScript v1 Legacy 문서 (예정)
+
+---
+
 ## 빠른 비교: v1 vs v2
 
 | 항목 | v1 (Legacy) | v2 (최신) |

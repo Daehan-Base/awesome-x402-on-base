@@ -3,7 +3,7 @@
 > ⚠️ **Legacy 문서 (v1)**
 >
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
-> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../../x402-v2-specification.ko.md)를 참조하세요.
 >
 > **v1 예제 경로**: [python/legacy/clients/requests](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests)
 
@@ -106,9 +106,9 @@ external/x402/examples/python/legacy/clients/requests/
 
 ## 다음 단계
 
-- [httpx 클라이언트 예제](./python-httpx-client.ko.md) - 비동기 클라이언트 구현
-- [FastAPI 서버 예제](./python-fastapi-server.ko.md) - 402 보호된 서버 구축
-- [Discovery 예제](./python-discovery.ko.md) - x402 서비스 검색
+- [httpx 클라이언트 예제](./httpx-client.ko.md) - 비동기 클라이언트 구현
+- [FastAPI 서버 예제](./fastapi-server.ko.md) - 402 보호된 서버 구축
+- [Discovery 예제](./discovery.ko.md) - x402 서비스 검색
 
 ---
 

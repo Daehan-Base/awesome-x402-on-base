@@ -33,6 +33,24 @@
 
 ---
 
+## TypeScript Example Documentation
+
+### v2 (Latest)
+
+> Modular `@x402/*` packages based
+
+- [typescript/v2/](typescript/v2/) - TypeScript v2 Example Documentation
+  - [clients/](typescript/v2/clients/) - Client Examples (axios, fetch, custom, advanced, mcp)
+  - [servers/](typescript/v2/servers/) - Server Examples (express, hono, advanced, custom)
+  - [facilitator/](typescript/v2/facilitator/) - Facilitator Examples
+  - [fullstack/](typescript/v2/fullstack/) - Fullstack Examples (next, miniapp)
+
+### v1 (Legacy)
+
+- [typescript/v1/](typescript/v1/) - TypeScript v1 Legacy Documentation (Coming Soon)
+
+---
+
 ## Quick Comparison: v1 vs v2
 
 | Item | v1 (Legacy) | v2 (Latest) |

@@ -3,7 +3,7 @@
 > ⚠️ **Legacy 문서 (v1)**
 >
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
-> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
+> 최신 v2 스펙은 [x402-v2-specification.ko.md](../../../x402-v2-specification.ko.md)를 참조하세요.
 >
 > **v1 예제 경로**: [python/legacy/servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi)
 
@@ -499,9 +499,9 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 
 ## 다음 단계
 
-- [requests 클라이언트 예제](./python-requests-client.ko.md) - 동기 클라이언트로 서버 테스트
-- [httpx 클라이언트 예제](./python-httpx-client.ko.md) - 비동기 클라이언트로 서버 테스트
-- [Discovery 예제](./python-discovery.ko.md) - x402 서비스 검색
+- [requests 클라이언트 예제](./requests-client.ko.md) - 동기 클라이언트로 서버 테스트
+- [httpx 클라이언트 예제](./httpx-client.ko.md) - 비동기 클라이언트로 서버 테스트
+- [Discovery 예제](./discovery.ko.md) - x402 서비스 검색
 
 ## 추가 리소스
 
