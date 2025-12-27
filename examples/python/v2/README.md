@@ -15,13 +15,13 @@ v2 예제는 현재 준비 중입니다.
 공식 v2 예제는 서브모듈에서 확인할 수 있습니다:
 
 ### TypeScript v2 예제
-- `external/x402/examples/typescript/clients/` - 클라이언트 예제
-- `external/x402/examples/typescript/servers/` - 서버 예제
-- `external/x402/examples/typescript/facilitator/` - Facilitator 예제
+- [typescript/clients/](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) - 클라이언트 예제
+- [typescript/servers/](https://github.com/coinbase/x402/tree/main/examples/typescript/servers) - 서버 예제
+- [typescript/facilitator/](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator) - Facilitator 예제
 
 ### Go v2 예제
-- `external/x402/examples/go/clients/` - 클라이언트 예제
-- `external/x402/examples/go/servers/` - 서버 예제
+- [go/clients/](https://github.com/coinbase/x402/tree/main/examples/go/clients) - 클라이언트 예제
+- [go/servers/](https://github.com/coinbase/x402/tree/main/examples/go/servers) - 서버 예제
 
 ---
 

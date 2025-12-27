@@ -11,12 +11,12 @@
 
 ## Python Example Documentation
 
-| Document | Description | Official Example Path |
+| Document | Description | Official Example |
 |------|------|----------------|
-| [requests-client.ko.md](examples/requests-client.ko.md) | Synchronous HTTP client | `external/x402/examples/python/legacy/clients/requests` |
-| [httpx-client.ko.md](examples/httpx-client.ko.md) | Asynchronous HTTP client | `external/x402/examples/python/legacy/clients/httpx` |
-| [fastapi-server.ko.md](examples/fastapi-server.ko.md) | FastAPI server | `external/x402/examples/python/legacy/servers/fastapi` |
-| [discovery.ko.md](examples/discovery.ko.md) | Resource discovery | `external/x402/examples/python/legacy/discovery` |
+| [requests-client.ko.md](examples/requests-client.ko.md) | Synchronous HTTP client | [clients/requests](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
+| [httpx-client.ko.md](examples/httpx-client.ko.md) | Asynchronous HTTP client | [clients/httpx](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
+| [fastapi-server.ko.md](examples/fastapi-server.ko.md) | FastAPI server | [servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
+| [discovery.ko.md](examples/discovery.ko.md) | Resource discovery | [discovery](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
 
 ---
 

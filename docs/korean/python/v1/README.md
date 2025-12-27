@@ -11,12 +11,12 @@
 
 ## Python 예제 문서
 
-| 문서 | 설명 | 공식 예제 경로 |
-|------|------|----------------|
-| [requests-client.ko.md](examples/requests-client.ko.md) | 동기 HTTP 클라이언트 | `external/x402/examples/python/legacy/clients/requests` |
-| [httpx-client.ko.md](examples/httpx-client.ko.md) | 비동기 HTTP 클라이언트 | `external/x402/examples/python/legacy/clients/httpx` |
-| [fastapi-server.ko.md](examples/fastapi-server.ko.md) | FastAPI 서버 | `external/x402/examples/python/legacy/servers/fastapi` |
-| [discovery.ko.md](examples/discovery.ko.md) | 리소스 검색 | `external/x402/examples/python/legacy/discovery` |
+| 문서 | 설명 | 공식 예제 |
+|------|------|----------|
+| [requests-client.ko.md](examples/requests-client.ko.md) | 동기 HTTP 클라이언트 | [clients/requests](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
+| [httpx-client.ko.md](examples/httpx-client.ko.md) | 비동기 HTTP 클라이언트 | [clients/httpx](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
+| [fastapi-server.ko.md](examples/fastapi-server.ko.md) | FastAPI 서버 | [servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
+| [discovery.ko.md](examples/discovery.ko.md) | 리소스 검색 | [discovery](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
 
 ---
 

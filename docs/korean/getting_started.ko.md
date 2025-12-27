@@ -415,8 +415,8 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
    - [FastAPI 서버 가이드](./v1/examples/python-fastapi-server.ko.md)
 
 2. **TypeScript 예제 탐색**
-   - CDP SDK 클라이언트: `external/x402/examples/typescript/clients/cdp-sdk/`
-   - Express 서버: `external/x402/examples/typescript/servers/express/`
+   - CDP SDK 클라이언트: [typescript/legacy/clients/cdp-sdk/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy/clients/cdp-sdk)
+   - Express 서버: [typescript/servers/express/](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express)
 
 3. **Discovery 기능 배우기** (v1 Legacy)
    - [Discovery 가이드](./v1/examples/python-discovery.ko.md)

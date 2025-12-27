@@ -5,7 +5,7 @@
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
 > 최신 v2 스펙은 [x402-v2-specification.ko.md](../../x402-v2-specification.ko.md)를 참조하세요.
 >
-> **v1 예제 경로**: `external/x402/examples/python/legacy/`
+> **v1 예제 경로**: [python/legacy/](https://github.com/coinbase/x402/tree/main/examples/python/legacy)
 
 ---
 

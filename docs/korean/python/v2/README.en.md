@@ -30,7 +30,7 @@
 ## v2 Examples (In Progress)
 
 > v2 Python examples are currently being prepared in the official repository.
-> TypeScript examples are available at `external/x402/examples/typescript/`.
+> TypeScript examples are available at [official repository](https://github.com/coinbase/x402/tree/main/examples/typescript).
 
 ### TypeScript Examples
 

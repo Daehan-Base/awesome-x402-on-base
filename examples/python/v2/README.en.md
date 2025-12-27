@@ -15,13 +15,13 @@ v2 examples are currently in preparation.
 Official v2 examples can be found in the submodule:
 
 ### TypeScript v2 Examples
-- `external/x402/examples/typescript/clients/` - Client examples
-- `external/x402/examples/typescript/servers/` - Server examples
-- `external/x402/examples/typescript/facilitator/` - Facilitator examples
+- [typescript/clients/](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) - Client examples
+- [typescript/servers/](https://github.com/coinbase/x402/tree/main/examples/typescript/servers) - Server examples
+- [typescript/facilitator/](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator) - Facilitator examples
 
 ### Go v2 Examples
-- `external/x402/examples/go/clients/` - Client examples
-- `external/x402/examples/go/servers/` - Server examples
+- [go/clients/](https://github.com/coinbase/x402/tree/main/examples/go/clients) - Client examples
+- [go/servers/](https://github.com/coinbase/x402/tree/main/examples/go/servers) - Server examples
 
 ---
 

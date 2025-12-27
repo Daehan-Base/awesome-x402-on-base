@@ -26,12 +26,12 @@
 Examples from the official x402 repository can be found in the submodule:
 
 ### v1 Legacy Examples
-- `external/x402/examples/python/legacy/` - Python v1 examples
-- `external/x402/examples/typescript/legacy/` - TypeScript v1 examples
+- [examples/python/legacy/](https://github.com/coinbase/x402/tree/main/examples/python/legacy) - Python v1 examples
+- [examples/typescript/legacy/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy) - TypeScript v1 examples
 
 ### v2 Examples
-- `external/x402/examples/typescript/` - TypeScript v2 examples
-- `external/x402/examples/go/` - Go v2 examples
+- [examples/typescript/](https://github.com/coinbase/x402/tree/main/examples/typescript) - TypeScript v2 examples
+- [examples/go/](https://github.com/coinbase/x402/tree/main/examples/go) - Go v2 examples
 
 ---
 
