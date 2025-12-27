@@ -87,7 +87,10 @@ awesome-x402-on-base/
 │   ├── getting_started.ko.md   # Getting started guide
 │   ├── x402-v2-specification.ko.md  # v2 protocol specification
 │   ├── python/                 # Python documentation
-│   │   ├── v1/examples/        # v1 Legacy example guides
+│   │   ├── v1/                 # v1 Legacy docs
+│   │   │   ├── clients/        # Clients (requests, httpx)
+│   │   │   ├── servers/        # Servers (FastAPI)
+│   │   │   └── discovery/      # Discovery
 │   │   └── v2/                 # v2 documentation (coming soon)
 │   └── typescript/             # TypeScript documentation
 │       ├── v1/                 # v1 Legacy docs (coming soon)
