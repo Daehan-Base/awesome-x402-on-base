@@ -7,7 +7,9 @@
 > This documentation covers x402 **v1 SDK**.
 > For the latest v2 spec, see [x402-v2-specification.md](../../../../x402-v2-specification.md).
 >
-> **v1 Example Path**: [python/legacy/clients/httpx](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx)
+> **v1 Example Path**:
+> - 📂 Local: [`external/x402/examples/python/legacy/clients/httpx/`](../../../../../external/x402/examples/python/legacy/clients/httpx/)
+> - 🔗 Origin: [coinbase/x402/.../clients/httpx/](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx)
 
 ---
 

@@ -7,7 +7,9 @@
 > This documentation covers x402 **v1 SDK**.
 > For the latest v2 spec, see [x402-v2-specification.md](../../../../x402-v2-specification.md).
 >
-> **v1 Example Path**: [python/legacy/servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi)
+> **v1 Example Path**:
+> - 📂 Local: [`external/x402/examples/python/legacy/servers/fastapi/`](../../../../../external/x402/examples/python/legacy/servers/fastapi/)
+> - 🔗 Origin: [coinbase/x402/.../servers/fastapi/](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi)
 
 ---
 
@@ -508,7 +510,7 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 ## Additional Resources
 
 - [FastAPI Official Documentation](https://fastapi.tiangolo.com/)
-- [x402 Protocol Specification](https://github.com/coinbase/x402)
+- x402 Protocol Specification: [📂 Local](../../../../../external/x402/) | [🔗 Origin](https://github.com/coinbase/x402)
 - [Base Network Documentation](https://docs.base.org/)
 
 ---

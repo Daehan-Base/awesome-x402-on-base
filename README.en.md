@@ -117,24 +117,24 @@ awesome-x402-on-base/
 
 ### Python Examples (Official Code + Korean Guides)
 
-| Example | Official Code | Korean Guide |
-|---------|---------------|--------------|
-| **requests client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Korean Guide](./docs/python/v1/clients/requests/README.md) |
-| **httpx client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Korean Guide](./docs/python/v1/clients/httpx/README.md) |
-| **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/python/v1/servers/fastapi/README.md) |
-| **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/python/v1/discovery/README.md) |
+| Example | Local Code | Origin Repo | Korean Guide |
+|---------|----------|----------|--------------|
+| **requests client** | [→ Local](./external/x402/examples/python/legacy/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Guide](./docs/python/v1/clients/requests/README.md) |
+| **httpx client** | [→ Local](./external/x402/examples/python/legacy/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Guide](./docs/python/v1/clients/httpx/README.md) |
+| **FastAPI server** | [→ Local](./external/x402/examples/python/legacy/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Guide](./docs/python/v1/servers/fastapi/README.md) |
+| **Discovery** | [→ Local](./external/x402/examples/python/legacy/discovery/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Guide](./docs/python/v1/discovery/README.md) |
 
 ### TypeScript Examples (v2 Latest)
 
-| Example | Official Code | Korean Guide |
-|---------|---------------|--------------|
-| **Axios Client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) | [→ Korean Guide](./docs/typescript/v2/clients/axios/) |
-| **Fetch Client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) | [→ Korean Guide](./docs/typescript/v2/clients/fetch/) |
-| **Express Server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) | [→ Korean Guide](./docs/typescript/v2/servers/express/) |
-| **Hono Server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ Korean Guide](./docs/typescript/v2/servers/hono/) |
-| **Next.js Fullstack** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ Korean Guide](./docs/typescript/v2/fullstack/next/) |
-| **Farcaster Mini App** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ Korean Guide](./docs/typescript/v2/fullstack/miniapp/) |
-| **MCP Client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ Korean Guide](./docs/typescript/v2/clients/mcp/) |
+| Example | Local Code | Origin Repo | Korean Guide |
+|---------|----------|----------|--------------|
+| **Axios Client** | [→ Local](./external/x402/examples/typescript/clients/axios/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) | [→ Guide](./docs/typescript/v2/clients/axios/) |
+| **Fetch Client** | [→ Local](./external/x402/examples/typescript/clients/fetch/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) | [→ Guide](./docs/typescript/v2/clients/fetch/) |
+| **Express Server** | [→ Local](./external/x402/examples/typescript/servers/express/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) | [→ Guide](./docs/typescript/v2/servers/express/) |
+| **Hono Server** | [→ Local](./external/x402/examples/typescript/servers/hono/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ Guide](./docs/typescript/v2/servers/hono/) |
+| **Next.js Fullstack** | [→ Local](./external/x402/examples/typescript/fullstack/next/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ Guide](./docs/typescript/v2/fullstack/next/) |
+| **Farcaster Mini App** | [→ Local](./external/x402/examples/typescript/fullstack/miniapp/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ Guide](./docs/typescript/v2/fullstack/miniapp/) |
+| **MCP Client** | [→ Local](./external/x402/examples/typescript/clients/mcp/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ Guide](./docs/typescript/v2/clients/mcp/) |
 
 ### Using the Submodule
 
@@ -179,15 +179,18 @@ Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONT
 
 ### Official x402 Resources
 - 📖 [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome)
-- 💻 [x402 GitHub Repository](https://github.com/coinbase/x402)
+- 💻 x402 GitHub: [📂 Local](./external/x402/) | [🔗 Origin](https://github.com/coinbase/x402)
 - 📄 [x402 Whitepaper](https://www.x402.org/x402-whitepaper.pdf)
 - 🌐 [x402 Website](https://www.x402.org)
 
 ### x402 SDKs & Examples
-- [Python SDK](https://github.com/coinbase/x402/tree/main/python/x402) - Official Python implementation
-- [Python Examples](https://github.com/coinbase/x402/tree/main/examples/python/legacy) - Client & server examples (official repo)
-- [TypeScript SDK](https://github.com/coinbase/x402/tree/main/typescript)
-- [Go Implementation](https://github.com/coinbase/x402/tree/main/go)
+
+| SDK/Example | Local Code | Origin Repo |
+|-------------|----------|----------|
+| Python SDK | [→ Local](./external/x402/python/x402/) | [→ Origin](https://github.com/coinbase/x402/tree/main/python/x402) |
+| Python Examples | [→ Local](./external/x402/examples/python/legacy/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
+| TypeScript SDK | [→ Local](./external/x402/typescript/) | [→ Origin](https://github.com/coinbase/x402/tree/main/typescript) |
+| Go Implementation | [→ Local](./external/x402/go/) | [→ Origin](https://github.com/coinbase/x402/tree/main/go) |
 
 ### Base Chain Resources
 - [Base Official Website](https://base.org)

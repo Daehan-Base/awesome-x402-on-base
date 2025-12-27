@@ -11,12 +11,12 @@
 
 ## Python 예제 문서
 
-| 문서 | 설명 | 공식 예제 |
-|------|------|----------|
-| [requests 클라이언트](clients/requests/README.md) | 동기 HTTP 클라이언트 | [clients/requests](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
-| [httpx 클라이언트](clients/httpx/README.md) | 비동기 HTTP 클라이언트 | [clients/httpx](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
-| [FastAPI 서버](servers/fastapi/README.md) | FastAPI 서버 | [servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
-| [Discovery](discovery/README.md) | 리소스 검색 | [discovery](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
+| 문서 | 설명 | 로컬 코드 | 원본 레포 |
+|------|------|----------|----------|
+| [requests 클라이언트](clients/requests/README.md) | 동기 HTTP 클라이언트 | [→ 로컬](../../../external/x402/examples/python/legacy/clients/requests/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
+| [httpx 클라이언트](clients/httpx/README.md) | 비동기 HTTP 클라이언트 | [→ 로컬](../../../external/x402/examples/python/legacy/clients/httpx/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
+| [FastAPI 서버](servers/fastapi/README.md) | FastAPI 서버 | [→ 로컬](../../../external/x402/examples/python/legacy/servers/fastapi/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
+| [Discovery](discovery/README.md) | 리소스 검색 | [→ 로컬](../../../external/x402/examples/python/legacy/discovery/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
 
 ---
 

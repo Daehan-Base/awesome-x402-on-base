@@ -3,7 +3,9 @@
 > **작성 시점**: 2025년 12월 16일
 > **버전**: x402 v2 (2025년 12월 11일 출시)
 >
-> 이 문서는 x402 v2 프로토콜의 핵심 기능과 변경사항을 한국어로 요약한 것입니다. 전체 명세서는 [공식 x402 저장소](https://github.com/coinbase/x402/tree/main/specs)를 참고하세요.
+> 이 문서는 x402 v2 프로토콜의 핵심 기능과 변경사항을 한국어로 요약한 것입니다. 전체 명세서:
+> - 📂 로컬: [`external/x402/specs/`](../external/x402/specs/)
+> - 🔗 원본: [coinbase/x402/.../specs/](https://github.com/coinbase/x402/tree/main/specs)
 >
 > **v2 출시 발표**: [x402-v2-launch](https://x402.org/writing/x402-v2-launch)
 
@@ -793,8 +795,8 @@ resp, err := client.Post(
 ## 📚 추가 리소스
 
 ### 공식 문서
-- [x402 v2 명세서](https://github.com/coinbase/x402/tree/main/specs)
-- [HTTP v2 트랜스포트](https://github.com/coinbase/x402/blob/main/specs/transports-v2/http.md)
+- x402 v2 명세서: [📂 로컬](../external/x402/specs/) | [🔗 원본](https://github.com/coinbase/x402/tree/main/specs)
+- HTTP v2 트랜스포트: [📂 로컬](../external/x402/specs/transports-v2/http.md) | [🔗 원본](https://github.com/coinbase/x402/blob/main/specs/transports-v2/http.md)
 - [CAIP 표준](https://chainagnostic.org/)
 
 ### SDK 설치
@@ -811,10 +813,13 @@ go get github.com/coinbase/x402/go
 ```
 
 ### 예제 저장소
-- [x402 v2 예제](https://github.com/coinbase/x402/tree/main/examples)
-- [TypeScript 예제](https://github.com/coinbase/x402/tree/main/examples/typescript)
-- [Python 예제](https://github.com/coinbase/x402/tree/main/examples/python)
-- [Go 예제](https://github.com/coinbase/x402/tree/main/go/examples)
+
+| 예제 | 로컬 코드 | 원본 레포 |
+|------|----------|----------|
+| x402 v2 예제 | [→ 로컬](../external/x402/examples/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples) |
+| TypeScript 예제 | [→ 로컬](../external/x402/examples/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript) |
+| Python 예제 | [→ 로컬](../external/x402/examples/python/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python) |
+| Go 예제 | [→ 로컬](../external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
 ---
 

@@ -4,6 +4,49 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2025-12-27]
+
+### Added
+- **docs/ 루트 인덱스** - README.md, README.en.md 추가
+- **docs/python/** - Python 문서 디렉토리 신설 (README.md, README.en.md)
+- **docs/python/v1/** - feature-based 구조로 재편성
+  - `clients/requests/`, `clients/httpx/`, `servers/fastapi/`, `discovery/`
+- **Python v1 영문 문서** - 4개 README.en.md 추가 (requests, httpx, fastapi, discovery)
+- **docs/typescript/** - TypeScript 문서 디렉토리 신설 (v1/, v2/)
+- **docs/typescript/v2/fullstack/** - fullstack README 추가
+- **external/README.en.md** - 영문 버전 추가
+- **Python v2 SDK 참조** - PR [#841](https://github.com/coinbase/x402/pull/841) 링크 추가
+
+### Changed
+- **External 링크 이원화** - 모든 외부 x402 참조에 이중 링크 적용 (30개 파일)
+  - 📂 로컬: `external/x402/` 서브모듈 경로
+  - 🔗 원본: GitHub coinbase/x402 레포 링크
+  - 테이블 형식: "로컬 코드" + "원본 레포" 열 분리
+- **디렉토리 구조 재편** - "language-first" 패턴 도입
+  - `docs/korean/` → `docs/` (언어 접두사 제거)
+  - `docs/korean/v1/examples/` → `docs/python/v1/` (언어 → 버전 → 기능 구조)
+  - `docs/korean/examples/typescript/` → `docs/typescript/v2/`
+- **파일명 컨벤션 변경** - `.ko.md` 접미사 제거
+  - `getting_started.ko.md` → `getting_started.md`
+  - `x402-v2-specification.ko.md` → `x402-v2-specification.md`
+- **examples/ 구조 변경** - 언어별 분류
+  - `examples/v1/` → `examples/python/v1/`
+  - `examples/v2/` → `examples/python/v2/`
+- **Python v1 문서 구조** - 예제별 파일 → 기능별 디렉토리
+  - `python-requests-client.ko.md` → `clients/requests/README.md`
+  - `python-httpx-client.ko.md` → `clients/httpx/README.md`
+  - `python-fastapi-server.ko.md` → `servers/fastapi/README.md`
+  - `python-discovery.ko.md` → `discovery/README.md`
+- **external/README.md** - 한국어를 기본으로 변경
+- **TypeScript 예제 테이블** - 공식 coinbase/x402 GitHub 링크 추가
+- **README.md, claude.md** - 새 디렉토리 구조 반영
+
+### Removed
+- `docs/korean/` 디렉토리 (→ `docs/`로 이동)
+- `external/README.ko.md` (→ `README.md`가 한국어 기본)
+
+---
+
 ## [2025-12-16]
 
 ### Added
@@ -74,7 +117,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-[2025-12-16]: https://github.com/Daehan-Base/awesome-x402-on-base/compare/87385c4...HEAD
+[2025-12-27]: https://github.com/Daehan-Base/awesome-x402-on-base/compare/a486461...HEAD
+[2025-12-16]: https://github.com/Daehan-Base/awesome-x402-on-base/compare/87385c4...a486461
 [2025-12-15]: https://github.com/Daehan-Base/awesome-x402-on-base/compare/722dda8...87385c4
 [2025-12-11]: https://github.com/Daehan-Base/awesome-x402-on-base/compare/c79bfeb...722dda8
 [2025-11-22]: https://github.com/Daehan-Base/awesome-x402-on-base/releases/tag/v0.1.0

@@ -117,24 +117,24 @@ awesome-x402-on-base/
 
 ### Python 예제 (공식 코드 + 한글 가이드)
 
-| 예제 | 공식 코드 | 한글 가이드 |
-|------|----------|------------|
-| **requests 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 한글 가이드](./docs/python/v1/clients/requests/README.md) |
-| **httpx 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 한글 가이드](./docs/python/v1/clients/httpx/README.md) |
-| **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/python/v1/servers/fastapi/README.md) |
-| **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/python/v1/discovery/README.md) |
+| 예제 | 로컬 코드 | 원본 레포 | 한글 가이드 |
+|------|----------|----------|------------|
+| **requests 클라이언트** | [→ 로컬](./external/x402/examples/python/legacy/clients/requests/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 가이드](./docs/python/v1/clients/requests/README.md) |
+| **httpx 클라이언트** | [→ 로컬](./external/x402/examples/python/legacy/clients/httpx/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 가이드](./docs/python/v1/clients/httpx/README.md) |
+| **FastAPI 서버** | [→ 로컬](./external/x402/examples/python/legacy/servers/fastapi/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 가이드](./docs/python/v1/servers/fastapi/README.md) |
+| **Discovery** | [→ 로컬](./external/x402/examples/python/legacy/discovery/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 가이드](./docs/python/v1/discovery/README.md) |
 
 ### TypeScript 예제 (v2 최신)
 
-| 예제 | 공식 코드 | 한글 가이드 |
-|------|----------|------------|
-| **Axios 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) | [→ 한글 가이드](./docs/typescript/v2/clients/axios/) |
-| **Fetch 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) | [→ 한글 가이드](./docs/typescript/v2/clients/fetch/) |
-| **Express 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) | [→ 한글 가이드](./docs/typescript/v2/servers/express/) |
-| **Hono 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ 한글 가이드](./docs/typescript/v2/servers/hono/) |
-| **Next.js Fullstack** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ 한글 가이드](./docs/typescript/v2/fullstack/next/) |
-| **Farcaster Mini App** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ 한글 가이드](./docs/typescript/v2/fullstack/miniapp/) |
-| **MCP 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ 한글 가이드](./docs/typescript/v2/clients/mcp/) |
+| 예제 | 로컬 코드 | 원본 레포 | 한글 가이드 |
+|------|----------|----------|------------|
+| **Axios 클라이언트** | [→ 로컬](./external/x402/examples/typescript/clients/axios/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) | [→ 가이드](./docs/typescript/v2/clients/axios/) |
+| **Fetch 클라이언트** | [→ 로컬](./external/x402/examples/typescript/clients/fetch/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) | [→ 가이드](./docs/typescript/v2/clients/fetch/) |
+| **Express 서버** | [→ 로컬](./external/x402/examples/typescript/servers/express/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) | [→ 가이드](./docs/typescript/v2/servers/express/) |
+| **Hono 서버** | [→ 로컬](./external/x402/examples/typescript/servers/hono/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ 가이드](./docs/typescript/v2/servers/hono/) |
+| **Next.js Fullstack** | [→ 로컬](./external/x402/examples/typescript/fullstack/next/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ 가이드](./docs/typescript/v2/fullstack/next/) |
+| **Farcaster Mini App** | [→ 로컬](./external/x402/examples/typescript/fullstack/miniapp/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ 가이드](./docs/typescript/v2/fullstack/miniapp/) |
+| **MCP 클라이언트** | [→ 로컬](./external/x402/examples/typescript/clients/mcp/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ 가이드](./docs/typescript/v2/clients/mcp/) |
 
 ### 서브모듈 사용하기
 
@@ -179,15 +179,18 @@ cd external/x402/examples/python
 
 ### 공식 x402 리소스
 - 📖 [공식 문서](https://docs.cdp.coinbase.com/x402/welcome)
-- 💻 [x402 GitHub 레포지토리](https://github.com/coinbase/x402)
+- 💻 x402 GitHub: [📂 로컬](./external/x402/) | [🔗 원본](https://github.com/coinbase/x402)
 - 📄 [x402 백서](https://www.x402.org/x402-whitepaper.pdf)
 - 🌐 [x402 웹사이트](https://www.x402.org)
 
 ### x402 SDK & 예제
-- [Python SDK](https://github.com/coinbase/x402/tree/main/python/x402) - 공식 Python 구현
-- [Python 예제](https://github.com/coinbase/x402/tree/main/examples/python/legacy) - 클라이언트 & 서버 예제 (공식 레포)
-- [TypeScript SDK](https://github.com/coinbase/x402/tree/main/typescript)
-- [Go 구현](https://github.com/coinbase/x402/tree/main/go)
+
+| SDK/예제 | 로컬 코드 | 원본 레포 |
+|---------|----------|----------|
+| Python SDK | [→ 로컬](./external/x402/python/x402/) | [→ 원본](https://github.com/coinbase/x402/tree/main/python/x402) |
+| Python 예제 | [→ 로컬](./external/x402/examples/python/legacy/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
+| TypeScript SDK | [→ 로컬](./external/x402/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/typescript) |
+| Go 구현 | [→ 로컬](./external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
 ### Base 체인 리소스
 - [Base 공식 웹사이트](https://base.org)

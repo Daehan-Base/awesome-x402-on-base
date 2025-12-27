@@ -26,12 +26,18 @@
 Examples from the official x402 repository can be found in the submodule:
 
 ### v1 Legacy Examples
-- [examples/python/legacy/](https://github.com/coinbase/x402/tree/main/examples/python/legacy) - Python v1 examples
-- [examples/typescript/legacy/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy) - TypeScript v1 examples
+
+| Example | Local Code | Origin Repo |
+|---------|----------|----------|
+| Python v1 | [→ Local](../external/x402/examples/python/legacy/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
+| TypeScript v1 | [→ Local](../external/x402/examples/typescript/legacy/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy) |
 
 ### v2 Examples
-- [examples/typescript/](https://github.com/coinbase/x402/tree/main/examples/typescript) - TypeScript v2 examples
-- [examples/go/](https://github.com/coinbase/x402/tree/main/examples/go) - Go v2 examples
+
+| Example | Local Code | Origin Repo |
+|---------|----------|----------|
+| TypeScript v2 | [→ Local](../external/x402/examples/typescript/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript) |
+| Go v2 | [→ Local](../external/x402/examples/go/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go) |
 
 ---
 

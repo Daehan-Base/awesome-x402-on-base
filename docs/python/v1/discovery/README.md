@@ -7,7 +7,9 @@
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
 > 최신 v2 스펙은 [x402-v2-specification.md](../../../x402-v2-specification.md)를 참조하세요.
 >
-> **v1 예제 경로**: [python/legacy/](https://github.com/coinbase/x402/tree/main/examples/python/legacy)
+> **v1 예제 경로**:
+> - 📂 로컬: [`external/x402/examples/python/legacy/discovery/`](../../../../external/x402/examples/python/legacy/discovery/)
+> - 🔗 원본: [coinbase/x402/.../python/legacy/discovery/](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery)
 
 ---
 

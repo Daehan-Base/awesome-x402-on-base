@@ -7,7 +7,9 @@
 > 이 문서는 x402 **v1 SDK**를 다룹니다.
 > 최신 v2 스펙은 [x402-v2-specification.md](../../../../x402-v2-specification.md)를 참조하세요.
 >
-> **v1 예제 경로**: [python/legacy/servers/fastapi](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi)
+> **v1 예제 경로**:
+> - 📂 로컬: [`external/x402/examples/python/legacy/servers/fastapi/`](../../../../../external/x402/examples/python/legacy/servers/fastapi/)
+> - 🔗 원본: [coinbase/x402/.../servers/fastapi/](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi)
 
 ---
 
@@ -508,7 +510,7 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 ## 추가 리소스
 
 - [FastAPI 공식 문서](https://fastapi.tiangolo.com/)
-- [x402 프로토콜 사양](https://github.com/coinbase/x402)
+- x402 프로토콜 사양: [📂 로컬](../../../../../external/x402/) | [🔗 원본](https://github.com/coinbase/x402)
 - [Base 네트워크 문서](https://docs.base.org/)
 
 ---
