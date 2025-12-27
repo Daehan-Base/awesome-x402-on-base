@@ -15,7 +15,7 @@
 **How**: Link official code (`external/`) via Git submodule + Korean guides (`docs/`)
 **Target**: Korean developers & global builders interested in Base-specific x402 implementations
 
-**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/getting_started.ko.md)
+**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/getting_started.md)
 
 ---
 
@@ -84,7 +84,7 @@ awesome-x402-on-base/
 │       └── v2/                 # v2 SDK examples (coming soon)
 │
 ├── docs/                       # 🇰🇷 Korean documentation
-│   ├── getting_started.ko.md   # Getting started guide
+│   ├── getting_started.md   # Getting started guide
 │   ├── x402-v2-specification.ko.md  # v2 protocol specification
 │   ├── python/                 # Python documentation
 │   │   ├── v1/                 # v1 Legacy docs
@@ -111,7 +111,7 @@ awesome-x402-on-base/
 → Start with the [Official x402 Documentation](https://docs.cdp.coinbase.com/x402/welcome)
 
 ### For Korean Developers 🇰🇷
-→ Start with the [Korean Quick Start Guide](./docs/getting_started.ko.md)
+→ Start with the [Korean Quick Start Guide](./docs/getting_started.md)
 
 ## 💡 Examples & Korean Guides
 

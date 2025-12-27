@@ -34,7 +34,7 @@
 ## 학습 경로
 
 ```
-1단계: ../../getting_started.ko.md (환경 설정)
+1단계: ../../getting_started.md (환경 설정)
     ↓
 2단계: clients/requests/README.md (동기 클라이언트)
     ↓

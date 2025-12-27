@@ -4,7 +4,7 @@
 
 **What**: 공식 [coinbase/x402](https://github.com/coinbase/x402) 레포지토리를 연결하는 Git 서브모듈  
 **Why**: 코드 중복 방지, 항상 최신 공식 예제 참조  
-**Usage**: 읽기 전용 - `docs/korean/`의 한글 가이드를 따라하세요  
+**Usage**: 읽기 전용 - `docs/`의 한글 가이드를 따라하세요  
 **Update**: `git submodule update --remote external/x402`  
 
 ---

@@ -8,7 +8,7 @@
 
 ## 시작하기
 
-- [getting_started.ko.md](getting_started.ko.md) - 환경 설정 및 시작 가이드
+- [getting_started.md](getting_started.md) - 환경 설정 및 시작 가이드
 
 ---
 

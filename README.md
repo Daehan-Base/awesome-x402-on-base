@@ -15,7 +15,7 @@
 **How**: Git 서브모듈로 공식 코드(`external/`) 연결 + 한글 가이드(`docs/`)
 **Target**: 한국 개발자 & Base 특화 x402 구현에 관심있는 글로벌 빌더
 
-**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/getting_started.ko.md)
+**Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/getting_started.md)
 
 ---
 
@@ -84,7 +84,7 @@ awesome-x402-on-base/
 │       └── v2/                 # v2 SDK 예제 (준비 중)
 │
 ├── docs/                       # 🇰🇷 한국어 문서
-│   ├── getting_started.ko.md   # 시작 가이드
+│   ├── getting_started.md   # 시작 가이드
 │   ├── x402-v2-specification.ko.md  # v2 프로토콜 스펙
 │   ├── python/                 # Python 문서
 │   │   ├── v1/                 # v1 Legacy 문서
@@ -111,7 +111,7 @@ awesome-x402-on-base/
 → [공식 x402 문서](https://docs.cdp.coinbase.com/x402/welcome)에서 시작하세요
 
 ### 한국 개발자분들을 위해 🇰🇷
-→ [한글 빠른 시작 가이드](./docs/getting_started.ko.md)에서 시작하세요
+→ [한글 빠른 시작 가이드](./docs/getting_started.md)에서 시작하세요
 
 ## 💡 예제 및 한글 가이드
 

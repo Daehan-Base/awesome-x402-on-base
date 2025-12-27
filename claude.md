@@ -8,8 +8,8 @@ This file provides guidance to AI coding agents when working with code in this r
 Read `README.md` for overall architecture and purpose of this project.
 
 Consult component READMEs for detailed information:
-- `docs/korean/README.md` - Korean documentation structure
-- `docs/korean/python/v1/README.md` - Python v1 Legacy examples guide
+- `docs/README.md` - Korean documentation structure
+- `docs/python/v1/README.md` - Python v1 Legacy examples guide
 - `examples/README.md` - Base-specific examples
 
 
@@ -22,7 +22,7 @@ awesome-x402-on-base/
 │   └── python/          # Python examples
 │       ├── v1/          # v1 Legacy SDK examples (ap2-demo-coffee-shop)
 │       └── v2/          # v2 SDK examples (in progress)
-├── docs/korean/         # Korean documentation
+├── docs/         # Korean documentation
 │   └── python/          # Python documentation
 │       ├── v1/examples/ # v1 Python example tutorials (4 files)
 │       └── v2/          # v2 documentation (in progress)
@@ -43,8 +43,8 @@ awesome-x402-on-base/
 - `python/v2/`: Python examples using x402 v2 SDK (in progress)
 - Community contributions welcome
 
-**`docs/korean/`** - Korean documentation for x402 on Base
-- `getting_started.ko.md`: Environment setup guide
+**`docs/`** - Korean documentation for x402 on Base
+- `getting_started.md`: Environment setup guide
 - `x402-v2-specification.ko.md`: v2 protocol specification
 - `python/v1/examples/`: Step-by-step tutorials for v1 Python examples
 - `python/v2/`: Python v2 documentation (in progress)

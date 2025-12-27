@@ -8,7 +8,7 @@
 
 ## Getting Started
 
-- [getting_started.ko.md](getting_started.ko.md) - Environment setup and getting started guide
+- [getting_started.md](getting_started.md) - Environment setup and getting started guide
 
 ---
 

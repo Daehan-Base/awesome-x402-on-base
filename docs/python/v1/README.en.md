@@ -34,7 +34,7 @@
 ## Learning Path
 
 ```
-Step 1: ../../getting_started.ko.md (Environment setup)
+Step 1: ../../getting_started.md (Environment setup)
     ↓
 Step 2: clients/requests/README.md (Synchronous client)
     ↓
