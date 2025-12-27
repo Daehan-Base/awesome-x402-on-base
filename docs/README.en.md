@@ -26,10 +26,10 @@
 > Python SDK-based example documentation
 
 - [python/v1/](python/v1/) - Python v1 Legacy documentation
-  - [requests-client.ko.md](python/v1/examples/requests-client.ko.md)
-  - [httpx-client.ko.md](python/v1/examples/httpx-client.ko.md)
-  - [fastapi-server.ko.md](python/v1/examples/fastapi-server.ko.md)
-  - [discovery.ko.md](python/v1/examples/discovery.ko.md)
+  - [requests Client](python/v1/clients/requests/README.md)
+  - [httpx Client](python/v1/clients/httpx/README.md)
+  - [FastAPI Server](python/v1/servers/fastapi/README.md)
+  - [Discovery](python/v1/discovery/README.md)
 
 ---
 

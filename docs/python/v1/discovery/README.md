@@ -387,9 +387,9 @@ x402 생태계의 중앙 레지스트리로, 모든 x402 보호 리소스의 메
 
 ## 다음 단계
 
-- [requests 클라이언트 예제](./requests-client.ko.md) - 동기 클라이언트로 x402 리소스 사용
-- [httpx 클라이언트 예제](./httpx-client.ko.md) - 비동기 클라이언트로 x402 리소스 사용
-- [FastAPI 서버 예제](./fastapi-server.ko.md) - x402로 보호된 자체 서비스 구축
+- [requests 클라이언트 예제](../clients/requests/README.md) - 동기 클라이언트로 x402 리소스 사용
+- [httpx 클라이언트 예제](../clients/httpx/README.md) - 비동기 클라이언트로 x402 리소스 사용
+- [FastAPI 서버 예제](../servers/fastapi/README.md) - x402로 보호된 자체 서비스 구축
 
 ---
 

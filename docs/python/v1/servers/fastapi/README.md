@@ -499,9 +499,9 @@ uvicorn.run(app, host="0.0.0.0", port=4022)
 
 ## 다음 단계
 
-- [requests 클라이언트 예제](./requests-client.ko.md) - 동기 클라이언트로 서버 테스트
-- [httpx 클라이언트 예제](./httpx-client.ko.md) - 비동기 클라이언트로 서버 테스트
-- [Discovery 예제](./discovery.ko.md) - x402 서비스 검색
+- [requests 클라이언트 예제](../../clients/requests/README.md) - 동기 클라이언트로 서버 테스트
+- [httpx 클라이언트 예제](../../clients/httpx/README.md) - 비동기 클라이언트로 서버 테스트
+- [Discovery 예제](../../discovery/README.md) - x402 서비스 검색
 
 ## 추가 리소스
 

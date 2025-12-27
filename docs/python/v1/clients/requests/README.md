@@ -106,9 +106,9 @@ external/x402/examples/python/legacy/clients/requests/
 
 ## 다음 단계
 
-- [httpx 클라이언트 예제](./httpx-client.ko.md) - 비동기 클라이언트 구현
-- [FastAPI 서버 예제](./fastapi-server.ko.md) - 402 보호된 서버 구축
-- [Discovery 예제](./discovery.ko.md) - x402 서비스 검색
+- [httpx 클라이언트 예제](../httpx/README.md) - 비동기 클라이언트 구현
+- [FastAPI 서버 예제](../../servers/fastapi/README.md) - 402 보호된 서버 구축
+- [Discovery 예제](../../discovery/README.md) - x402 서비스 검색
 
 ---
 

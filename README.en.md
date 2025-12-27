@@ -116,10 +116,10 @@ awesome-x402-on-base/
 
 | Example | Official Code | Korean Guide |
 |---------|---------------|--------------|
-| **requests client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Korean Guide](./docs/python/v1/examples/requests-client.ko.md) |
-| **httpx client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Korean Guide](./docs/python/v1/examples/httpx-client.ko.md) |
-| **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/python/v1/examples/fastapi-server.ko.md) |
-| **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/python/v1/examples/discovery.ko.md) |
+| **requests client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Korean Guide](./docs/python/v1/clients/requests/README.md) |
+| **httpx client** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Korean Guide](./docs/python/v1/clients/httpx/README.md) |
+| **FastAPI server** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Korean Guide](./docs/python/v1/servers/fastapi/README.md) |
+| **Discovery** | [→ Code](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Korean Guide](./docs/python/v1/discovery/README.md) |
 
 ### TypeScript Examples (v2 Latest)
 

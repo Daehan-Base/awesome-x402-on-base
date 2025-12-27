@@ -410,16 +410,16 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 ### 추천 학습 경로
 
 1. **Python 예제 시작하기** (v1 Legacy)
-   - [requests 클라이언트 가이드](./python/v1/examples/requests-client.ko.md)
-   - [httpx 클라이언트 가이드](./python/v1/examples/httpx-client.ko.md)
-   - [FastAPI 서버 가이드](./python/v1/examples/fastapi-server.ko.md)
+   - [requests 클라이언트 가이드](./python/v1/clients/requests/README.md)
+   - [httpx 클라이언트 가이드](./python/v1/clients/httpx/README.md)
+   - [FastAPI 서버 가이드](./python/v1/servers/fastapi/README.md)
 
 2. **TypeScript 예제 탐색**
    - CDP SDK 클라이언트: [typescript/legacy/clients/cdp-sdk/](https://github.com/coinbase/x402/tree/main/examples/typescript/legacy/clients/cdp-sdk)
    - Express 서버: [typescript/servers/express/](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express)
 
 3. **Discovery 기능 배우기** (v1 Legacy)
-   - [Discovery 가이드](./python/v1/examples/discovery.ko.md)
+   - [Discovery 가이드](./python/v1/discovery/README.md)
 
 4. **고급 주제**
    - Mainnet 배포

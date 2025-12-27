@@ -116,10 +116,10 @@ awesome-x402-on-base/
 
 | 예제 | 공식 코드 | 한글 가이드 |
 |------|----------|------------|
-| **requests 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 한글 가이드](./docs/python/v1/examples/requests-client.ko.md) |
-| **httpx 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 한글 가이드](./docs/python/v1/examples/httpx-client.ko.md) |
-| **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/python/v1/examples/fastapi-server.ko.md) |
-| **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/python/v1/examples/discovery.ko.md) |
+| **requests 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ 한글 가이드](./docs/python/v1/clients/requests/README.md) |
+| **httpx 클라이언트** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ 한글 가이드](./docs/python/v1/clients/httpx/README.md) |
+| **FastAPI 서버** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ 한글 가이드](./docs/python/v1/servers/fastapi/README.md) |
+| **Discovery** | [→ 코드](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ 한글 가이드](./docs/python/v1/discovery/README.md) |
 
 ### TypeScript 예제 (v2 최신)
 

@@ -50,10 +50,10 @@ For each official example, we provide Korean documentation:
 
 | Example | Code | Korean Guide |
 |---------|------|--------------|
-| requests Client | `./x402/examples/python/legacy/clients/requests` | [→ Guide](../docs/korean/v1/examples/python-requests-client.ko.md) |
-| httpx Client | `./x402/examples/python/legacy/clients/httpx` | [→ Guide](../docs/korean/v1/examples/python-httpx-client.ko.md) |
-| Python Servers | `./x402/examples/python/legacy/servers` | [→ Guide](../docs/korean/v1/examples/python-fastapi-server.ko.md) |
-| Discovery | `./x402/examples/python/legacy/discovery` | [→ Guide](../docs/korean/v1/examples/python-discovery.ko.md) |
+| requests Client | `./x402/examples/python/legacy/clients/requests` | [→ Guide](../docs/python/v1/clients/requests/README.md) |
+| httpx Client | `./x402/examples/python/legacy/clients/httpx` | [→ Guide](../docs/python/v1/clients/httpx/README.md) |
+| Python Servers | `./x402/examples/python/legacy/servers` | [→ Guide](../docs/python/v1/servers/fastapi/README.md) |
+| Discovery | `./x402/examples/python/legacy/discovery` | [→ Guide](../docs/python/v1/discovery/README.md) |
 
 ### Updating the Submodule
 
