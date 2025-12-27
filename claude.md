@@ -49,6 +49,27 @@ awesome-x402-on-base/
 - `python/v1/`: v1 Legacy tutorials (clients/, servers/, discovery/)
 - `python/v2/`: Python v2 documentation (in progress)
 
+**`.agents/skills/`** - Agent Skills ([Open Standard](https://agentskills.io))
+- Skills for documentation and contribution workflows
+- Claude Code uses `.claude/skills/` symlink → `.agents/skills/`
+- Other agents can access directly or via AGENTS.md
+
+
+## Agent Skills
+
+이 레포지토리는 [Agent Skills 오픈 스탠다드](https://agentskills.io)를 준수하는 skills를 제공합니다.
+
+**위치**: `.agents/skills/` (Claude Code는 `.claude/skills/` 심볼릭 링크 사용)
+
+| Skill | 목적 | 사용 시점 |
+|-------|------|----------|
+| `validate-links` | 문서 링크 유효성 검사 | 문서 작성, PR 전 |
+| `sync-docs` | 한/영 문서 쌍 확인 | 새 문서 추가 후 |
+| `create-doc` | 문서 템플릿 생성 | 예제/문서 추가 시 |
+| `check-contribution` | PR 전 체크리스트 | 컨트리뷰션 제출 전 |
+
+각 skill의 `SKILL.md` 파일에서 상세 사용법을 확인하세요.
+
 
 ## README-First Development
 
