@@ -72,6 +72,22 @@ The x402 ecosystem is rapidly growing with support from major tech companies:
 - **Anthropic** - AI integration
 
 
+
+## 🤖 Live Community Services
+
+Real x402 services deployed on Base mainnet you can call right now:
+
+| Service | Endpoint | Price | Description |
+|---------|----------|-------|-------------|
+| [Automaton Oracle](https://automaton-oracle.xyz) | `/price` | $0.005 | Multi-source crypto price data |
+| [Automaton Oracle](https://automaton-oracle.xyz) | `/price/dex` | $0.010 | DEX liquidity & volume |
+| [Automaton Oracle](https://automaton-oracle.xyz) | `/signal` | $0.020 | AI trading signal |
+| [Automaton Oracle](https://automaton-oracle.xyz) | `/macro` | $0.015 | Macro market intelligence |
+| [Automaton Oracle](https://automaton-oracle.xyz) | `/pump` | $0.050 | Early pump detection |
+| [Automaton Oracle](https://automaton-oracle.xyz) | `/meme` | $0.005 | Meme coin score |
+
+> Automaton Oracle uses a **self-hosted sovereign facilitator** — no dependency on x402.org testnet facilitator. Fully operational on Base mainnet with EIP-3009 USDC settlement.
+
 ## 📁 Repository Structure
 
 ```
