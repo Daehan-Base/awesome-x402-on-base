@@ -198,6 +198,9 @@ cd external/x402/examples/python
 - [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
 - [Circle USDC Faucet](https://faucet.circle.com/)
 
+### 커뮤니티 프로젝트 (Base x402)
+- [Moltalyzer](https://moltalyzer.xyz) - AI 에이전트를 위한 인텔리전스 피드: 시간별 커뮤니티 다이제스트, 일간 GitHub 트렌딩 레포, 일간 Polymarket 내부자 감지. Base Mainnet USDC, $0.005부터. [API](https://api.moltalyzer.xyz)
+
 ## 📬 연락하기
 
 - **이슈 & 질문** - 이 레포지토리에 이슈 열기
