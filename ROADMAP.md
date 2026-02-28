@@ -36,6 +36,15 @@
 - [x] FastAPI 서버 가이드 (한글)
 - [x] Discovery 예제 가이드 (한글)
 
+### Python v2 예제 가이드
+- [x] requests 클라이언트 가이드 (한/영) - `docs/python/v2/clients/requests/`
+- [x] httpx 클라이언트 가이드 (한/영) - `docs/python/v2/clients/httpx/`
+- [x] FastAPI 서버 가이드 (한/영) - `docs/python/v2/servers/fastapi/`
+- [x] Flask 서버 가이드 (한/영) - `docs/python/v2/servers/flask/`
+- [ ] MCP 통합 가이드 (한/영)
+- [ ] Facilitator 가이드 (한/영)
+- [ ] Extensions 가이드 (한/영)
+
 ### Base 체인 가이드
 - [ ] USDC faucet 사용 가이드 (한글)
 - [ ] Base Mainnet 전환 가이드 (한글)
