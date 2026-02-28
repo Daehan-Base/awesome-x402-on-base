@@ -840,7 +840,6 @@ go get github.com/coinbase/x402/go
 
 - 🐛 [이슈 생성](https://github.com/Daehan-Base/awesome-x402-on-base/issues/new)
 - 📝 [Pull Request](https://github.com/Daehan-Base/awesome-x402-on-base/pulls)
-- 💬 [토론 참여](https://github.com/Daehan-Base/awesome-x402-on-base/discussions)
 
 ---
 

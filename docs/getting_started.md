@@ -486,7 +486,6 @@ CDP Portal 또는 [Base Sepolia Explorer](https://sepolia.basescan.org/)에서 U
 
 - 🐛 [이슈 생성](https://github.com/Daehan-Base/awesome-x402-on-base/issues/new) - 오류 보고 또는 개선 제안
 - 📝 [Pull Request](https://github.com/Daehan-Base/awesome-x402-on-base/pulls) - 직접 문서 개선
-- 💬 [Discussions](https://github.com/Daehan-Base/awesome-x402-on-base/discussions) - 질문 및 토론
 
 여러분의 기여가 한국 x402 커뮤니티를 더욱 강하게 만듭니다! 🙏
 
