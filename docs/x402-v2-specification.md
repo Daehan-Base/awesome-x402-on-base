@@ -710,7 +710,7 @@ v1 SDK를 사용하는 기존 Python 예제 문서입니다.
 | HTTP 헤더 | `X-PAYMENT` | `PAYMENT-SIGNATURE` |
 | 네트워크 형식 | `base-sepolia` | `eip155:84532` |
 | 버전 필드 | `x402Version: 1` | `x402Version: 2` |
-| 예제 경로 | `examples/python/legacy/` | (준비 중) |
+| 예제 경로 | `examples/python/legacy/` | `examples/python/clients/`, `servers/` |
 
 ---
 
@@ -745,31 +745,42 @@ app.use('/premium', x402Middleware({
 ### Python v2
 
 ```python
-from x402 import X402Client
+from eth_account import Account
+
+from x402 import x402ClientSync
+from x402.http.clients import x402_requests
+from x402.mechanisms.evm import EthAccountSigner
+from x402.mechanisms.evm.exact.register import register_exact_evm_client
 
 # 클라이언트 예제
-client = X402Client(
-    facilitator_url="https://facilitator.example.com",
-    network="eip155:84532"
-)
+account = Account.from_key("0xYourPrivateKey")
+client = x402ClientSync()
+register_exact_evm_client(client, EthAccountSigner(account))
 
-response = client.post(
-    "https://api.example.com/premium-data",
-    json={"query": "latest data"}
-)
+with x402_requests(client) as session:
+    response = session.post(
+        "https://api.example.com/premium-data",
+        json={"query": "latest data"}
+    )
 ```
 
 ```python
-from x402 import X402Middleware
 from fastapi import FastAPI
+
+from x402 import x402ResourceServer
+from x402.http import FacilitatorConfig, HTTPFacilitatorClient
+from x402.http.middleware.fastapi import PaymentMiddlewareASGI
 
 # 서버 예제
 app = FastAPI()
+facilitator = HTTPFacilitatorClient(FacilitatorConfig(url="https://facilitator.example.com"))
+server = x402ResourceServer(facilitator)
+# routes = {...}
 
 app.add_middleware(
-    X402Middleware,
-    facilitator_url="https://facilitator.example.com",
-    default_network="eip155:84532"
+    PaymentMiddlewareASGI,
+    routes=routes,
+    server=server,
 )
 ```
 

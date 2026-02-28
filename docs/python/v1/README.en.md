@@ -13,10 +13,10 @@
 
 | Document | Description | Local Code | Origin Repo |
 |------|------|----------|----------|
-| [requests Client](clients/requests/README.md) | Synchronous HTTP client | [→ Local](../../../external/x402/examples/python/legacy/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
-| [httpx Client](clients/httpx/README.md) | Asynchronous HTTP client | [→ Local](../../../external/x402/examples/python/legacy/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
-| [FastAPI Server](servers/fastapi/README.md) | FastAPI server | [→ Local](../../../external/x402/examples/python/legacy/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
-| [Discovery](discovery/README.md) | Resource discovery | [→ Local](../../../external/x402/examples/python/legacy/discovery/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
+| [requests Client](clients/requests/README.en.md) | Synchronous HTTP client | [→ Local](../../../external/x402/examples/python/legacy/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) |
+| [httpx Client](clients/httpx/README.en.md) | Asynchronous HTTP client | [→ Local](../../../external/x402/examples/python/legacy/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) |
+| [FastAPI Server](servers/fastapi/README.en.md) | FastAPI server | [→ Local](../../../external/x402/examples/python/legacy/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) |
+| [Discovery](discovery/README.en.md) | Resource discovery | [→ Local](../../../external/x402/examples/python/legacy/discovery/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) |
 
 ---
 
@@ -27,7 +27,7 @@
 | HTTP Headers | `X-PAYMENT` | `PAYMENT-SIGNATURE` |
 | Network Format | `base-sepolia` | `eip155:84532` (CAIP Standard) |
 | Version Field | `x402Version: 1` | `x402Version: 2` |
-| SDK Structure | Single `x402` package | Modular `@x402/*` packages |
+| SDK Structure | Single `x402` package | Unified `x402` package (async/sync core + pluggable schemes) |
 
 ---
 
@@ -47,4 +47,4 @@ Step 5: discovery/README.md (Advanced features)
 
 ---
 
-[← Back to Korean Documentation](../../README.md) | [View v2 Spec →](../../x402-v2-specification.md)
+[← Back to Documentation Home](../../README.en.md) | [View v2 Spec →](../../x402-v2-specification.md)

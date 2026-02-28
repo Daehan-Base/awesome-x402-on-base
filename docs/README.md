@@ -19,7 +19,11 @@
 > 2025년 12월 11일 출시
 
 - [x402-v2-specification.md](x402-v2-specification.md) - **v2 프로토콜 전체 명세서**
-- [python/v2/](python/v2/) - Python v2 관련 문서
+- [python/v2/](python/v2/) - Python v2 문서
+  - [requests 클라이언트](python/v2/clients/requests/README.md)
+  - [httpx 클라이언트](python/v2/clients/httpx/README.md)
+  - [FastAPI 서버](python/v2/servers/fastapi/README.md)
+  - [Flask 서버](python/v2/servers/flask/README.md)
 
 ### v1 (Legacy)
 

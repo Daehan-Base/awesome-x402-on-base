@@ -10,10 +10,10 @@
 
 ## 📝 요약 (TL;DR)
 
-**What**: Base 체인 x402 결제 프로토콜 한국어 가이드
-**Why**: 공식 예제가 이미 Base 사용 - 상세한 한글 튜토리얼 추가
-**How**: Git 서브모듈로 공식 코드(`external/`) 연결 + 한글 가이드(`docs/`)
-**Target**: 한국 개발자 & Base 특화 x402 구현에 관심있는 글로벌 빌더
+**What**: Base 체인 x402 결제 프로토콜 한국어 가이드  
+**Why**: 공식 예제가 이미 Base 사용 - 상세한 한글 튜토리얼 추가  
+**How**: Git 서브모듈로 공식 코드(`external/`) 연결 + 한글 가이드(`docs/`)  
+**Target**: 한국 개발자 & Base 특화 x402 구현에 관심있는 글로벌 빌더  
 
 **Quick Start**: [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome) | [Korean Guide](./docs/getting_started.md)
 
@@ -81,7 +81,7 @@ awesome-x402-on-base/
 ├── examples/                   # 📝 Base 특화 예제 및 데모
 │   └── python/                 # Python 예제
 │       ├── v1/                 # v1 Legacy SDK 예제
-│       └── v2/                 # v2 SDK 예제 (준비 중)
+│       └── v2/                 # v2 SDK 예제
 │
 ├── docs/                       # 🇰🇷 한국어 문서
 │   ├── getting_started.md   # 시작 가이드
@@ -91,7 +91,7 @@ awesome-x402-on-base/
 │   │   │   ├── clients/        # 클라이언트 (requests, httpx)
 │   │   │   ├── servers/        # 서버 (FastAPI)
 │   │   │   └── discovery/      # Discovery
-│   │   └── v2/                 # v2 문서 (준비 중)
+│   │   └── v2/                 # v2 문서 (clients/, servers/)
 │   └── typescript/             # TypeScript 문서
 │       ├── v1/                 # v1 Legacy 문서 (준비 중)
 │       └── v2/                 # v2 예제 가이드
@@ -115,7 +115,16 @@ awesome-x402-on-base/
 
 ## 💡 예제 및 한글 가이드
 
-### Python 예제 (공식 코드 + 한글 가이드)
+### Python v2 예제 (최신)
+
+| 예제 | 로컬 코드 | 원본 레포 | 한글 가이드 |
+|------|----------|----------|------------|
+| **requests 클라이언트** (동기) | [→ 로컬](./external/x402/examples/python/clients/requests/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/clients/requests) | [→ 가이드](./docs/python/v2/clients/requests/README.md) |
+| **httpx 클라이언트** (비동기) | [→ 로컬](./external/x402/examples/python/clients/httpx/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/clients/httpx) | [→ 가이드](./docs/python/v2/clients/httpx/README.md) |
+| **FastAPI 서버** (비동기) | [→ 로컬](./external/x402/examples/python/servers/fastapi/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/servers/fastapi) | [→ 가이드](./docs/python/v2/servers/fastapi/README.md) |
+| **Flask 서버** (동기) | [→ 로컬](./external/x402/examples/python/servers/flask/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/servers/flask) | [→ 가이드](./docs/python/v2/servers/flask/README.md) |
+
+### Python v1 예제 (Legacy)
 
 | 예제 | 로컬 코드 | 원본 레포 | 한글 가이드 |
 |------|----------|----------|------------|
@@ -188,7 +197,8 @@ cd external/x402/examples/python
 | SDK/예제 | 로컬 코드 | 원본 레포 |
 |---------|----------|----------|
 | Python SDK | [→ 로컬](./external/x402/python/x402/) | [→ 원본](https://github.com/coinbase/x402/tree/main/python/x402) |
-| Python 예제 | [→ 로컬](./external/x402/examples/python/legacy/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
+| Python v2 예제 | [→ 로컬](./external/x402/examples/python/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python) |
+| Python v1 예제 | [→ 로컬](./external/x402/examples/python/legacy/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
 | TypeScript SDK | [→ 로컬](./external/x402/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/typescript) |
 | Go 구현 | [→ 로컬](./external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
