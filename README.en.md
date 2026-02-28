@@ -208,6 +208,9 @@ Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONT
 - [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
 - [Circle USDC Faucet](https://faucet.circle.com/)
 
+### Community Projects (Base x402)
+- [Moltalyzer](https://moltalyzer.xyz) - AI intelligence feeds for agents: hourly community digests, daily GitHub trending repos, and daily Polymarket insider detection. x402 micropayments on Base Mainnet (USDC), from $0.005. [API](https://api.moltalyzer.xyz)
+
 ## 📬 Contact
 
 - **Issues & Questions** - Open an issue in this repository
