@@ -57,18 +57,18 @@ awesome-x402-on-base/
 
 ## Agent Skills
 
-이 레포지토리는 [Agent Skills 오픈 스탠다드](https://agentskills.io)를 준수하는 skills를 제공합니다.
+This repository provides skills that follow the [Agent Skills Open Standard](https://agentskills.io).
 
-**위치**: `.agents/skills/` (Claude Code는 `.claude/skills/` 심볼릭 링크 사용)
+**Location**: `.agents/skills/` (Claude Code uses the `.claude/skills/` symbolic link)
 
-| Skill | 목적 | 사용 시점 |
-|-------|------|----------|
-| `validate-links` | 문서 링크 유효성 검사 | 문서 작성, PR 전 |
-| `sync-docs` | 한/영 문서 쌍 확인 | 새 문서 추가 후 |
-| `create-doc` | 문서 템플릿 생성 | 예제/문서 추가 시 |
-| `check-contribution` | PR 전 체크리스트 | 컨트리뷰션 제출 전 |
+| Skill | Purpose | When to Use |
+|-------|---------|-------------|
+| `validate-links` | Validate documentation links | During documentation writing, before PR |
+| `sync-docs` | Check Korean/English document pairing | After adding new documents |
+| `create-doc` | Generate documentation templates | When adding examples or docs |
+| `check-contribution` | Pre-PR checklist | Before submitting contributions |
 
-각 skill의 `SKILL.md` 파일에서 상세 사용법을 확인하세요.
+See each skill's `SKILL.md` for detailed usage.
 
 
 ## README-First Development
@@ -145,7 +145,7 @@ secrets.json
 - Follow existing patterns in the codebase
 - Keep Korean documentation consistent with official x402 examples
 - Use Web2 analogies when explaining Web3 concepts
-- Include timestamps in Korean docs (작성 시점, 최종 검증)
+- Include timestamps in Korean docs (created date, last verified)
 - Always include security warnings in documentation
 
 ### Python Specifics
