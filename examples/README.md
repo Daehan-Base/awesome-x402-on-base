@@ -17,7 +17,7 @@
 
 #### v2 (최신)
 
-- [python/v2/](python/v2/) - x402 v2 SDK 기반 예제 (준비 중)
+- [python/v2/](python/v2/) - x402 v2 SDK 기반 예제
 
 ---
 
@@ -36,6 +36,8 @@
 
 | 예제 | 로컬 코드 | 원본 레포 |
 |------|----------|----------|
+| Python v2 클라이언트 | [→ 로컬](../external/x402/examples/python/clients/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/clients) |
+| Python v2 서버 | [→ 로컬](../external/x402/examples/python/servers/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/python/servers) |
 | TypeScript v2 | [→ 로컬](../external/x402/examples/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript) |
 | Go v2 | [→ 로컬](../external/x402/examples/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/go) |
 

@@ -12,8 +12,11 @@
 
 > 2025년 12월 출시, 모듈형 SDK 기반
 
-- [v2/](v2/) - Python v2 문서 (준비 중)
-- 🚧 **Python v2 SDK 작업 중**: [PR #841](https://github.com/coinbase/x402/pull/841)
+- [v2/](v2/) - Python v2 문서
+  - [requests 클라이언트](v2/clients/requests/README.md) - 동기 HTTP 클라이언트
+  - [httpx 클라이언트](v2/clients/httpx/README.md) - 비동기 HTTP 클라이언트
+  - [FastAPI 서버](v2/servers/fastapi/README.md) - ASGI 서버
+  - [Flask 서버](v2/servers/flask/README.md) - WSGI 서버
 
 ### v1 (Legacy)
 
@@ -30,7 +33,7 @@
 | HTTP 헤더 | `X-PAYMENT` | `PAYMENT-SIGNATURE` |
 | 네트워크 형식 | `base-sepolia` | `eip155:84532` (CAIP 표준) |
 | 버전 필드 | `x402Version: 1` | `x402Version: 2` |
-| 예제 경로 | `examples/python/legacy/` | (준비 중) |
+| 예제 경로 | `examples/python/legacy/` | `examples/python/clients/`, `servers/` |
 
 ---
 

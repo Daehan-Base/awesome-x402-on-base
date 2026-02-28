@@ -10,7 +10,7 @@
 ## 📝 TL;DR
 
 **What**: Base chain-specific x402 v1 examples and advanced use cases
-**Official Examples**: Use `external/x402/examples/python/legacy` ([📂 Local](../../external/x402/examples/python/legacy/) | [🔗 Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy))
+**Official Examples**: Use `external/x402/examples/python/legacy` ([📂 Local](../../../external/x402/examples/python/legacy/) | [🔗 Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy))
 **This Directory**: Base optimizations, AI agents, production patterns
 **Korean Guides**: Available in [`docs/python/v1/`](../../../docs/python/v1/)
 
@@ -31,7 +31,7 @@ examples/
 
 ## What's Different from Official Examples?
 
-The official x402 v1 examples ([📂 Local](../../external/x402/examples/python/legacy/) | [🔗 Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy)) already use Base chain by default. This directory provides:
+The official x402 v1 examples ([📂 Local](../../../external/x402/examples/python/legacy/) | [🔗 Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy)) already use Base chain by default. This directory provides:
 
 1. **Base-Specific Optimizations**
    - Gas optimization techniques for Base
@@ -51,7 +51,7 @@ The official x402 v1 examples ([📂 Local](../../external/x402/examples/python/
 ## Official Examples
 
 For standard x402 v1 implementations, refer to:
-- Official Python Examples: [📂 Local](../../external/x402/examples/python/legacy/) | [🔗 Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy)
+- Official Python Examples: [📂 Local](../../../external/x402/examples/python/legacy/) | [🔗 Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy)
 - [Korean Guides for Official Examples](../../../docs/python/v1/)
 
 ## Base-Specific Examples (Coming Soon)
@@ -82,4 +82,4 @@ Have a Base-specific example to share? We'd love to include it!
 
 ---
 
-[← Back to examples](../../README.md) | [v2 Examples →](../v2/README.md)
+[← Back to examples](../../README.en.md) | [v2 Examples →](../v2/README.en.md)

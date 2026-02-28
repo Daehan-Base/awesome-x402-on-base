@@ -2,32 +2,54 @@
 
 # x402 v2 Examples
 
-> x402 v2 SDK-based examples (coming soon)
+> x402 v2 SDK-based examples
 >
 > 📚 **Migrating from v1**: [Migration Guide](https://docs.cdp.coinbase.com/x402/migration-guide)
 
 ---
 
-## Status
+## Python v2 Official Examples
 
-v2 examples are currently in preparation.
+Access Python v2 examples from the submodule:
 
-Official v2 examples can be found in the submodule:
+### Clients
 
-### TypeScript v2 Examples
+| Example | Local Code | Origin Repo | Guide |
+|---------|----------|----------|-------|
+| **requests** (sync) | [→ Local](../../../external/x402/examples/python/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/clients/requests) | [→ Guide](../../../docs/python/v2/clients/requests/README.en.md) |
+| **httpx** (async) | [→ Local](../../../external/x402/examples/python/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/clients/httpx) | [→ Guide](../../../docs/python/v2/clients/httpx/README.en.md) |
+
+### Servers
+
+| Example | Local Code | Origin Repo | Guide |
+|---------|----------|----------|-------|
+| **FastAPI** (async) | [→ Local](../../../external/x402/examples/python/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/servers/fastapi) | [→ Guide](../../../docs/python/v2/servers/fastapi/README.en.md) |
+| **Flask** (sync) | [→ Local](../../../external/x402/examples/python/servers/flask/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/servers/flask) | [→ Guide](../../../docs/python/v2/servers/flask/README.en.md) |
+
+### Additional Examples
 
 | Example | Local Code | Origin Repo |
 |---------|----------|----------|
-| Clients | [→ Local](../../external/x402/examples/typescript/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) |
-| Servers | [→ Local](../../external/x402/examples/typescript/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/servers) |
-| Facilitator | [→ Local](../../external/x402/examples/typescript/facilitator/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator) |
+| **Facilitator** | [→ Local](../../../external/x402/examples/python/facilitator/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/facilitator) |
+| **MCP** (AI agents) | — | Coming soon |
+| **Extensions** | — | Coming soon |
 
-### Go v2 Examples
+---
+
+## TypeScript v2 Examples
 
 | Example | Local Code | Origin Repo |
 |---------|----------|----------|
-| Clients | [→ Local](../../external/x402/examples/go/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go/clients) |
-| Servers | [→ Local](../../external/x402/examples/go/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go/servers) |
+| Clients | [→ Local](../../../external/x402/examples/typescript/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/clients) |
+| Servers | [→ Local](../../../external/x402/examples/typescript/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/servers) |
+| Facilitator | [→ Local](../../../external/x402/examples/typescript/facilitator/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript/facilitator) |
+
+## Go v2 Examples
+
+| Example | Local Code | Origin Repo |
+|---------|----------|----------|
+| Clients | [→ Local](../../../external/x402/examples/go/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go/clients) |
+| Servers | [→ Local](../../../external/x402/examples/go/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go/servers) |
 
 ---
 
@@ -37,4 +59,4 @@ If you'd like to add v2 examples, please send a Pull Request!
 
 ---
 
-[← Back to Examples](../README.md) | [v1 Legacy Examples →](../v1/README.md)
+[← Back to Examples](../../README.en.md) | [v1 Legacy Examples →](../v1/README.en.md)

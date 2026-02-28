@@ -19,17 +19,21 @@
 > Released on December 11, 2025
 
 - [x402-v2-specification.md](x402-v2-specification.md) - **Complete v2 Protocol Specification**
-- [python/v2/](python/v2/) - Python v2 related documentation
+- [python/v2/](python/v2/) - Python v2 Documentation
+  - [requests Client](python/v2/clients/requests/README.en.md)
+  - [httpx Client](python/v2/clients/httpx/README.en.md)
+  - [FastAPI Server](python/v2/servers/fastapi/README.en.md)
+  - [Flask Server](python/v2/servers/flask/README.en.md)
 
 ### v1 (Legacy)
 
 > Python SDK-based example documentation
 
 - [python/v1/](python/v1/) - Python v1 Legacy documentation
-  - [requests Client](python/v1/clients/requests/README.md)
-  - [httpx Client](python/v1/clients/httpx/README.md)
-  - [FastAPI Server](python/v1/servers/fastapi/README.md)
-  - [Discovery](python/v1/discovery/README.md)
+  - [requests Client](python/v1/clients/requests/README.en.md)
+  - [httpx Client](python/v1/clients/httpx/README.en.md)
+  - [FastAPI Server](python/v1/servers/fastapi/README.en.md)
+  - [Discovery](python/v1/discovery/README.en.md)
 
 ---
 

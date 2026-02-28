@@ -12,8 +12,11 @@
 
 > Released December 2025, modular SDK based
 
-- [v2/](v2/) - Python v2 Documentation (Coming Soon)
-- 🚧 **Python v2 SDK In Progress**: [PR #841](https://github.com/coinbase/x402/pull/841)
+- [v2/](v2/) - Python v2 Documentation
+  - [requests Client](v2/clients/requests/README.en.md) - Sync HTTP client
+  - [httpx Client](v2/clients/httpx/README.en.md) - Async HTTP client
+  - [FastAPI Server](v2/servers/fastapi/README.en.md) - ASGI server
+  - [Flask Server](v2/servers/flask/README.en.md) - WSGI server
 
 ### v1 (Legacy)
 
@@ -30,8 +33,8 @@
 | HTTP Header | `X-PAYMENT` | `PAYMENT-SIGNATURE` |
 | Network Format | `base-sepolia` | `eip155:84532` (CAIP Standard) |
 | Version Field | `x402Version: 1` | `x402Version: 2` |
-| Example Path | `examples/python/legacy/` | (Coming Soon) |
+| Example Path | `examples/python/legacy/` | `examples/python/clients/`, `servers/` |
 
 ---
 
-[← Back to Documentation Home](../README.md)
+[← Back to Documentation Home](../README.en.md)

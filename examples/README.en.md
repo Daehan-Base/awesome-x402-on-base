@@ -17,7 +17,7 @@
 
 #### v2 (Latest)
 
-- [python/v2/](python/v2/) - Examples based on x402 v2 SDK (coming soon)
+- [python/v2/](python/v2/) - Examples based on x402 v2 SDK
 
 ---
 
@@ -36,9 +36,11 @@ Examples from the official x402 repository can be found in the submodule:
 
 | Example | Local Code | Origin Repo |
 |---------|----------|----------|
+| Python v2 Clients | [→ Local](../external/x402/examples/python/clients/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/clients) |
+| Python v2 Servers | [→ Local](../external/x402/examples/python/servers/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/servers) |
 | TypeScript v2 | [→ Local](../external/x402/examples/typescript/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/typescript) |
 | Go v2 | [→ Local](../external/x402/examples/go/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/go) |
 
 ---
 
-[← Back to Main README](../README.md)
+[← Back to Main README](../README.en.md)

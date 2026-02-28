@@ -81,7 +81,7 @@ awesome-x402-on-base/
 ├── examples/                   # 📝 Base-specific examples and demos
 │   └── python/                 # Python examples
 │       ├── v1/                 # v1 Legacy SDK examples
-│       └── v2/                 # v2 SDK examples (coming soon)
+│       └── v2/                 # v2 SDK examples
 │
 ├── docs/                       # 🇰🇷 Korean documentation
 │   ├── getting_started.md   # Getting started guide
@@ -91,7 +91,7 @@ awesome-x402-on-base/
 │   │   │   ├── clients/        # Clients (requests, httpx)
 │   │   │   ├── servers/        # Servers (FastAPI)
 │   │   │   └── discovery/      # Discovery
-│   │   └── v2/                 # v2 documentation (coming soon)
+│   │   └── v2/                 # v2 documentation (clients/, servers/)
 │   └── typescript/             # TypeScript documentation
 │       ├── v1/                 # v1 Legacy docs (coming soon)
 │       └── v2/                 # v2 example guides
@@ -115,14 +115,23 @@ awesome-x402-on-base/
 
 ## 💡 Examples & Korean Guides
 
-### Python Examples (Official Code + Korean Guides)
+### Python v2 Examples (Latest)
 
-| Example | Local Code | Origin Repo | Korean Guide |
-|---------|----------|----------|--------------|
-| **requests client** | [→ Local](./external/x402/examples/python/legacy/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Guide](./docs/python/v1/clients/requests/README.md) |
-| **httpx client** | [→ Local](./external/x402/examples/python/legacy/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Guide](./docs/python/v1/clients/httpx/README.md) |
-| **FastAPI server** | [→ Local](./external/x402/examples/python/legacy/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Guide](./docs/python/v1/servers/fastapi/README.md) |
-| **Discovery** | [→ Local](./external/x402/examples/python/legacy/discovery/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Guide](./docs/python/v1/discovery/README.md) |
+| Example | Local Code | Origin Repo | Guide |
+|---------|----------|----------|-------|
+| **requests client** (sync) | [→ Local](./external/x402/examples/python/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/clients/requests) | [→ Guide](./docs/python/v2/clients/requests/README.en.md) |
+| **httpx client** (async) | [→ Local](./external/x402/examples/python/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/clients/httpx) | [→ Guide](./docs/python/v2/clients/httpx/README.en.md) |
+| **FastAPI server** (async) | [→ Local](./external/x402/examples/python/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/servers/fastapi) | [→ Guide](./docs/python/v2/servers/fastapi/README.en.md) |
+| **Flask server** (sync) | [→ Local](./external/x402/examples/python/servers/flask/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/servers/flask) | [→ Guide](./docs/python/v2/servers/flask/README.en.md) |
+
+### Python v1 Examples (Legacy)
+
+| Example | Local Code | Origin Repo | Guide |
+|---------|----------|----------|-------|
+| **requests client** | [→ Local](./external/x402/examples/python/legacy/clients/requests/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/requests) | [→ Guide](./docs/python/v1/clients/requests/README.en.md) |
+| **httpx client** | [→ Local](./external/x402/examples/python/legacy/clients/httpx/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/clients/httpx) | [→ Guide](./docs/python/v1/clients/httpx/README.en.md) |
+| **FastAPI server** | [→ Local](./external/x402/examples/python/legacy/servers/fastapi/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/servers/fastapi) | [→ Guide](./docs/python/v1/servers/fastapi/README.en.md) |
+| **Discovery** | [→ Local](./external/x402/examples/python/legacy/discovery/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy/discovery) | [→ Guide](./docs/python/v1/discovery/README.en.md) |
 
 ### TypeScript Examples (v2 Latest)
 
@@ -188,7 +197,8 @@ Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONT
 | SDK/Example | Local Code | Origin Repo |
 |-------------|----------|----------|
 | Python SDK | [→ Local](./external/x402/python/x402/) | [→ Origin](https://github.com/coinbase/x402/tree/main/python/x402) |
-| Python Examples | [→ Local](./external/x402/examples/python/legacy/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
+| Python v2 Examples | [→ Local](./external/x402/examples/python/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python) |
+| Python v1 Examples | [→ Local](./external/x402/examples/python/legacy/) | [→ Origin](https://github.com/coinbase/x402/tree/main/examples/python/legacy) |
 | TypeScript SDK | [→ Local](./external/x402/typescript/) | [→ Origin](https://github.com/coinbase/x402/tree/main/typescript) |
 | Go Implementation | [→ Local](./external/x402/go/) | [→ Origin](https://github.com/coinbase/x402/tree/main/go) |
 
