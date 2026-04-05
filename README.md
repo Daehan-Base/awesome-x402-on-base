@@ -202,6 +202,9 @@ cd external/x402/examples/python
 | TypeScript SDK | [→ 로컬](./external/x402/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/typescript) |
 | Go 구현 | [→ 로컬](./external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
+### x402 커뮤니티 리소스
+- [x402 Service Encyclopedia](https://github.com/lordbasilaiassistant-sudo/x402-wiki/wiki) - 43개 검증된 x402 서비스 위키 디렉토리. OpenClaw 템플릿, 프로토콜 문서, 통합 가이드 포함. 56 위키 페이지. ([GitHub](https://github.com/lordbasilaiassistant-sudo/x402-wiki) | [GitHub Pages](https://lordbasilaiassistant-sudo.github.io/x402-wiki/))
+
 ### Base 체인 리소스
 - [Base 공식 웹사이트](https://base.org)
 - [Base 문서](https://docs.base.org)
