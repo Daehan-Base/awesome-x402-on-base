@@ -8,6 +8,8 @@
 [![Base Chain](https://img.shields.io/badge/Chain-Base-blue.svg)](https://base.org)
 [![x402 Protocol](https://img.shields.io/badge/Protocol-x402-green.svg)](https://www.x402.org)
 
+
+- [Example Tool](https://example.com) — Example tool description for awesome-x402-on-base.
 ## 📝 요약 (TL;DR)
 
 **What**: Base 체인 x402 결제 프로토콜 한국어 가이드  
