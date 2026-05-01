@@ -202,6 +202,14 @@ cd external/x402/examples/python
 | TypeScript SDK | [→ 로컬](./external/x402/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/typescript) |
 | Go 구현 | [→ 로컬](./external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
+### 커뮤니티 프로젝트 (Community Projects)
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| [x402-data-api](https://github.com/155143783/x402-data-api) | HTTP 402 micro-payment Data API with 16 developer data tools on Base chain | [Live Demo](https://charleston-friendship-contributors-wallpapers.trycloudflare.com/.well-known/x402-discovery) |
+| [mcp-data-api](https://github.com/155143783/mcp-data-api) | MCP Server with x402 payment integration for AI agents | [Glama](https://glama.ai/mcp/servers/155143783/mcp-data-api) |
+| [apiwatch](https://github.com/155143783/apiwatch) | API health monitoring with x402 payment support | [Live Demo](https://carey-omaha-resume-kitty.trycloudflare.com/health) |
+
 ### Base 체인 리소스
 - [Base 공식 웹사이트](https://base.org)
 - [Base 문서](https://docs.base.org)
