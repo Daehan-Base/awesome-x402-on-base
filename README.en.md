@@ -72,6 +72,13 @@ The x402 ecosystem is rapidly growing with support from major tech companies:
 - **Anthropic** - AI integration
 
 
+
+### x402 Services using MCP
+
+| Service | Link | Description |
+|---------|------|-------------|
+| **TWZRD Agent Intel** | [https://intel.twzrd.xyz](https://intel.twzrd.xyz) | On-chain trust scoring MCP for Solana agent wallets. Verify counterparty identity before x402 payments. `score_agent` / `preflight_check` (free), `get_trust_receipt` (x402 paid). |
+
 ## 📁 Repository Structure
 
 ```
