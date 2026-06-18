@@ -222,3 +222,17 @@ This repository is licensed under the [MIT License](LICENSE).
 **Maintained with care by Logan (Base Korea Developer Ambassador)**
 
 *Building the future of internet-native payments, one commit at a time.*
+
+## 🚀 ScriptMasterLabs Production x402 Stack (Base/USDC)
+
+Real-world x402 implementations on Base by [@Timwal78](https://github.com/Timwal78) / ScriptMasterLabs — Service-Disabled Veteran SDVOSB:
+
+| Project | Description | Base USDC Price |
+|---------|-------------|-----------------|
+| [SqueezeOS MCP](https://squeezeos-api.onrender.com/mcp) | 33-tool institutional trading MCP server | x402 gated |
+| [xDEO Earnings Oracle](https://xdeo.timothy-walton45.workers.dev) | SEC EDGAR-verified earnings intelligence | $0.01–$0.75 |
+| [SML x402 Signal API](https://github.com/Timwal78/sml-x402-signal-api) | US equities signals for AI agents | $0.01–$0.25 |
+| [Aetheris MCP Scraper](https://github.com/Timwal78/aetheris-mcp-render) | x402 web scraper, USDC on Base per scrape | pay-per-scrape |
+| [proof402 / @relayos/mcp-paywall](https://www.npmjs.com/package/@relayos/mcp-paywall) | Drop-in MCP paywall npm package | drop-in |
+| [Ghost Layer](https://ghost-layer.onrender.com) | Dual-chain XRPL/Base toll gateway | 0.10% toll |
+| [CRAWLTOLL](https://github.com/Timwal78/crawltoll) | x402 paywall for AI web crawlers | per-crawl |
