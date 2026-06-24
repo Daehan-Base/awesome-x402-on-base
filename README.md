@@ -222,3 +222,7 @@ cd external/x402/examples/python
 **Logan (Base Korea Developer Ambassador)가 정성을 담아 관리합니다**
 
 *인터넷 네이티브 결제의 미래를 만들어갑니다, 한 커밋씩.*
+
+
+## MetaVision
+- [MetaVision AI Platform](https://metavision.click) - Web3 CVE Oracle (355k+ NVD vulnerabilities, $0.50 USDC), DeFi arbitrage signals on Base ($0.10 USDC), wallet fraud + rug pull detection. 18 MCP tools. x402 v2. ([Agent Card](https://metavision.click/.well-known/agent.json))
