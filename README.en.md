@@ -192,6 +192,16 @@ Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONT
 - 📄 [x402 Whitepaper](https://www.x402.org/x402-whitepaper.pdf)
 - 🌐 [x402 Website](https://www.x402.org)
 
+### Live Base x402 Services
+
+- [400860 Radar x402 API](https://api.400860.xyz/) - Base x402 paid API tools
+  for AI-agent spend policy, payment safety, seller checkout repair, x402
+  market intel, and paid MCP/API launch readiness.
+  - x402 discovery: https://api.400860.xyz/.well-known/x402
+  - OpenAPI: https://api.400860.xyz/openapi.json
+  - llms.txt: https://api.400860.xyz/llms.txt
+  - Discovery kit: https://github.com/go165/400860-x402-discovery-kit
+
 ### x402 SDKs & Examples
 
 | SDK/Example | Local Code | Origin Repo |
