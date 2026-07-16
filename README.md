@@ -208,6 +208,9 @@ cd external/x402/examples/python
 - [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
 - [Circle USDC Faucet](https://faucet.circle.com/)
 
+### Base 커뮤니티 프로젝트
+- [Ax402](https://ax402.io) - x402 payment gateway and facilitator on Base. Per-settlement pricing, seller dashboard, SDKs (Go, TypeScript, Python), and React paywall. Supports major stablecoins on EVM-based networks including Base, Neo X, and others.
+
 ## 📬 연락하기
 
 - **이슈 & 질문** - 이 레포지토리에 이슈 열기
