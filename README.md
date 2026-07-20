@@ -186,6 +186,11 @@ cd external/x402/examples/python
 
 ## 📚 리소스
 
+### 한국 x402 셀러 (실서비스)
+
+- [KR-DART Events](https://dartapi.ljaysk.com) - 한국 전자공시(DART)를 AI 에이전트용 실시간 구조화 이벤트로 제공하는 유료 API. 하루 ~2,500건 공시를 15초 폴링, 31개 카테고리 분류+중요도 점수+영문 라벨. Base·솔라나 USDC 종량과금($0.002~$0.01), API 키·가입 불필요. ([GitHub](https://github.com/LJaysk/kr-dart-events)) ([llms.txt](https://dartapi.ljaysk.com/llms.txt))
+
+
 ### 공식 x402 리소스
 - 📖 [공식 문서](https://docs.cdp.coinbase.com/x402/welcome)
 - 💻 x402 GitHub: [📂 로컬](./external/x402/) | [🔗 원본](https://github.com/coinbase/x402)
