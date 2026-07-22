@@ -143,6 +143,7 @@ awesome-x402-on-base/
 | **Hono 서버** | [→ 로컬](./external/x402/examples/typescript/servers/hono/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/hono) | [→ 가이드](./docs/typescript/v2/servers/hono/) |
 | **Next.js Fullstack** | [→ 로컬](./external/x402/examples/typescript/fullstack/next/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/next) | [→ 가이드](./docs/typescript/v2/fullstack/next/) |
 | **Farcaster Mini App** | [→ 로컬](./external/x402/examples/typescript/fullstack/miniapp/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/miniapp) | [→ 가이드](./docs/typescript/v2/fullstack/miniapp/) |
+| **vector402 Positioning** | [→ Live API](https://vector402.b-cdn.net) | [→ Docs](https://vector402.b-cdn.net/.well-known/x402) | 위치 기반 마이크로서비스, Base/Solana/Algorand 멀티체인 |
 | **MCP 클라이언트** | [→ 로컬](./external/x402/examples/typescript/clients/mcp/) | [→ 원본](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/mcp) | [→ 가이드](./docs/typescript/v2/clients/mcp/) |
 
 ### 서브모듈 사용하기
