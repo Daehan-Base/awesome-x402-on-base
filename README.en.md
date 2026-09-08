@@ -202,6 +202,10 @@ Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONT
 | TypeScript SDK | [→ Local](./external/x402/typescript/) | [→ Origin](https://github.com/coinbase/x402/tree/main/typescript) |
 | Go Implementation | [→ Local](./external/x402/go/) | [→ Origin](https://github.com/coinbase/x402/tree/main/go) |
 
+
+### Community Projects (Base x402)
+- [Veriton HTML→JSON](https://veriton-dev.github.io/veriton-micro-dev/api/) - Metered HTML to structured JSON for agents on Base USDC ($0.02 body / $0.05 fetch). HTTP 402 + prepaid credits. [Live API](https://seed-trek-trainers-ross.trycloudflare.com/v1/html-to-json) · [OpenAPI](https://seed-trek-trainers-ross.trycloudflare.com/v1/openapi.json) · [Manifest](https://seed-trek-trainers-ross.trycloudflare.com/.well-known/x402) · [GitHub](https://github.com/veriton-dev/veriton-micro-dev)
+
 ### Base Chain Resources
 - [Base Official Website](https://base.org)
 - [Base Documentation](https://docs.base.org)
