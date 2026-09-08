@@ -202,6 +202,10 @@ cd external/x402/examples/python
 | TypeScript SDK | [→ 로컬](./external/x402/typescript/) | [→ 원본](https://github.com/coinbase/x402/tree/main/typescript) |
 | Go 구현 | [→ 로컬](./external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
+
+### 커뮤니티 프로젝트 (Base x402)
+- [Veriton HTML→JSON](https://veriton-dev.github.io/veriton-micro-dev/api/) - 에이전트용 계량 HTML→구조화 JSON (Base USDC, body $0.02 / fetch $0.05). HTTP 402 + prepaid credits. [Live API](https://seed-trek-trainers-ross.trycloudflare.com/v1/html-to-json) · [OpenAPI](https://seed-trek-trainers-ross.trycloudflare.com/v1/openapi.json) · [Manifest](https://seed-trek-trainers-ross.trycloudflare.com/.well-known/x402) · [GitHub](https://github.com/veriton-dev/veriton-micro-dev)
+
 ### Base 체인 리소스
 - [Base 공식 웹사이트](https://base.org)
 - [Base 문서](https://docs.base.org)
