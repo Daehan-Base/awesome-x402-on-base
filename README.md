@@ -207,6 +207,7 @@ cd external/x402/examples/python
 - [Base 문서](https://docs.base.org)
 - [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
 - [Circle USDC Faucet](https://faucet.circle.com/)
+- [HostDeFi](https://hostdefi.com/api/v1/x402/pricing) - x402-payable token-safety API: A+–F grades, risk scores and datasets settle per call in USDC; free `scan_token` MCP tool also available.
 
 ## 📬 연락하기
 
