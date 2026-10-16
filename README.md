@@ -60,6 +60,7 @@ x402는 HTTP 402 "Payment Required" 상태 코드를 활용하여 인터넷을 �
 Base는 x402의 마이크로페이먼트와 AI 에이전트 간 거래를 대규모로 가능하게 하는 완벽한 인프라를 제공합니다.
 
 ## 🌟 x402 생태계
+- [Money Reactor](https://github.com/makar52nn2016-jpg/money-reactor) - Base 체인 x402 유료 API: 크립토 바운티 레이더 + GitHub 저장소 허니팟 신뢰도 스코어링 (USDC, MCP over HTTP 지원, 무료 데모 포함)
 
 x402 생태계는 주요 기술 기업들의 지원으로 빠르게 성장하고 있습니다:
 
