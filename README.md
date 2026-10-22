@@ -69,7 +69,9 @@ x402 생태계는 주요 기술 기업들의 지원으로 빠르게 성장하고
 - **Visa** - 결제 네트워크 파트너십
 - **AWS** - 클라우드 인프라 지원
 - **Circle** - USDC 스테이블코인 제공자
-- **Anthropic** - AI 통합
+- **Anthropic**
+- **base-oracle** - Base 메인넷 트레이딩 인텔리전스 API: x402 결제 기반 6개 연산 엔드포인트 (지갑 리포트, 토큰 안전성, 크로스-DEX 아비트라지 스캔, 모멘텀 시그널, Hyperliquid 펀딩/OI, 포트폴리오 구성). 호출당 0.05 USDC, 온체인 영수증으로 직접 검증 — facilitator·API 키 불필요. ([live](https://arturo-epiphytical-torrie.ngrok-free.dev) | [openapi](https://arturo-epiphytical-torrie.ngrok-free.dev/openapi.json))
+ - AI 통합
 
 
 ## 📁 레포지토리 구조

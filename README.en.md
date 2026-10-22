@@ -70,6 +70,8 @@ The x402 ecosystem is rapidly growing with support from major tech companies:
 - **AWS** - Cloud infrastructure support
 - **Circle** - USDC stablecoin provider
 - **Anthropic** - AI integration
+- **base-oracle** - Trading-intelligence API on Base mainnet: 6 computed x402-paid endpoints (wallet report, token-safety risk flags, cross-DEX arb scan, momentum signals, Hyperliquid funding/OI, portfolio composition). $0.05 USDC per call, verified directly on-chain — no facilitator, no API keys. ([live](https://arturo-epiphytical-torrie.ngrok-free.dev) | [openapi](https://arturo-epiphytical-torrie.ngrok-free.dev/openapi.json))
+
 
 
 ## 📁 Repository Structure
