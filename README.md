@@ -222,3 +222,5 @@ cd external/x402/examples/python
 **Logan (Base Korea Developer Ambassador)가 정성을 담아 관리합니다**
 
 *인터넷 네이티브 결제의 미래를 만들어갑니다, 한 커밋씩.*
+
+- [Sparks RE & Compliance API](https://sparks-re-api.sparksdigital-re.workers.dev) ([GitHub](https://github.com/intellectuallyneutral/Real-estate-analysis-API-with-x402-micropayments-on-Base-L2)) - Base Mainnet (`eip155:8453`, Builder Code `bc_b6z7ro4s`) x402 v2 & MCP server providing 11 endpoints ($0.01-$0.15 USDC) for Real Estate underwriting, Fair Housing compliance, WCAG 2.1 AA auditing, SEC EDGAR intelligence, and Base L2 token/gas auditing.
