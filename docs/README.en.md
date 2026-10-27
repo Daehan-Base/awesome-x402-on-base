@@ -25,6 +25,8 @@
   - [FastAPI Server](python/v2/servers/fastapi/README.en.md)
   - [Flask Server](python/v2/servers/flask/README.en.md)
 
+- [Inspect APN payment-tool authority](v2/apn-inspection/README.en.md) - paired metadata-only guide; no Base Sepolia payment validation claimed.
+
 ### v1 (Legacy)
 
 > Python SDK-based example documentation

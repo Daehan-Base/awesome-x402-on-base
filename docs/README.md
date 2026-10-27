@@ -25,6 +25,8 @@
   - [FastAPI 서버](python/v2/servers/fastapi/README.md)
   - [Flask 서버](python/v2/servers/flask/README.md)
 
+- [APN 결제 도구의 권한 경계 사전 확인](v2/apn-inspection/README.md) - 메타데이터만 읽는 한/영 가이드; Base Sepolia 결제 검증은 포함하지 않습니다.
+
 ### v1 (Legacy)
 
 > Python SDK 기반 예제 문서
