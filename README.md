@@ -186,6 +186,14 @@ cd external/x402/examples/python
 
 ## 📚 리소스
 
+### Base 커뮤니티 x402 서비스
+- [facts402](https://api.facts402.com) - AI 에이전트용 단일 목적 조회 12종, 건당 $0.01 (IBAN, EU VAT, OFAC 제재, LEI, 환율 등)과 작업에 맞는 x402 엔드포인트를 추천하는 `GET /v1/recommend` ($0.005). MCP: `uvx facts402-mcp`.
+- [Base Launch Guard](https://guard.facts402.com) - 매수 전 Base 토큰 안전성 점검: 허니팟 시뮬레이션, 세금, 포지션 크기 기준 청산 유동성, 내부자 및 배포자 분석 ($0.02–$0.30, 무료 미리보기).
+- [Base Social Pulse](https://pulse.facts402.com) - Base 토큰별 Farcaster 관심도와 홍보성 신호 ($0.03–$0.08, 무료 미리보기).
+- [Base Position Watch](https://watch.facts402.com) - 보유 포지션 24시간 / 72시간 / 7일 모니터링, HMAC 서명 웹훅 알림 ($0.12–$0.60).
+
+모두 x402 v2로 Base의 USDC로 결제합니다. 자동화된 온체인 사실 정보이며 투자 조언이 아닙니다. Base 서비스용 MCP: `uvx base-memecoin-guard-mcp`.
+
 ### 공식 x402 리소스
 - 📖 [공식 문서](https://docs.cdp.coinbase.com/x402/welcome)
 - 💻 x402 GitHub: [📂 로컬](./external/x402/) | [🔗 원본](https://github.com/coinbase/x402)
