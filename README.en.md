@@ -186,6 +186,14 @@ Contributions are welcome! For detailed guidelines, see [CONTRIBUTING.md](./CONT
 
 ## 📚 Resources
 
+### Community x402 services on Base
+- [facts402](https://api.facts402.com) - 12 single-purpose lookups for agents at $0.01 each (IBAN, EU VAT, OFAC sanctions, LEI, FX and more), plus `GET /v1/recommend` ($0.005), which picks x402 endpoints for a task. MCP: `uvx facts402-mcp`.
+- [Base Launch Guard](https://guard.facts402.com) - Base token safety before buying: honeypot simulation, tax, exit liquidity at your size, insider and deployer forensics ($0.02–$0.30; free preview).
+- [Base Social Pulse](https://pulse.facts402.com) - Farcaster attention and shill signals per Base token ($0.03–$0.08; free preview).
+- [Base Position Watch](https://watch.facts402.com) - 24h / 72h / 7d monitoring of a held position with HMAC-signed webhooks ($0.12–$0.60).
+
+All paid in USDC on Base via x402 v2. Automated on-chain facts, not investment advice. MCP for the Base services: `uvx base-memecoin-guard-mcp`.
+
 ### Official x402 Resources
 - 📖 [Official Documentation](https://docs.cdp.coinbase.com/x402/welcome)
 - 💻 x402 GitHub: [📂 Local](./external/x402/) | [🔗 Origin](https://github.com/coinbase/x402)
