@@ -203,6 +203,7 @@ cd external/x402/examples/python
 | Go 구현 | [→ 로컬](./external/x402/go/) | [→ 원본](https://github.com/coinbase/x402/tree/main/go) |
 
 ### Base 체인 리소스
+- [agent-fleet](https://agent-fleet-ppqpwu.camelai.app/mcp) - Iranian and Persian verification and data tools for agents (national code, bank card and Sheba checks, mobile number to operator, postal code, licence plate, passport MRZ check digits, Jalali and Hijri dates). Remote MCP over streamable HTTP, no key, 76 tools, 59 free; an unpaid priced call returns 402 in USDC on Solana or Base. [Repo](https://github.com/Elviro2658/agent-fleet-mcp)
 - [Base 공식 웹사이트](https://base.org)
 - [Base 문서](https://docs.base.org)
 - [Base Sepolia Faucet](https://faucet.quicknode.com/base/sepolia)
